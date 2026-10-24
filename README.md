@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="brand/localhost-210-lockup-dark.svg">
+  <img alt="localhost:210 — build with San Antonio's open data, a DEVSA project" src="brand/localhost-210-lockup-light.svg" width="560">
+</picture>
+
 # localhost
 
 **Every developer has a localhost. This one is San Antonio.**
