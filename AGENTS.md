@@ -13,6 +13,8 @@ python3 starters/311-by-district/main.py              # prints a table
 python3 starters/311-by-district/main.py --district 5
 python3 starters/via-next-bus/main.py "houston & st mary"
 python3 starters/san-antonio-1897/main.py             # writes map.html and places-1897.geojson
+python3 starters/acequias/main.py                     # prints nearby ditches; writes map.html and acequias.geojson
+python3 starters/permits-near-you/main.py --meters 60
 ```
 
 There is no build step and no test suite. A starter works if it runs against the live source and prints or writes what its README says.

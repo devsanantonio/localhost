@@ -10,10 +10,10 @@
 ```
 guest@devsa ~ % curl localhost
 
-  → 500,000+ 311 calls since 2020, by street, district and department
+  → every building permit since 2025: what, where, how much, how long it took
+  → San Antonio's acequias, dug from 1718, and 4,200 places from 1897
   → 6,098 VIA bus stops, 88 routes, every scheduled trip
-  → 4,200 places from San Antonio in 1897, mapped over today's streets
-  → 168 City datasets · 35 County map layers · no API keys
+  → 168 City datasets · 28 County portal layers and more beyond · no API keys
 ```
 
 The City of San Antonio, Bexar County and VIA all publish their data in the open. Almost nobody builds with it, because it's scattered across three portals with three sets of rules and no obvious place to start. This is the place to start: what's out there, what it's good for, how to use it without breaking any rules, and a working program for each source that runs in under a minute.
@@ -22,7 +22,7 @@ No sign-up. No keys. Python and an internet connection.
 
 ```sh
 git clone https://github.com/devsanantonio/localhost
-cd localhost/starters/san-antonio-1897
+cd localhost/starters/acequias
 python3 main.py && open map.html     # macOS; see the starter for Windows and Linux
 ```
 
@@ -30,9 +30,11 @@ python3 main.py && open map.html     # macOS; see the starter for Windows and Li
 
 | Starter | Source | Build from it |
 |---|---|---|
+| [**Acequias**](starters/acequias) | Bexar County | The Spanish irrigation ditches San Antonio grew around, each with the year it was dug and the year it went dry. Which ran near you, and a map with a year slider. |
 | [**San Antonio, 1896–97**](starters/san-antonio-1897) | Bexar County | A map of the city about 130 years ago: saloons, wagon yards, breweries, schools, over today's streets. Data almost no other city has. |
-| [**Next bus**](starters/via-next-bus) | VIA | Type a stop, get the next buses. The bones of a departure board, a bot, or the transit app you wish existed. |
+| [**Permits near you**](starters/permits-near-you) | City of San Antonio | Every building permit around a point since 2025, biggest first, with how long each took to issue. One SQL query to the City's API. |
 | [**311 by district**](starters/311-by-district) | City of San Antonio | Half a million service calls, counted server-side in about two seconds. What each district calls about, and how often it closes late. |
+| [**Next bus**](starters/via-next-bus) | VIA | Type a stop, get the next buses. The bones of a departure board, a bot, or the transit app you wish existed. |
 
 Each one is a single Python file using only the standard library, short enough to read before you run it. Read it, break it, take it somewhere.
 
@@ -60,14 +62,15 @@ About 170 datasets across 311 service requests, building permits, parks and trai
 
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it for anything, including commercial work, with credit to the City of San Antonio.
 - **How to get it:** every dataset has CSV downloads. The portal also has a [CKAN API](https://data.sanantonio.gov/api/3/action/package_list) for finding datasets, and many geographic ones are live ArcGIS feature services you can query directly (that's what `311-by-district` does).
-- **Good places to start:** 311 Service Calls, Building Permits, Parks and Trails.
+- **Good places to start:** Building Permits (`permits-near-you` queries it with SQL), 311 Service Calls, Parks and Trails.
 
 ### Bexar County — [gis-bexar.opendata.arcgis.com](https://gis-bexar.opendata.arcgis.com)
 
-About 35 geographic layers: county and precinct boundaries, ZIP code areas, census tracts and block groups, schools, libraries, parks, voting sites, military installations — and a set of **historic layers from 1896–97** that almost no other county has: city blocks from Sanborn fire insurance maps, and the people, workplaces and points of interest of the 1897 city directory.
+About 28 geographic layers on the portal: county and precinct boundaries, ZIP code areas, census tracts and block groups, schools, libraries, parks, voting sites, military installations — and a set of **historic layers from 1896–97** that almost no other county has: city blocks from Sanborn fire insurance maps, and the people, workplaces and points of interest of the 1897 city directory.
 
 - **License:** no single license on the portal. Each dataset carries its own terms in its description, usually a disclaimer that the data is for display and reference. The historic layers ask: *"When used please credit: Bexar County Information Technology GIS."* Read the description of any layer before you publish with it.
-- **How to get it:** every layer is an ArcGIS feature or map service with a query API that returns JSON or GeoJSON. Six catalog entries (parcels, plats, contours and others) are PDFs pointing to other County offices, not data.
+- **How to get it:** every layer is an ArcGIS feature or map service with a query API that returns JSON or GeoJSON. Seven catalog entries (parcels, plats, contours and others) are PDFs pointing to other County offices, not data.
+- **Beyond the portal:** the County's ArcGIS account (`services1.arcgis.com/8onVmslF2KXErTHT`) publishes far more than the portal lists, including the layers it built for San Antonio's Tricentennial: the acequias, the missions, the labores and 348 Spanish land grants. They answer the same queries; `acequias` uses one. Browse them in the account's [services directory](https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services).
 
 ### VIA Metropolitan Transit — [viainfo.net/developers-resources](https://www.viainfo.net/developers-resources/)
 

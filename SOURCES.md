@@ -62,7 +62,7 @@ https://data.sanantonio.gov/api/3/action/datastore_search_sql?sql=SELECT "COUNCI
 
 ## Bexar County
 
-**Portal:** [gis-bexar.opendata.arcgis.com](https://gis-bexar.opendata.arcgis.com) · 35 items, 27 of them map layers · **License:** set per dataset, in each layer's description · **Credit:** `Data: Bexar County Information Technology GIS`
+**Portal:** [gis-bexar.opendata.arcgis.com](https://gis-bexar.opendata.arcgis.com) · 35 items, 28 of them map layers · **License:** set per dataset, in each layer's description · **Credit:** `Data: Bexar County Information Technology GIS`
 
 ### What's in it
 
@@ -75,11 +75,12 @@ https://data.sanantonio.gov/api/3/action/datastore_search_sql?sql=SELECT "COUNCI
 | **Schools** | Public and private schools | Not in the City's portal |
 | **Emergency services** | Emergency Services District (ESD) legal boundaries and response areas | Who answers 911 outside city limits |
 | **Places** | County parks, libraries, military installations, ZIP code areas, the county boundary | Countywide reference |
+| **San Antonio, 1718–1800s** (not on the portal) | Built for the Tricentennial and published only in the County's ArcGIS account: **`RullmanAcequia`**, 16 stretches of the Spanish acequias with the **year each was dug and abandoned**; **`Labores`**, the mission fields; **`300_GrantedLots`**, 348 land grants with grantee, year and labor; **`Rullman_River`**, the river as these maps draw it; **`SAMissions`** and **`Spanish_Forts`** | How the city was laid out, and why. Grantees are 18th-century settlers, many of them Canary Islanders |
 | **Pointers, not data** | Address points and streets, parcels, plat maps and land records, contours, traffic lights and signs, foreclosure notices | These are PDFs explaining where to request the data from other County offices |
 
 ### Only the County has
 
-The 1896–97 history, census geography with population, schools, voting and representation districts, courts geography, emergency services districts, and countywide coverage beyond city limits.
+The 1718–1800s and 1896–97 history, census geography with population, schools, voting and representation districts, courts geography, emergency services districts, and countywide coverage beyond city limits.
 
 ### Use with care
 
@@ -88,7 +89,7 @@ The 1896–97 history, census geography with population, schools, voting and rep
 
 ### How to get at it
 
-Every layer is an ArcGIS feature or map service. Find a layer's service address on its page in the portal, then query it:
+Every layer is an ArcGIS feature or map service. Find a layer's service address on its page in the portal, then query it. Layers that aren't on the portal, like the Tricentennial set, are listed in the County's [services directory](https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services); much of what's there is internal dashboards and working files, so stick to layers with a clear public purpose.
 
 ```sh
 # Count, filter, and get GeoJSON in latitude and longitude
