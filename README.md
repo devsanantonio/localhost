@@ -52,6 +52,8 @@ Maintained by [DEVSA](https://www.devsa.community), the nonprofit that connects 
 
 ## The sources
 
+**New here? Read [SOURCES.md](SOURCES.md)** for the full guide: what each agency publishes, what only it has, the field names, and how to query each API.
+
 ### City of San Antonio — [data.sanantonio.gov](https://data.sanantonio.gov)
 
 About 170 datasets across 311 service requests, building permits, parks and trails, transportation, culture and events, city finances and more.
@@ -65,7 +67,7 @@ About 170 datasets across 311 service requests, building permits, parks and trai
 About 35 geographic layers: county and precinct boundaries, ZIP code areas, census tracts and block groups, schools, libraries, parks, voting sites, military installations — and a set of **historic layers from 1896–97** that almost no other county has: city blocks from Sanborn fire insurance maps, and the people, workplaces and points of interest of the 1897 city directory.
 
 - **License:** no single license on the portal. Each dataset carries its own terms in its description, usually a disclaimer that the data is for display and reference. The historic layers ask: *"When used please credit: Bexar County Information Technology GIS."* Read the description of any layer before you publish with it.
-- **How to get it:** every layer is an ArcGIS feature or map service with a query API that returns JSON or GeoJSON.
+- **How to get it:** every layer is an ArcGIS feature or map service with a query API that returns JSON or GeoJSON. Six catalog entries (parcels, plats, contours and others) are PDFs pointing to other County offices, not data.
 
 ### VIA Metropolitan Transit — [viainfo.net/developers-resources](https://www.viainfo.net/developers-resources/)
 
