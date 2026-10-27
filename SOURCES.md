@@ -62,12 +62,13 @@ https://data.sanantonio.gov/api/3/action/datastore_search_sql?sql=SELECT "COUNCI
 
 ## Bexar County
 
-**Portal:** [gis-bexar.opendata.arcgis.com](https://gis-bexar.opendata.arcgis.com) · 35 items, 28 of them map layers · **License:** set per dataset, in each layer's description · **Credit:** `Data: Bexar County Information Technology GIS`
+**Portal:** [gis-bexar.opendata.arcgis.com](https://gis-bexar.opendata.arcgis.com) · 35 items, 28 of them map layers, back to 1896, plus Tricentennial layers back to 1718 that aren't on the portal · **License:** set per dataset, in each layer's description · **Credit:** `Data: Bexar County Information Technology GIS`
 
 ### What's in it
 
 | Area | Datasets | Good for |
 |---|---|---|
+| **San Antonio, 1718–1800s** (not on the portal) | Built for the Tricentennial and published only in the County's ArcGIS account: **`RullmanAcequia`**, 16 stretches of the Spanish acequias with the **year each was dug and abandoned**; **`Labores`**, the mission fields; **`300_GrantedLots`**, 348 land grants with grantee, year and labor; **`Rullman_River`**, the river as these maps draw it; **`SAMissions`** and **`Spanish_Forts`** | How the city was laid out, and why. Grantees are 18th-century settlers, many of them Canary Islanders |
 | **San Antonio, 1896–97** | **Historic Buildings (1896):** 15,349 building outlines from the Sanborn fire-insurance maps, with building type, land use, owner, **number of floors** and square footage. **City Blocks (1896).** **Historic Points of Interest (1896–97):** about 4,200 places. **Residences** and **Employment (1897):** about 21,000 and 11,000 records from the city directory | History no other county has. The floor counts mean the 1896 city can be rebuilt in 3D |
 | **Census geography** | Census tracts, block groups and blocks, with **2020 Census population and race counts** (`P1_001N` is total population), and a data dictionary | Anything per person: divide by population before comparing areas |
 | **Who represents you** | Voter precincts, early voting sites, U.S. Congress (redistricted for 2026), Texas House, Texas Senate and State Board of Education (redistricted 2022), County Commissioner precincts | "Who represents me?" projects |
@@ -75,7 +76,6 @@ https://data.sanantonio.gov/api/3/action/datastore_search_sql?sql=SELECT "COUNCI
 | **Schools** | Public and private schools | Not in the City's portal |
 | **Emergency services** | Emergency Services District (ESD) legal boundaries and response areas | Who answers 911 outside city limits |
 | **Places** | County parks, libraries, military installations, ZIP code areas, the county boundary | Countywide reference |
-| **San Antonio, 1718–1800s** (not on the portal) | Built for the Tricentennial and published only in the County's ArcGIS account: **`RullmanAcequia`**, 16 stretches of the Spanish acequias with the **year each was dug and abandoned**; **`Labores`**, the mission fields; **`300_GrantedLots`**, 348 land grants with grantee, year and labor; **`Rullman_River`**, the river as these maps draw it; **`SAMissions`** and **`Spanish_Forts`** | How the city was laid out, and why. Grantees are 18th-century settlers, many of them Canary Islanders |
 | **Pointers, not data** | Address points and streets, parcels, plat maps and land records, contours, traffic lights and signs, foreclosure notices | These are PDFs explaining where to request the data from other County offices |
 
 ### Only the County has
