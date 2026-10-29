@@ -13,10 +13,11 @@ guest@devsa ~ % curl localhost
   → every building permit since 2025: what, where, how much, how long it took
   → San Antonio's acequias, dug from 1718, and 4,200 places from 1897
   → 6,098 VIA bus stops, 88 routes, every scheduled trip
+  → flood-exposed roads, funded projects, creeks, the aquifer: 7 publishers
   → 168 City datasets · 28 County portal layers and more beyond · no API keys
 ```
 
-The City of San Antonio, Bexar County and VIA all publish their data in the open. Almost nobody builds with it, because it's scattered across three portals with three sets of rules and no obvious place to start. This is the place to start: what's out there, what it's good for, how to use it without breaking any rules, and a working program for each source that runs in under a minute.
+The City of San Antonio, Bexar County and VIA all publish their data in the open, and so do at least four more public agencies most people have never looked at: the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio and the Edwards Aquifer Authority. Almost nobody builds with any of it, because it's scattered across separate portals with separate rules and no obvious place to start. This is the place to start: what's out there, what it's good for, how to use it without breaking any rules, and a working program for each source that runs in under a minute.
 
 No sign-up. No keys. Python and an internet connection.
 
@@ -35,6 +36,7 @@ python3 main.py && open map.html     # macOS; see the starter for Windows and Li
 | [**Permits near you**](starters/permits-near-you) | City of San Antonio | Every building permit around a point since 2025, biggest first, with how long each took to issue. One SQL query to the City's API. |
 | [**311 by district**](starters/311-by-district) | City of San Antonio | Half a million service calls, counted server-side in about two seconds. What each district calls about, and how often it closes late. |
 | [**Next bus**](starters/via-next-bus) | VIA | Type a stop, get the next buses. The bones of a departure board, a bot, or the transit app you wish existed. |
+| [**Peek**](starters/peek) | Any of them | Search every publisher's layers for a word, then see any layer's fields and first rows. The way into the four agencies nobody links to. |
 
 Each one is a single Python file using only the standard library, short enough to read before you run it. Read it, break it, take it somewhere.
 
@@ -46,11 +48,14 @@ Starters are the first commit, not the project. A few directions, any of which w
 - **Walk sheds.** Which neighborhoods are more than a quarter mile from a bus that comes every 15 minutes?
 - **Your district's dashboard.** 311 calls by type and month for one council district, updated nightly with a GitHub Action.
 - **A departure board** for a library, a coworking space or a dorm lobby.
+- **Where the money goes.** The City's 370 bond projects and the Alamo Area MPO's funded projects for 2027–2030, on one map. Which run behind, and where?
+- **When it rains.** The MPO's flood-exposed roads, the River Authority's floodplains and USGS's live creek levels. Which roads on your commute go under first?
+- **One district, every publisher.** Pick a district, say Downtown West, and put permits, bond projects, flood-exposed streets, bike stress and bus stops on one page.
 - **Something we haven't thought of.** The City alone has 168 datasets. Most have never been charted by anyone outside City Hall.
 
 Using a coding agent? It's welcome here. [AGENTS.md](AGENTS.md) gives it the sources, the commands and the ground rules, so what it builds follows the same rules you would.
 
-Maintained by [DEVSA](https://www.devsa.community), the nonprofit that connects the people building San Antonio tech. DEVSA isn't affiliated with the City, the County or VIA, and nothing here speaks for them. The data is theirs. This is the way in.
+Maintained by [DEVSA](https://www.devsa.community), the nonprofit that connects the people building San Antonio tech. DEVSA isn't affiliated with any of these agencies, and nothing here speaks for them. The data is theirs. This is the way in.
 
 ## The sources
 
@@ -82,6 +87,17 @@ VIA's full schedule as [GTFS](https://gtfs.org) (routes, stops, trips, stop time
   - **Do not use VIA's logos or trademarks**, and don't present yourself as VIA, its agent or its partner.
   - The data is provided as is, and by using it you agree to VIA's indemnity terms.
 - **How to get it:** the schedule is a zip at `https://www.viainfo.net/BusService/google_transit.zip`. The realtime feeds are served over plain `http://`, so a browser app on an `https://` page can't fetch them directly. Put a small server or serverless function in between.
+
+### And four more
+
+Each runs its own portal, and `peek` reads all of them. What they have, and their terms, are in [SOURCES.md](SOURCES.md#more-publishers).
+
+- **[San Antonio River Authority](https://sariverauthority-sara-tx.opendata.arcgis.com):** the river and creeks, floodplains, water quality, the Mission Reach parks.
+- **[Alamo Area MPO](https://aampo-openmap-nexus-mpo.hub.arcgis.com):** the region's funded road and transit projects, flood-exposed roads, bike stress, congestion.
+- **Opportunity Home San Antonio:** housing communities by district, and low water crossings.
+- **[Edwards Aquifer Authority](https://data.edwardsaquifer.org):** the aquifer's daily level, springflow and drought stage.
+
+Plus the **USGS** live gauges on the San Antonio River and San Pedro Creek, every 15 minutes.
 
 The full rules, with the exact credit lines to copy, are in [ATTRIBUTION.md](ATTRIBUTION.md).
 

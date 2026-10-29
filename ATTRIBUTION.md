@@ -28,6 +28,41 @@ Every dataset in this repo's starters belongs to the agency that publishes it. T
 
   > Data provided by VIA Metropolitan Transit
 
+## San Antonio River Authority
+
+- **Terms:** the River Authority's data terms, in each layer's description on [its portal](https://sariverauthority-sara-tx.opendata.arcgis.com). Data is as-is, and using it means accepting the terms and their hold-harmless clause.
+- **Credit:** the terms require this statement, plus the date you retrieved the data:
+
+  > This uses River Authority's data but is not endorsed or verified by River Authority. Retrieved <date>.
+
+## Alamo Area MPO
+
+- **Terms:** each layer's disclaimer on [AAMPO GeoNexus](https://aampo-openmap-nexus-mpo.hub.arcgis.com): as-is, not legal surveys.
+- **Credit line:**
+
+  > Data: Alamo Area Metropolitan Planning Organization
+
+## Opportunity Home San Antonio
+
+- **Terms:** informational use only, per each layer's disclaimer.
+- **Credit line:**
+
+  > Data: Opportunity Home San Antonio
+
+## Edwards Aquifer Authority
+
+- **Terms:** most layers are marked for demonstration and informational use. Read the one you use.
+- **Credit line:**
+
+  > Data: Edwards Aquifer Authority
+
+## U.S. Geological Survey
+
+- **Terms:** U.S. government work, in the public domain.
+- **Credit line:**
+
+  > Data: U.S. Geological Survey
+
 ## How to say it
 
 Built *on* their data, never *with* them. "A bus tracker built on VIA's open data" is accurate. "A bus tracker with VIA" or "in partnership with the City" implies an agreement that doesn't exist, and VIA's license explicitly forbids it.

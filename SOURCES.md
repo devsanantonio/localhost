@@ -1,6 +1,8 @@
 # The sources
 
-Three public agencies publish San Antonio's open data, and they publish different things because they do different jobs. This page explains what each one has, what only it has, and how to get at it.
+San Antonio's open data doesn't come from one place. The City, Bexar County and VIA are the big three, and this page starts with them. But at least four more public agencies publish their own, and almost nobody links to them: the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio and the Edwards Aquifer Authority, plus the federal government's live river gauges. They're at the [end of this page](#more-publishers). Each one publishes different things because each does a different job.
+
+Not sure where something lives? `python3 starters/peek/main.py --find <word>` searches every publisher's layers at once.
 
 **The short version:**
 
@@ -145,5 +147,64 @@ The buses: every route, stop and trip, and where buses are right now. Neither po
 - Credit **"Data provided by VIA Metropolitan Transit"** wherever the data shows.
 - **No VIA logos or trademarks,** and never present a project as VIA's, or as made with or in partnership with VIA.
 - The data is as-is, VIA can change or stop it without notice, and using it means accepting VIA's indemnity terms.
+
+---
+
+## More publishers
+
+These agencies run their own portals, separate from the City's and the County's, and most of what they publish answers the same ArcGIS queries. `peek` reads any of them, and prints the right credit line. Counts were checked on October 29, 2026.
+
+Some of their public layers are surveys and feedback forms that hold what people submitted. Leave those alone.
+
+### San Antonio River Authority — [sariverauthority-sara-tx.opendata.arcgis.com](https://sariverauthority-sara-tx.opendata.arcgis.com)
+
+The river and its creeks: watersheds, floodplains (including drafts), stream centerlines, water quality and impaired stretches, the restored parks of the Mission Reach (Acequia Park among them), paddling trails, and creek and trail projects across the county. More than 100 public layers.
+
+- **Terms:** the River Authority's own, in each layer's description. Data is as-is, and you must **cite the date you retrieved it** and say: *"This uses River Authority's data but is not endorsed or verified by River Authority."*
+- **Live data:** its "Current Conditions" layer copies USGS gauge readings, but it isn't kept current. For live creek levels, go to USGS (below).
+
+### Alamo Area MPO — [AAMPO GeoNexus](https://aampo-openmap-nexus-mpo.hub.arcgis.com)
+
+The Alamo Area Metropolitan Planning Organization plans and funds the region's roads and transit, across Bexar, Comal, Guadalupe and part of Kendall counties. Its layers are about where the region is going:
+
+- **Funded projects:** the Transportation Improvement Program, 2027–2030 (68 projects with cost, year and agency), and the long-range Mobility 2050 plan.
+- **Resilience:** 6,372 road segments, plus bridges, culverts and airport pavement, each scored for how much of it floods in storms from 5-year to 500-year.
+- **Getting around:** bike facilities and each road's level of traffic stress for cyclists, congestion, and VIA's network.
+- **People:** census layers on income, language and the digital divide.
+- **Major developments:** a tracker of big regional projects.
+
+**Terms:** as-is, not legal surveys, per each layer's disclaimer. **Credit:** `Data: Alamo Area Metropolitan Planning Organization`
+
+### Opportunity Home San Antonio
+
+The city's housing authority publishes about a dozen public layers under its ArcGIS account (`services2.arcgis.com/nH68joXCaOE0Iiws`): its housing communities and developments by council district, and its own low water crossings map. There's no portal; `peek --find` finds them. **Terms:** informational use only, per its disclaimer. **Credit:** `Data: Opportunity Home San Antonio`
+
+### Edwards Aquifer Authority — [data.edwardsaquifer.org](https://data.edwardsaquifer.org)
+
+The aquifer under San Antonio, and the springs it feeds. The authority posts the daily level of the **J-17 index well** in Bexar County, springflow at Comal and San Marcos Springs, and the drought stage, on its [data portal](https://data.edwardsaquifer.org/AquiferConditions) and [website](https://www.edwardsaquifer.org/display-our-readings/). It also publishes more than 100 map layers (aquifer zones, recharge areas, monitoring sites) under `services2.arcgis.com/p0kPTvyvhLmiT5Ha`.
+
+- **Terms:** most layers are marked for demonstration and informational use. Read the disclaimer on the one you use.
+- **Note:** the daily readings come as a web page and an embeddable widget, not a data feed.
+- **Credit:** `Data: Edwards Aquifer Authority`
+
+### USGS river gauges — [waterdata.usgs.gov](https://waterdata.usgs.gov)
+
+The U.S. Geological Survey runs live stream gauges in San Antonio's creeks and river, reporting water height and flow every 15 minutes, with no key. The two downtown:
+
+- **08178000:** San Antonio River at San Antonio
+- **08178500:** San Pedro Creek at Furnish St
+
+```sh
+curl "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=08178000,08178500&parameterCd=00065,00060"
+```
+
+`00065` is gage height in feet; `00060` is flow in cubic feet per second.
+
+- **Terms:** U.S. government work, public domain.
+- **Credit:** `Data: U.S. Geological Survey`
+
+### Not found (yet)
+
+CPS Energy, SAWS, Port San Antonio, Visit San Antonio, Centro San Antonio and the Bexar Appraisal District don't publish open data we could find. If one does, [open an issue](https://github.com/devsanantonio/localhost/issues).
 
 The full summary of every source's terms is in [ATTRIBUTION.md](ATTRIBUTION.md).
