@@ -17,19 +17,20 @@ from datetime import datetime, timedelta, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 
-# Sources that aren't ArcGIS layers. "modified" is when we last confirmed them, not when they changed.
+# Sources that aren't ArcGIS layers. "modified" is the date we last confirmed each one by hand,
+# not when it changed: they don't report a date, and stamping today's would float them to the top every week.
 EXTRA = [
-    {"title": "VIA schedule (GTFS): routes, stops, trips", "publisher": "VIA Metropolitan Transit", "type": "GTFS",
+    {"title": "VIA schedule (GTFS): routes, stops, trips", "publisher": "VIA Metropolitan Transit", "type": "GTFS", "modified": "2026-11-02",
      "url": "https://www.viainfo.net/BusService/google_transit.zip", "summary": "Every route, stop and scheduled trip.",
      "credit": "Data provided by VIA Metropolitan Transit"},
     {"title": "VIA realtime: vehicle positions, trip updates, alerts", "publisher": "VIA Metropolitan Transit",
-     "type": "GTFS-realtime", "url": "https://www.viainfo.net/developers-resources/",
+     "type": "GTFS-realtime", "modified": "2026-10-29", "url": "https://www.viainfo.net/developers-resources/",
      "summary": "Live buses, served over http: put a small server in between for a browser app.",
      "credit": "Data provided by VIA Metropolitan Transit"},
-    {"title": "USGS live stream gauges, San Antonio", "publisher": "U.S. Geological Survey", "type": "API",
+    {"title": "USGS live stream gauges, San Antonio", "publisher": "U.S. Geological Survey", "type": "API", "modified": "2026-11-02",
      "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=08178000,08178500&parameterCd=00065,00060",
      "summary": "Water height and flow every 15 minutes. creek-levels reads it.", "credit": "Data: U.S. Geological Survey"},
-    {"title": "J-17 index well water level (CSV, since 1992)", "publisher": "Edwards Aquifer Authority", "type": "CSV",
+    {"title": "J-17 index well water level (CSV, since 1992)", "publisher": "Edwards Aquifer Authority", "type": "CSV", "modified": "2026-11-02",
      "url": "https://data.edwardsaquifer.org/GroundWater/DownloadGroundwaterCsv?siteId=J17WL&sensorName=WLE",
      "summary": "Every 15 minutes, newest first. aquifer-today reads it.", "credit": "Data: Edwards Aquifer Authority"},
 ]
@@ -46,8 +47,7 @@ def load(name):
 if __name__ == "__main__":
     out = subprocess.run([sys.executable, os.path.join(ROOT, "starters", "peek", "main.py"), "--all", "--json"],
                          capture_output=True, text=True, timeout=600, check=True).stdout
-    today = datetime.now(timezone.utc).date().isoformat()
-    layers = json.loads(out) + [dict(e, modified=today) for e in EXTRA]
+    layers = json.loads(out) + EXTRA
     # A catalog that came back nearly empty is an outage, not the publishers deleting everything.
     previous = load("catalog.json")
     if previous and len(layers) < 0.5 * previous["count"]:

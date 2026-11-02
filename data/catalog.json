@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T23:15:36+00:00",
+ "generated": "2026-11-02T23:31:54+00:00",
  "count": 1547,
  "by_publisher": {
   "City of San Antonio": 723,
@@ -7645,21 +7645,21 @@
    "credit": "Data: Bexar County Information Technology GIS"
   },
   {
-   "title": "After French and Indian War_WFL1",
-   "publisher": "Bexar County",
-   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/After_French_and_Indian_War_WFL1/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-11-18",
-   "summary": "Map of territories claimed by Spain, Britain, and France after the French and Indian War.",
-   "credit": "Data: Bexar County Information Technology GIS"
-  },
-  {
    "title": "GalvezCattleDriveMap_WFL1",
    "publisher": "Bexar County",
    "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/GalvezCattleDriveMap_WFL1/FeatureServer",
    "type": "Feature Service",
    "modified": "2025-11-18",
    "summary": "Galvez Cattle Drive Route and Cities",
+   "credit": "Data: Bexar County Information Technology GIS"
+  },
+  {
+   "title": "After French and Indian War_WFL1",
+   "publisher": "Bexar County",
+   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/After_French_and_Indian_War_WFL1/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2025-11-18",
+   "summary": "Map of territories claimed by Spain, Britain, and France after the French and Indian War.",
    "credit": "Data: Bexar County Information Technology GIS"
   },
   {
@@ -10651,21 +10651,21 @@
    "credit": "This uses River Authority's data but is not endorsed or verified by River Authority. (Add the date you retrieved it.)"
   },
   {
-   "title": "Bexar Current Land Use (2017)",
-   "publisher": "San Antonio River Authority",
-   "url": "https://services2.arcgis.com/Eb8y2VjBgkqbQJwk/arcgis/rest/services/bexar_land_use_2017_cloud/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-10-20",
-   "summary": "Existing land use for Bexar County (2017). 18-code SARB classifications developed from DFIRM.",
-   "credit": "This uses River Authority's data but is not endorsed or verified by River Authority. (Add the date you retrieved it.)"
-  },
-  {
    "title": "Bexar Future Land Use & Cibolo Future/Existing Land Use (2020)",
    "publisher": "San Antonio River Authority",
    "url": "https://services2.arcgis.com/Eb8y2VjBgkqbQJwk/arcgis/rest/services/bexar_cibolocreek_landuse_2019_cloud/FeatureServer",
    "type": "Feature Service",
    "modified": "2022-10-20",
    "summary": "The datasets displayed on this map include Bexar County future land use and Cibolo Creek existing and future land use.",
+   "credit": "This uses River Authority's data but is not endorsed or verified by River Authority. (Add the date you retrieved it.)"
+  },
+  {
+   "title": "Bexar Current Land Use (2017)",
+   "publisher": "San Antonio River Authority",
+   "url": "https://services2.arcgis.com/Eb8y2VjBgkqbQJwk/arcgis/rest/services/bexar_land_use_2017_cloud/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2022-10-20",
+   "summary": "Existing land use for Bexar County (2017). 18-code SARB classifications developed from DFIRM.",
    "credit": "This uses River Authority's data but is not endorsed or verified by River Authority. (Add the date you retrieved it.)"
   },
   {
@@ -13549,12 +13549,12 @@
    "credit": "Data: Edwards Aquifer Authority"
   },
   {
-   "title": "SM_Water_Quality_Stations",
+   "title": "SM_Tributaries",
    "publisher": "Edwards Aquifer Authority",
-   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SM_Water_Quality_Stations/FeatureServer",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SM_Tributaries/FeatureServer",
    "type": "Feature Service",
    "modified": "2022-05-24",
-   "summary": "EAHCP San Marcos Water Quality Monitoring Sites",
+   "summary": "San Marcos Tributaries",
    "credit": "Data: Edwards Aquifer Authority"
   },
   {
@@ -13567,12 +13567,12 @@
    "credit": "Data: Edwards Aquifer Authority"
   },
   {
-   "title": "SM_Tributaries",
+   "title": "SM_Water_Quality_Stations",
    "publisher": "Edwards Aquifer Authority",
-   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SM_Tributaries/FeatureServer",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SM_Water_Quality_Stations/FeatureServer",
    "type": "Feature Service",
    "modified": "2022-05-24",
-   "summary": "San Marcos Tributaries",
+   "summary": "EAHCP San Marcos Water Quality Monitoring Sites",
    "credit": "Data: Edwards Aquifer Authority"
   },
   {
@@ -13903,37 +13903,37 @@
    "title": "VIA schedule (GTFS): routes, stops, trips",
    "publisher": "VIA Metropolitan Transit",
    "type": "GTFS",
+   "modified": "2026-11-02",
    "url": "https://www.viainfo.net/BusService/google_transit.zip",
    "summary": "Every route, stop and scheduled trip.",
-   "credit": "Data provided by VIA Metropolitan Transit",
-   "modified": "2026-11-02"
+   "credit": "Data provided by VIA Metropolitan Transit"
   },
   {
    "title": "VIA realtime: vehicle positions, trip updates, alerts",
    "publisher": "VIA Metropolitan Transit",
    "type": "GTFS-realtime",
+   "modified": "2026-10-29",
    "url": "https://www.viainfo.net/developers-resources/",
    "summary": "Live buses, served over http: put a small server in between for a browser app.",
-   "credit": "Data provided by VIA Metropolitan Transit",
-   "modified": "2026-11-02"
+   "credit": "Data provided by VIA Metropolitan Transit"
   },
   {
    "title": "USGS live stream gauges, San Antonio",
    "publisher": "U.S. Geological Survey",
    "type": "API",
+   "modified": "2026-11-02",
    "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=08178000,08178500&parameterCd=00065,00060",
    "summary": "Water height and flow every 15 minutes. creek-levels reads it.",
-   "credit": "Data: U.S. Geological Survey",
-   "modified": "2026-11-02"
+   "credit": "Data: U.S. Geological Survey"
   },
   {
    "title": "J-17 index well water level (CSV, since 1992)",
    "publisher": "Edwards Aquifer Authority",
    "type": "CSV",
+   "modified": "2026-11-02",
    "url": "https://data.edwardsaquifer.org/GroundWater/DownloadGroundwaterCsv?siteId=J17WL&sensorName=WLE",
    "summary": "Every 15 minutes, newest first. aquifer-today reads it.",
-   "credit": "Data: Edwards Aquifer Authority",
-   "modified": "2026-11-02"
+   "credit": "Data: Edwards Aquifer Authority"
   }
  ]
 }
