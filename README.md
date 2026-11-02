@@ -13,7 +13,7 @@ guest@devsa ~ % curl localhost
   → every building permit since 2025: what, where, how much, how long it took
   → San Antonio's acequias, dug from 1718, and 4,200 places from 1897
   → 6,098 VIA bus stops, 88 routes, every scheduled trip
-  → flood-exposed roads, funded projects, creeks, the aquifer: 7 publishers
+  → flood-exposed roads, funded projects, live creek levels, the aquifer: 7 publishers
   → 168 City datasets · 28 County portal layers and more beyond · no API keys
 ```
 
@@ -36,9 +36,16 @@ python3 main.py && open map.html     # macOS; see the starter for Windows and Li
 | [**Permits near you**](starters/permits-near-you) | City of San Antonio | Every building permit around a point since 2025, biggest first, with how long each took to issue. One SQL query to the City's API. |
 | [**311 by district**](starters/311-by-district) | City of San Antonio | Half a million service calls, counted server-side in about two seconds. What each district calls about, and how often it closes late. |
 | [**Next bus**](starters/via-next-bus) | VIA | Type a stop, get the next buses. The bones of a departure board, a bot, or the transit app you wish existed. |
+| [**Creek levels**](starters/creek-levels) | USGS · River Authority | The river and San Pedro Creek right now, every 15 minutes, and whether a point sits in the River Authority's draft floodplains. Not a flood warning. |
+| [**The aquifer today**](starters/aquifer-today) | Edwards Aquifer Authority · USGS | The J-17 well's level and 10-day average, the drought trigger it sits under, and springflow at Comal and San Marcos Springs. |
+| [**Funded projects**](starters/funded-projects) | Alamo Area MPO | The region's 68 funded road and transit projects for 2027–2030, totaled by the server, and the streets most exposed to a 100-year flood. |
+| [**Low water crossings**](starters/low-water-crossings) | Opportunity Home San Antonio | The 156 crossings inside the FEMA floodplain, nearest first, on a map. Not a flood warning. |
 | [**Peek**](starters/peek) | Any of them | Search every publisher's layers for a word, then see any layer's fields and first rows. The way into the four agencies nobody links to. |
+| [**MCP**](starters/mcp) | All of them | San Antonio's open data as tools for your own coding agent: Claude Code, Claude Desktop, Cursor. One line of config. |
 
-Each one is a single Python file using only the standard library, short enough to read before you run it. Read it, break it, take it somewhere.
+Each one is a single Python file using only the standard library, short enough to read before you run it. Every one takes `--json`, so you can pipe its answer into your own code, a GitHub Action or an agent. Read it, break it, take it somewhere.
+
+A GitHub Action runs every starter against the live sources each week and opens an issue if one breaks. The results, and a catalog of every public layer, are in [`data/`](data).
 
 ## What to build
 
@@ -53,7 +60,7 @@ Starters are the first commit, not the project. A few directions, any of which w
 - **One district, every publisher.** Pick a district, say Downtown West, and put permits, bond projects, flood-exposed streets, bike stress and bus stops on one page.
 - **Something we haven't thought of.** The City alone has 168 datasets. Most have never been charted by anyone outside City Hall.
 
-Using a coding agent? It's welcome here. [AGENTS.md](AGENTS.md) gives it the sources, the commands and the ground rules, so what it builds follows the same rules you would.
+Using a coding agent? It's welcome here. [AGENTS.md](AGENTS.md) gives it the sources, the commands and the ground rules, so what it builds follows the same rules you would. Claude Code also picks up [the localhost skill](.claude/skills/localhost/SKILL.md) on its own, and [the MCP starter](starters/mcp) gives any agent the data as tools.
 
 Maintained by [DEVSA](https://www.devsa.community), the nonprofit that connects the people building San Antonio tech. DEVSA isn't affiliated with any of these agencies, and nothing here speaks for them. The data is theirs. This is the way in.
 

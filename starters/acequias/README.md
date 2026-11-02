@@ -6,6 +6,7 @@ Before San Antonio had streets it had acequias: irrigation ditches dug from the 
 python3 main.py                                        # near Geekdom, Houston and Soledad
 python3 main.py --near 29.3621,-98.4794 --meters 300   # near Mission San José
 open map.html        # macOS; on Windows `start map.html`, on Linux `xdg-open map.html`
+python3 main.py --json
 ```
 
 ```

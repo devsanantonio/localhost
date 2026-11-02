@@ -17,9 +17,17 @@ python3 starters/acequias/main.py                     # prints nearby ditches; w
 python3 starters/permits-near-you/main.py --meters 60
 python3 starters/peek/main.py --find flood            # search every publisher's layers
 python3 starters/peek/main.py <layer address>         # fields and first rows of any ArcGIS layer
+python3 starters/peek/main.py --all                   # every public layer of every publisher, counted
+python3 starters/creek-levels/main.py                 # live USGS gauges; --near lat,lon checks the draft floodplains
+python3 starters/aquifer-today/main.py                # J-17 level, 10-day average, springflow
+python3 starters/funded-projects/main.py --flooding   # the MPO's funded projects; --flooding for exposed streets
+python3 starters/low-water-crossings/main.py          # nearest crossings; writes map.html
+python3 starters/mcp/main.py                          # an MCP server over stdio (see starters/mcp/README.md)
 ```
 
-There is no build step and no test suite. A starter works if it runs against the live source and prints or writes what its README says.
+Every starter takes `--json` and prints one JSON object (or list) to stdout, credit line included. Prefer it when you need the data rather than the table.
+
+There is no build step and no test suite. A starter works if it runs against the live source and prints or writes what its README says. `python3 scripts/check.py` runs every starter with `--json` and reports which answered; a GitHub Action runs it weekly.
 
 ## Conventions
 
@@ -44,6 +52,7 @@ These are not style preferences. Two are license terms, and the rest are this re
 4. **No neighborhood crime rankings.** Don't build anything that ranks or scores areas from the SAPD datasets.
 5. **Leave survey and feedback layers alone.** Some publishers' public layers hold what people submitted through forms, sometimes with names and addresses. Don't query or republish them.
 6. **The 1897 Residence and Employment layers record real people, with race.** Use them for history in aggregate, never as a lookup of individuals.
+7. **The flood starters are not warnings.** `creek-levels` and `low-water-crossings` show readings and places, not whether it is safe. Anything built on them says so and points to weather.gov/ewx and BexarFlood.org.
 
 If a request would break one of these, say which one and suggest an alternative instead of building it.
 

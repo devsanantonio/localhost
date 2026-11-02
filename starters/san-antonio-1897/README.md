@@ -7,6 +7,7 @@ About 4,200 places in San Antonio as it was in 1896–97 — hospitals, saloons,
 ```sh
 python3 main.py
 open map.html        # macOS; on Windows `start map.html`, on Linux `xdg-open map.html`
+python3 main.py --json                 # a summary: how many places of each kind
 ```
 
 The script pages through the County's historic places layer (the service returns 1,000 at a time), keeps the name, category, business type and notes, and writes two files: `places-1897.geojson`, and `map.html`, a self-contained Leaflet page. The page works anywhere you can host a single file, including GitHub Pages.

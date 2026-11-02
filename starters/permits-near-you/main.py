@@ -8,6 +8,7 @@ prints them biggest first, with how long each took to issue.
     python3 main.py
     python3 main.py --near 29.4216,-98.4767 --meters 60
     python3 main.py --since 2026-01-01
+    python3 main.py --json
 
 Data: City of San Antonio Open Data, CC BY 4.0
 """
@@ -83,12 +84,23 @@ if __name__ == "__main__":
     ap.add_argument("--near", help="lat,lon (default: Geekdom, Houston and Soledad)")
     ap.add_argument("--meters", type=int, default=150, help="how far to look, each way (default 150)")
     ap.add_argument("--since", default="2025-01-01", help="issued on or after, YYYY-MM-DD (the dataset starts 2025-01-01)")
+    ap.add_argument("--json", action="store_true", help="print JSON instead of a list")
     args = ap.parse_args()
     lat, lon = map(float, args.near.split(",")) if args.near else GEEKDOM
 
     rows = fetch(sql(lat, lon, args.meters, args.since))
     value = lambda r: float(r["DECLARED VALUATION"] or 0)
     rows.sort(key=lambda r: (-value(r), r["DATE ISSUED"] or ""))   # biggest first, then oldest
+    if args.json:
+        waits = [d for r in rows if (d := days(r)) is not None]
+        print(json.dumps({
+            "near": {"lat": lat, "lon": lon, "meters": args.meters}, "since": args.since, "count": len(rows),
+            "permits": [{"issued": (r["DATE ISSUED"] or "")[:10], "type": r["PERMIT TYPE"], "work": r["WORK TYPE"],
+                         "place": place(r), "project": project(r) or None, "value": value(r) or None,
+                         "square_feet": r["AREA (SF)"] or None, "days_to_issue": days(r)} for r in rows],
+            "median_days_to_issue": statistics.median(waits) if waits else None,
+            "credit": "Data: City of San Antonio Open Data, CC BY 4.0"}, indent=2))
+        raise SystemExit
     print(f"{len(rows)} building permits within {args.meters} m of {lat:.5f}, {lon:.5f}, issued since {args.since}:\n")
     for r in rows[:15]:
         name = project(r)

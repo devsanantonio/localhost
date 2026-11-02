@@ -8,6 +8,7 @@ ditches were flowing when.
 
     python3 main.py
     python3 main.py --near 29.4241,-98.4936 --meters 300
+    python3 main.py --json
     open map.html
 
 Data: Bexar County Information Technology GIS
@@ -115,20 +116,30 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--near", help="lat,lon (default: Geekdom, Houston and Soledad)")
     ap.add_argument("--meters", type=int, default=400, help="how far to look (default 400)")
+    ap.add_argument("--json", action="store_true", help="print JSON instead of text (map.html is still written)")
     args = ap.parse_args()
     lat, lon = map(float, args.near.split(",")) if args.near else GEEKDOM
 
-    print(f"Acequias within {args.meters} m of {lat:.5f}, {lon:.5f}:")
     rows = near(lat, lon, args.meters)
-    for name, (d, p) in rows:
-        print(f"  {d:5.0f} m  {name}, dug {p['YrCreate']}, dry by {p['YrAband']}  ({p['Associated']})")
-    if not rows:
-        print("  none. Try a bigger --meters, or a point nearer the river.")
-
     every = {"type": "FeatureCollection", "features": query(where="1=1")}
     with open(os.path.join(HERE, "acequias.geojson"), "w") as f:
         json.dump(every, f)
     with open(os.path.join(HERE, "map.html"), "w") as f:
         f.write(PAGE.replace("__DATA__", json.dumps(every)).replace("__COUNT__", str(len(every["features"]))))
+    if args.json:
+        print(json.dumps({
+            "near": {"lat": lat, "lon": lon, "meters": args.meters},
+            "acequias": [{"name": name, "meters": round(d), "dug": p["YrCreate"], "dry_by": p["YrAband"],
+                          "associated": p["Associated"]} for name, (d, p) in rows],
+            "stretches": len(every["features"]), "files": ["map.html", "acequias.geojson"],
+            "credit": "Data: Bexar County Information Technology GIS"}, indent=2))
+        raise SystemExit
+
+    print(f"Acequias within {args.meters} m of {lat:.5f}, {lon:.5f}:")
+    for name, (d, p) in rows:
+        print(f"  {d:5.0f} m  {name}, dug {p['YrCreate']}, dry by {p['YrAband']}  ({p['Associated']})")
+    if not rows:
+        print("  none. Try a bigger --meters, or a point nearer the river.")
+
     print(f"Wrote map.html and acequias.geojson: {len(every['features'])} stretches of acequia.")
     print("Data: Bexar County Information Technology GIS")

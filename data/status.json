@@ -1,0 +1,172 @@
+{
+  "checked_at": "2026-11-02T23:15:21+00:00",
+  "ok": true,
+  "publishers": [
+    {
+      "publisher": "City of San Antonio",
+      "ok": true
+    },
+    {
+      "publisher": "Bexar County",
+      "ok": true
+    },
+    {
+      "publisher": "VIA Metropolitan Transit",
+      "ok": true
+    },
+    {
+      "publisher": "U.S. Geological Survey",
+      "ok": true
+    },
+    {
+      "publisher": "San Antonio River Authority",
+      "ok": true
+    },
+    {
+      "publisher": "Edwards Aquifer Authority",
+      "ok": true
+    },
+    {
+      "publisher": "Alamo Area MPO",
+      "ok": true
+    },
+    {
+      "publisher": "Opportunity Home San Antonio",
+      "ok": true
+    }
+  ],
+  "starters": [
+    {
+      "starter": "311-by-district",
+      "args": [],
+      "ok": true,
+      "seconds": 0.5,
+      "error": null,
+      "publishers": [
+        "City of San Antonio"
+      ]
+    },
+    {
+      "starter": "permits-near-you",
+      "args": [
+        "--meters",
+        "60"
+      ],
+      "ok": true,
+      "seconds": 0.5,
+      "error": null,
+      "publishers": [
+        "City of San Antonio"
+      ]
+    },
+    {
+      "starter": "acequias",
+      "args": [],
+      "ok": true,
+      "seconds": 0.9,
+      "error": null,
+      "publishers": [
+        "Bexar County"
+      ]
+    },
+    {
+      "starter": "san-antonio-1897",
+      "args": [],
+      "ok": true,
+      "seconds": 2.2,
+      "error": null,
+      "publishers": [
+        "Bexar County"
+      ]
+    },
+    {
+      "starter": "via-next-bus",
+      "args": [
+        "houston & st mary",
+        "--count",
+        "3"
+      ],
+      "ok": true,
+      "seconds": 2.5,
+      "error": null,
+      "publishers": [
+        "VIA Metropolitan Transit"
+      ]
+    },
+    {
+      "starter": "creek-levels",
+      "args": [
+        "--near",
+        "29.3270,-98.4500"
+      ],
+      "ok": true,
+      "seconds": 3.5,
+      "error": null,
+      "publishers": [
+        "U.S. Geological Survey",
+        "San Antonio River Authority"
+      ]
+    },
+    {
+      "starter": "aquifer-today",
+      "args": [],
+      "ok": true,
+      "seconds": 0.8,
+      "error": null,
+      "publishers": [
+        "Edwards Aquifer Authority",
+        "U.S. Geological Survey"
+      ]
+    },
+    {
+      "starter": "funded-projects",
+      "args": [],
+      "ok": true,
+      "seconds": 0.8,
+      "error": null,
+      "publishers": [
+        "Alamo Area MPO"
+      ]
+    },
+    {
+      "starter": "funded-projects",
+      "args": [
+        "--flooding"
+      ],
+      "ok": true,
+      "seconds": 0.4,
+      "error": null,
+      "publishers": [
+        "Alamo Area MPO"
+      ]
+    },
+    {
+      "starter": "low-water-crossings",
+      "args": [],
+      "ok": true,
+      "seconds": 0.3,
+      "error": null,
+      "publishers": [
+        "Opportunity Home San Antonio"
+      ]
+    },
+    {
+      "starter": "peek",
+      "args": [
+        "--find",
+        "flood"
+      ],
+      "ok": true,
+      "seconds": 0.4,
+      "error": null,
+      "publishers": [
+        "City of San Antonio",
+        "Bexar County",
+        "San Antonio River Authority",
+        "Alamo Area MPO",
+        "Opportunity Home San Antonio",
+        "Edwards Aquifer Authority"
+      ]
+    }
+  ]
+}

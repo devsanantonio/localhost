@@ -5,6 +5,7 @@ Counts every 311 call in San Antonio by council district, and shows the share of
 ```sh
 python3 main.py
 python3 main.py --district 5
+python3 main.py --json
 ```
 
 No download, no install: the City's 311 data is a live ArcGIS feature service, and the script asks it to do the counting (`groupByFieldsForStatistics` and `outStatistics`). The whole dataset is around half a million calls. Counting them server-side takes a second.

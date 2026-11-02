@@ -6,6 +6,7 @@ Before anyone builds, remodels or rewires in San Antonio, the City issues a perm
 python3 main.py                                          # around Geekdom, Houston and Soledad
 python3 main.py --near 29.421628,-98.476653 --meters 60  # Central at Commerce
 python3 main.py --since 2026-01-01
+python3 main.py --json
 ```
 
 ```

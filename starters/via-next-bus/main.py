@@ -2,6 +2,7 @@
 
     python3 main.py "houston & st mary"
     python3 main.py "medical & babcock" --count 15
+    python3 main.py "houston & st mary" --json
 
 The first run downloads VIA's schedule (about 6 MB) and keeps it next to this
 file as via_gtfs.zip. Delete that file to fetch a fresh copy; VIA publishes a
@@ -14,14 +15,17 @@ Data provided by VIA Metropolitan Transit
 """
 import argparse
 import csv
+import json
 import io
 import os
+import sys
 import urllib.request
 import zipfile
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 GTFS_URL = "https://www.viainfo.net/BusService/google_transit.zip"
+USER_AGENT = "devsa-localhost/1.0 (+https://github.com/devsanantonio/localhost)"
 HERE = os.path.dirname(os.path.abspath(__file__))
 ZIP = os.path.join(HERE, "via_gtfs.zip")
 TZ = ZoneInfo("America/Chicago")
@@ -34,8 +38,11 @@ def rows(z, name):
 
 def schedule():
     if not os.path.exists(ZIP):
-        print("Downloading VIA's schedule (about 6 MB)…")
-        urllib.request.urlretrieve(GTFS_URL, ZIP)
+        print("Downloading VIA's schedule (about 6 MB)…", file=sys.stderr)
+        # VIA's server refuses Python's default user agent (403), so say who's asking.
+        req = urllib.request.Request(GTFS_URL, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=120) as res, open(ZIP, "wb") as out:
+            out.write(res.read())
     return zipfile.ZipFile(ZIP)
 
 
@@ -78,6 +85,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="The next buses from a VIA stop.")
     parser.add_argument("stop", help='part of a stop name, e.g. "houston & st mary"')
     parser.add_argument("--count", type=int, default=10)
+    parser.add_argument("--json", action="store_true", help="print JSON instead of a list")
     args = parser.parse_args()
 
     z = schedule()
@@ -90,6 +98,14 @@ if __name__ == "__main__":
         raise SystemExit(f"{len(stops)} stops match. Be more specific. Some of them:\n  " + "\n  ".join(names[:12]))
 
     now = datetime.now(TZ)
+    if args.json:
+        print(json.dumps({
+            "stop": args.stop, "stops": sorted({s["stop_name"] for s in stops.values()}), "after": now.isoformat(),
+            "departures": [{"time": when.isoformat(), "route": route["route_short_name"] or route["route_long_name"],
+                            "headsign": headsign, "stop": stops[stop_id]["stop_name"]}
+                           for when, route, headsign, stop_id in next_departures(z, set(stops), now, args.count)],
+            "scheduled": True, "credit": "Data provided by VIA Metropolitan Transit"}, indent=2))
+        raise SystemExit
     print(f"Next buses from {len(stops)} stop(s) matching \"{args.stop}\", after {now:%-I:%M %p}:\n")
     for when, route, headsign, stop_id in next_departures(z, set(stops), now, args.count):
         name = route["route_short_name"] or route["route_long_name"]

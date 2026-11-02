@@ -6,10 +6,12 @@ churches, breweries. This script fetches them and writes map.html, a single
 page you can open in any browser or put on GitHub Pages.
 
     python3 main.py
+    python3 main.py --json      # a summary: how many places of each kind
     open map.html
 
 Data: Bexar County Information Technology GIS
 """
+import argparse
 import json
 import os
 import urllib.parse
@@ -105,11 +107,25 @@ sel.onchange = draw; draw();
 """
 
 if __name__ == "__main__":
-    print("Fetching historic places from Bexar County GIS…")
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    ap.add_argument("--json", action="store_true", help="print a JSON summary (map.html is still written)")
+    args = ap.parse_args()
+    if not args.json:
+        print("Fetching historic places from Bexar County GIS…")
     collection = clean(fetch_all())
     with open(os.path.join(HERE, "places-1897.geojson"), "w") as f:
         json.dump(collection, f)
     with open(os.path.join(HERE, "map.html"), "w") as f:
         f.write(PAGE.replace("__DATA__", json.dumps(collection)))
+    if args.json:
+        counts = {}
+        for f in collection["features"]:
+            cat = f["properties"]["CAT"] or "uncategorized"
+            counts[cat] = counts.get(cat, 0) + 1
+        print(json.dumps({"places": len(collection["features"]),
+                          "by_category": dict(sorted(counts.items(), key=lambda kv: -kv[1])),
+                          "files": ["map.html", "places-1897.geojson"],
+                          "credit": "Data: Bexar County Information Technology GIS"}, indent=2))
+        raise SystemExit
     print(f"Wrote map.html and places-1897.geojson: {len(collection['features']):,} places.")
     print("Data: Bexar County Information Technology GIS")

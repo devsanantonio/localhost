@@ -1,0 +1,136 @@
+{
+ "since": "2026-10-19",
+ "until": "2026-11-02T23:15:36+00:00",
+ "changes": [
+  {
+   "title": "Rivers_All",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Rivers_All/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-02",
+   "summary": "Rivers that run through the Edwards Aquifer region.",
+   "credit": "Data: Edwards Aquifer Authority",
+   "change": "updated"
+  },
+  {
+   "title": "Lakes_All",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Lakes_All/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-02",
+   "summary": "Lakes within the Edwards Aquifer region or along rivers that run through the Edwards Aquifer region.",
+   "credit": "Data: Edwards Aquifer Authority",
+   "change": "updated"
+  },
+  {
+   "title": "Index Wells",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Index_Wells/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-02",
+   "summary": "The Edwards Aquifer Authority monitors aquifer conditions using two main index wells. J-27 index well is in Uvalde County and J-17 index well is in Bexar County, both in the Artesian Zone. Water leve\u2026",
+   "credit": "Data: Edwards Aquifer Authority",
+   "change": "updated"
+  },
+  {
+   "title": "City of San Antonio Leased Facilities",
+   "publisher": "City of San Antonio",
+   "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/vCityFacilitiesLeased_Public/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-10-29",
+   "summary": "Public inventory of City of San Antonio leased facilities with location, department, and asset management details.",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "updated"
+  },
+  {
+   "title": "City Facilities Inventory",
+   "publisher": "City of San Antonio",
+   "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/vCityFacilities_Public/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-10-29",
+   "summary": "City of San Antonio facilities and city-owned property inventory with location, department, and asset management details.",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "updated"
+  },
+  {
+   "title": "TXST Parcels",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/TXST_Parcels/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-10-27",
+   "summary": "Parcels belonging to Texas State University.",
+   "credit": "Data: Edwards Aquifer Authority",
+   "change": "updated"
+  },
+  {
+   "title": "Segments of the Edwards Aquifer",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Segments_of_the_Edwards_Aquifer/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-10-27",
+   "summary": "Segments of the Edwards Aquifer. The Southern segment is managed by the Edwards Aquifer Authority (EAA) within the EAA Jurisdictional Boundary. The Southern segment extends through parts of Kinney, U\u2026",
+   "credit": "Data: Edwards Aquifer Authority",
+   "change": "updated"
+  },
+  {
+   "title": "Edwards Aquifer Pools",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/EdwardsAquifer_Pools_Web/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-10-27",
+   "summary": "Correct EAA boundary as determined on 09/18/2015 by Marc Friberg's and Rick Illgner's research into creation and edit records of the EAA. Redrawn by Sarah Eason in parts using Ford Engineering lines,\u2026",
+   "credit": "Data: Edwards Aquifer Authority",
+   "change": "updated"
+  },
+  {
+   "title": "Index Springs Updated",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Index_Springs_Updated/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-10-27",
+   "summary": "Major Springs found in the Edwards Aquifer region. The San Marcos Springs and Comal Springs are found in the Southern segment. Barton Springs is found in the Barton Springs segment. San Gabriel Sprin\u2026",
+   "credit": "Data: Edwards Aquifer Authority",
+   "change": "updated"
+  },
+  {
+   "title": "Spring Lake Imagery 2026",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://tiles.arcgis.com/tiles/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Spring_Lake_Imagery_2026/MapServer",
+   "type": "Map Service",
+   "modified": "2026-10-26",
+   "summary": "Spring Lake Imagery captured in 2026 by the Meadows Center for Water and the Environment. Images were captured by drone and mosaiced to create one continuous raster imagery dataset. Gamma values were\u2026",
+   "credit": "Data: Edwards Aquifer Authority",
+   "change": "updated"
+  },
+  {
+   "title": "Spring Lake Depth",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://tiles.arcgis.com/tiles/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Spring_Lake_Depth_5/MapServer",
+   "type": "Map Service",
+   "modified": "2026-10-26",
+   "summary": "Spring Lake Depth raster layer. Derived from lidar data collected in Fall 2025.",
+   "credit": "Data: Edwards Aquifer Authority",
+   "change": "updated"
+  },
+  {
+   "title": "Spring Lake Lidar: Bathymetry Raster Layer",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://tiles.arcgis.com/tiles/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SL_Lidar_Web1/MapServer",
+   "type": "Map Service",
+   "modified": "2026-10-26",
+   "summary": "Raster layer of lidar data collected over Spring Lake in San Marcos, Texas on October 2, 2025.",
+   "credit": "Data: Edwards Aquifer Authority",
+   "change": "updated"
+  },
+  {
+   "title": "Proposed Nature Based Solution Projects view",
+   "publisher": "San Antonio River Authority",
+   "url": "https://services2.arcgis.com/Eb8y2VjBgkqbQJwk/arcgis/rest/services/Proposed_Nature_Based_Solution_Projects_view/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-10-19",
+   "summary": "Outlines of nature based solutions opportunities in the San Antonio River Basin complied for usage in urban planning efforts.",
+   "credit": "This uses River Authority's data but is not endorsed or verified by River Authority. (Add the date you retrieved it.)",
+   "change": "updated"
+  }
+ ]
+}

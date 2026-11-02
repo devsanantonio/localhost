@@ -5,6 +5,7 @@ Type part of a bus stop's name; get the next departures from it, from VIA's publ
 ```sh
 python3 main.py "houston & st mary"
 python3 main.py "medical & babcock" --count 15
+python3 main.py "houston & st mary" --json
 ```
 
 The first run downloads VIA's schedule, a 6 MB [GTFS](https://gtfs.org) zip, and keeps it beside the script. GTFS is the format every transit agency publishes and every trip planner reads, so what you learn here works for any city.

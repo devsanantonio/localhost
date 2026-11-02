@@ -5,6 +5,8 @@ Find a layer from any of San Antonio's publishers, then see what's in it, withou
 ```sh
 python3 main.py --find flood
 python3 main.py https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Roads_Exposure_Risk/FeatureServer/0
+python3 main.py --all                   # every public layer of every publisher, counted
+python3 main.py --find flood --json
 ```
 
 `--find` searches the public layers of every publisher in [SOURCES.md](../../SOURCES.md) at once, newest first: the City, Bexar County, the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio and the Edwards Aquifer Authority. Give it a layer's address (it ends in `/FeatureServer/0` or `/MapServer/0`) and it prints how many rows there are, when the layer last changed, every field and a few real rows, then the publisher's credit line.
