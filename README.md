@@ -3,64 +3,79 @@
   <img alt="localhost:210 — build with San Antonio's open data, a DEVSA project" src="brand/localhost-210-lockup-light.svg" width="560">
 </picture>
 
-# localhost
+# localhost:210
 
-**Every developer has a localhost. This one is San Antonio.**
+**Seven APIs. No one place to find them. This is the place.**
 
 ```
-guest@devsa ~ % curl localhost
+guest@devsa ~ % curl localhost:210
 
+  → the next real bus from any VIA stop, every scheduled trip
   → every building permit since 2025: what, where, how much, how long it took
-  → San Antonio's acequias, dug from 1718, and 4,200 places from 1897
-  → 6,098 VIA bus stops, 88 routes, every scheduled trip
-  → flood-exposed roads, funded projects, live creek levels, the aquifer: 7 publishers
-  → 168 City datasets · 28 County portal layers and more beyond · no API keys
+  → San Antonio against its peer cities: growth, who owns the businesses
+  → the river, the creeks and the aquifer, live
+  → the acequias from 1718, and 4,200 places from 1897
+  → 7 publishers · one catalog, rebuilt every Monday · no API keys
 ```
 
-The City of San Antonio, Bexar County and VIA all publish their data in the open, and so do at least four more public agencies most people have never looked at: the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio and the Edwards Aquifer Authority. Almost nobody builds with any of it, because it's scattered across separate portals with separate rules and no obvious place to start. This is the place to start: what's out there, what it's good for, how to use it without breaking any rules, and a working program for each source that runs in under a minute.
+Seven public agencies publish San Antonio's data in the open: the City, Bexar County, VIA, the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio and the Edwards Aquifer Authority. Each runs its own portal, with its own rules, and almost nobody builds with any of it, because there's no obvious place to start. This repo brings all seven together: what each one publishes, how to use it without breaking its rules, a list of every dataset they put out, and a small working program for each.
 
-No sign-up. No keys. Python and an internet connection.
+Three experiments built from it are at [devsa.community/localhost](https://www.devsa.community/localhost).
+
+## Start
+
+No sign-up. No keys. Python 3.9+ and an internet connection.
 
 ```sh
 git clone https://github.com/devsanantonio/localhost
-cd localhost/starters/acequias
-python3 main.py && open map.html     # macOS; see the starter for Windows and Linux
+cd localhost
+python3 starters/via-next-bus/main.py "houston & st mary"     # the next buses from a stop near Geekdom
 ```
 
-## Pick a starter
+Then pick any starter below. Each one is a single Python file using only the standard library, short enough to read before you run it, and every one takes `--json`, so you can pipe its answer into your own code, a GitHub Action or an agent.
+
+## The seven publishers
+
+| Publisher | What only it has | Terms | Starters |
+|---|---|---|---|
+| **[City of San Antonio](https://data.sanantonio.gov)** | 311 calls, building permits, zoning, bond projects, the economy beside peer metros | CC BY 4.0 | [permits-near-you](starters/permits-near-you), [311-by-district](starters/311-by-district), [how-we-compare](starters/how-we-compare) |
+| **[Bexar County](https://gis-bexar.opendata.arcgis.com)** | Census geography, schools, voting districts, and the city in 1718 and 1896–97 | Per dataset, in each layer's description | [acequias](starters/acequias), [san-antonio-1897](starters/san-antonio-1897) |
+| **[VIA Metropolitan Transit](https://www.viainfo.net/developers-resources/)** | Every route, stop and scheduled trip, and live bus positions | VIA's developer license: uses that help riders, no VIA logos | [via-next-bus](starters/via-next-bus) |
+| **[San Antonio River Authority](https://sariverauthority-sara-tx.opendata.arcgis.com)** | Floodplains, water quality, the Mission Reach | Its own; cite the date you retrieved the data | [creek-levels](starters/creek-levels) |
+| **[Alamo Area MPO](https://aampo-openmap-nexus-mpo.hub.arcgis.com)** | Funded road and transit projects, flood-exposed roads, bike stress | As-is disclaimer | [funded-projects](starters/funded-projects) |
+| **Opportunity Home San Antonio** | Housing communities by district, low water crossings | Informational use | [low-water-crossings](starters/low-water-crossings) |
+| **[Edwards Aquifer Authority](https://data.edwardsaquifer.org)** | The aquifer's daily level, springflow, drought stage | Informational use, per layer | [aquifer-today](starters/aquifer-today) |
+
+Plus the **U.S. Geological Survey**'s live gauges on the river and San Pedro Creek, every 15 minutes, in the public domain.
+
+**[SOURCES.md](SOURCES.md)** is the full guide: what each agency publishes, the field names, and how to query each API. **[ATTRIBUTION.md](ATTRIBUTION.md)** has the exact credit line for each, to copy.
+
+## Every dataset, in one list
+
+[`data/catalog.json`](data) lists every public dataset from all seven, with its address, when it was last updated and its credit line, rebuilt every Monday by a GitHub Action. The same run checks every starter against its live source and opens an issue if one breaks.
+
+To search it from the command line: `python3 starters/peek/main.py --find flood`. Peek searches every publisher at once, then shows any dataset's fields and first rows.
+
+## The starters
 
 | Starter | Source | Build from it |
 |---|---|---|
-| [**Acequias**](starters/acequias) | Bexar County | The Spanish irrigation ditches San Antonio grew around, each with the year it was dug and the year it went dry. Which ran near you, and a map with a year slider. |
-| [**San Antonio, 1896–97**](starters/san-antonio-1897) | Bexar County | A map of the city about 130 years ago: saloons, wagon yards, breweries, schools, over today's streets. Data almost no other city has. |
+| [**Next bus**](starters/via-next-bus) | VIA | Type a stop, get the next buses. The bones of a departure board, a bot, or the transit app you wish existed. |
 | [**Permits near you**](starters/permits-near-you) | City of San Antonio | Every building permit around a point since 2025, biggest first, with how long each took to issue. One SQL query to the City's API. |
 | [**311 by district**](starters/311-by-district) | City of San Antonio | Half a million service calls, counted server-side in about two seconds. What each district calls about, and how often it closes late. |
-| [**Next bus**](starters/via-next-bus) | VIA | Type a stop, get the next buses. The bones of a departure board, a bot, or the transit app you wish existed. |
 | [**How we compare**](starters/how-we-compare) | City of San Antonio | San Antonio's economy beside seven peer metros: GDP growth, target industries, who owns the businesses, what the colleges graduate. |
+| [**Funded projects**](starters/funded-projects) | Alamo Area MPO | The region's 68 funded road and transit projects for 2027–2030, totaled by the server, and the streets most exposed to a 100-year flood. |
 | [**Creek levels**](starters/creek-levels) | USGS · River Authority | The river and San Pedro Creek right now, every 15 minutes, and whether a point sits in the River Authority's draft floodplains. Not a flood warning. |
 | [**The aquifer today**](starters/aquifer-today) | Edwards Aquifer Authority · USGS | The J-17 well's level and 10-day average, the drought trigger it sits under, and springflow at Comal and San Marcos Springs. |
-| [**Funded projects**](starters/funded-projects) | Alamo Area MPO | The region's 68 funded road and transit projects for 2027–2030, totaled by the server, and the streets most exposed to a 100-year flood. |
 | [**Low water crossings**](starters/low-water-crossings) | Opportunity Home San Antonio | The 156 crossings inside the FEMA floodplain, nearest first, on a map. Not a flood warning. |
-| [**Peek**](starters/peek) | Any of them | Search every publisher's layers for a word, then see any layer's fields and first rows. The way into the four agencies nobody links to. |
-| [**MCP**](starters/mcp) | All of them | San Antonio's open data as tools for your own coding agent: Claude Code, Claude Desktop, Cursor. One line of config. |
-
-Each one is a single Python file using only the standard library, short enough to read before you run it. Every one takes `--json`, so you can pipe its answer into your own code, a GitHub Action or an agent. Read it, break it, take it somewhere.
-
-A GitHub Action runs every starter against the live sources each week and opens an issue if one breaks. The results, and a catalog of every public layer, are in [`data/`](data).
-
-## Start with a question
-
-Three kinds of data, each one command away:
-
-```sh
-python3 starters/311-by-district/main.py --district 5     # what people ask the City for
-python3 starters/how-we-compare/main.py --owners          # how San Antonio's economy compares
-python3 starters/funded-projects/main.py                  # where the region's road money goes
-```
+| [**Acequias**](starters/acequias) | Bexar County | The Spanish irrigation ditches San Antonio grew around, each with the year it was dug and the year it went dry. Which ran near you, and a map with a year slider. |
+| [**San Antonio, 1896–97**](starters/san-antonio-1897) | Bexar County | A map of the city about 130 years ago: saloons, wagon yards, breweries, schools, over today's streets. Data almost no other city has. |
+| [**Peek**](starters/peek) | All seven | Search every publisher's datasets for a word, then see any one's fields and first rows. The way into the agencies nobody links to. |
+| [**MCP**](starters/mcp) | All seven | San Antonio's open data as tools for your own coding agent: Claude Code, Codex, Cursor. One line of config. |
 
 ## What to build
 
-Starters are the first commit, not the project. A few directions, any of which would be a strong portfolio piece or a Build-and-tell Friday post:
+Starters are the first commit, not the project. A few directions, any of which would be a strong portfolio piece or a Build-and-tell Friday post. Most are [open issues](https://github.com/devsanantonio/localhost/issues), so you can claim one:
 
 - **Then and now.** Pick a block downtown and put the 1897 businesses next to what's there today.
 - **Walk sheds.** Which neighborhoods are more than a quarter mile from a bus that comes every 15 minutes?
@@ -69,55 +84,11 @@ Starters are the first commit, not the project. A few directions, any of which w
 - **Where the money goes.** The City's 370 bond projects and the Alamo Area MPO's funded projects for 2027–2030, on one map. Which run behind, and where?
 - **When it rains.** The MPO's flood-exposed roads, the River Authority's floodplains and USGS's live creek levels. Which roads on your commute go under first?
 - **One district, every publisher.** Pick a district, say Downtown West, and put permits, bond projects, flood-exposed streets, bike stress and bus stops on one page.
-- **Something we haven't thought of.** The City alone has 168 datasets. Most have never been charted by anyone outside City Hall.
+- **Something we haven't thought of.** Most of what's in [the catalog](data) has never been charted by anyone outside the agency that published it.
 
 Using a coding agent? It's welcome here. [AGENTS.md](AGENTS.md) gives it the sources, the commands and the ground rules, so what it builds follows the same rules you would. Claude Code also picks up [the localhost skill](.claude/skills/localhost/SKILL.md) on its own, and [the MCP starter](starters/mcp) gives any agent the data as tools.
 
 Maintained by [DEVSA](https://www.devsa.community), the nonprofit that connects the people building San Antonio tech. DEVSA isn't affiliated with any of these agencies, and nothing here speaks for them. The data is theirs. This is the way in.
-
-## The sources
-
-**New here? Read [SOURCES.md](SOURCES.md)** for the full guide: what each agency publishes, what only it has, the field names, and how to query each API.
-
-### City of San Antonio — [data.sanantonio.gov](https://data.sanantonio.gov)
-
-About 170 datasets across 311 service requests, building permits, parks and trails, transportation, culture and events, city finances and more.
-
-- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Use it for anything, including commercial work, with credit to the City of San Antonio.
-- **How to get it:** every dataset has CSV downloads. The portal also has a [CKAN API](https://data.sanantonio.gov/api/3/action/package_list) for finding datasets, and many geographic ones are live ArcGIS feature services you can query directly (that's what `311-by-district` does).
-- **Good places to start:** Building Permits (`permits-near-you` queries it with SQL), 311 Service Calls, Parks and Trails.
-
-### Bexar County — [gis-bexar.opendata.arcgis.com](https://gis-bexar.opendata.arcgis.com)
-
-About 28 geographic layers on the portal: county and precinct boundaries, ZIP code areas, census tracts and block groups, schools, libraries, parks, voting sites, military installations — and a set of **historic layers from 1896–97** that almost no other county has: city blocks from Sanborn fire insurance maps, and the people, workplaces and points of interest of the 1897 city directory.
-
-- **License:** no single license on the portal. Each dataset carries its own terms in its description, usually a disclaimer that the data is for display and reference. The historic layers ask: *"When used please credit: Bexar County Information Technology GIS."* Read the description of any layer before you publish with it.
-- **How to get it:** every layer is an ArcGIS feature or map service with a query API that returns JSON or GeoJSON. Seven catalog entries (parcels, plats, contours and others) are PDFs pointing to other County offices, not data.
-- **Beyond the portal:** the County's ArcGIS account (`services1.arcgis.com/8onVmslF2KXErTHT`) publishes far more than the portal lists, including the layers it built for San Antonio's Tricentennial: the acequias, the missions, the labores and 348 Spanish land grants. They answer the same queries; `acequias` uses one. Browse them in the account's [services directory](https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services).
-
-### VIA Metropolitan Transit — [viainfo.net/developers-resources](https://www.viainfo.net/developers-resources/)
-
-VIA's full schedule as [GTFS](https://gtfs.org) (routes, stops, trips, stop times and shapes), plus realtime feeds for vehicle positions, trip updates and service alerts as GTFS-realtime.
-
-- **License:** VIA's own developer license. Read it in full before you build. The parts that shape what you can make:
-  - Use is limited to **"uses that utilize the VIA Data for assisting mass transportation riders."**
-  - Credit VIA as **"Data provided by VIA Metropolitan Transit"** (or "Data provided by VIA").
-  - **Do not use VIA's logos or trademarks**, and don't present yourself as VIA, its agent or its partner.
-  - The data is provided as is, and by using it you agree to VIA's indemnity terms.
-- **How to get it:** the schedule is a zip at `https://www.viainfo.net/BusService/google_transit.zip`. The realtime feeds are served over plain `http://`, so a browser app on an `https://` page can't fetch them directly. Put a small server or serverless function in between.
-
-### And four more
-
-Each runs its own portal, and `peek` reads all of them. What they have, and their terms, are in [SOURCES.md](SOURCES.md#more-publishers).
-
-- **[San Antonio River Authority](https://sariverauthority-sara-tx.opendata.arcgis.com):** the river and creeks, floodplains, water quality, the Mission Reach parks.
-- **[Alamo Area MPO](https://aampo-openmap-nexus-mpo.hub.arcgis.com):** the region's funded road and transit projects, flood-exposed roads, bike stress, congestion.
-- **Opportunity Home San Antonio:** housing communities by district, and low water crossings.
-- **[Edwards Aquifer Authority](https://data.edwardsaquifer.org):** the aquifer's daily level, springflow and drought stage.
-
-Plus the **USGS** live gauges on the San Antonio River and San Pedro Creek, every 15 minutes.
-
-The full rules, with the exact credit lines to copy, are in [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ## Build with care
 

@@ -1,6 +1,6 @@
 # The sources
 
-San Antonio's open data doesn't come from one place. The City, Bexar County and VIA are the big three, and this page starts with them. But at least four more public agencies publish their own, and almost nobody links to them: the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio and the Edwards Aquifer Authority, plus the federal government's live river gauges. They're at the [end of this page](#more-publishers). Each one publishes different things because each does a different job.
+San Antonio's open data doesn't come from one place. Seven public agencies publish it, each on its own portal, because each does a different job: the City, Bexar County and VIA, which most people have heard of, and the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio and the Edwards Aquifer Authority, which almost nobody links to. The federal government's live river gauges round it out. The first three have the most, so this page starts with them; the other four are [further down](#more-publishers).
 
 Not sure where something lives? `python3 starters/peek/main.py --find <word>` searches every publisher's layers at once.
 
@@ -9,10 +9,14 @@ Not sure where something lives? `python3 starters/peek/main.py --find <word>` se
 - **City of San Antonio** publishes what the city *does*: the services it delivers (311, permits, fire calls), the rules it sets (zoning, historic districts, overlays), the things it builds and maintains (streets, sidewalks, drainage), and its economy. It covers **city limits**.
 - **Bexar County** publishes the *ground and the civic map*: census geography with population, schools, every district people vote in, and San Antonio as it was in 1896–97. It covers **the whole county**, suburbs and unincorporated areas included.
 - **VIA Metropolitan Transit** publishes **the buses**: every route, stop and scheduled trip, and live positions.
+- **San Antonio River Authority** publishes **the river and creeks**: floodplains, water quality, the Mission Reach.
+- **Alamo Area MPO** publishes **where the region's roads are going**: funded projects, flood-exposed roads, bike stress.
+- **Opportunity Home San Antonio** publishes **public housing**: its communities by district, and low water crossings.
+- **Edwards Aquifer Authority** publishes **the water underneath**: the aquifer's level, springflow and drought stage.
 
 The best projects usually combine them: the City's 311 calls divided by the County's census population, or the County's 1896 buildings beside the City's historic landmarks.
 
-Counts and details below were checked in October 2026. Portals change, so treat numbers as approximate and check the source before you publish.
+Counts and details below were checked in October 2026, from each portal's own listing. Portals change, and the agencies publish more than their portals list, so treat these as approximate: [`data/catalog.json`](data) has this week's count of everything.
 
 ---
 

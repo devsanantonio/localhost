@@ -2,7 +2,7 @@
 
 Things people have built with San Antonio's open data. Add yours with a pull request: one line, newest at the top.
 
-Format: `- [Project name](link) — what it does. Sources: City / County / VIA. By @your-github`
+Format: `- [Project name](link) — what it does. Sources: which publishers. By @your-github`
 
 <!-- Add your project below this line -->
 - [Outrun the 4](https://www.devsa.community/localhost#via) — a Dino Run-style race up San Pedro against the next real Route 4, moving on VIA's published schedule; when it catches you, the next real departures. ([code](https://github.com/devsanantonio/next-devsa/blob/main/components/localhost/outrun-the-4.tsx)) Sources: VIA. By @devsanantonio
