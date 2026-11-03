@@ -1,7 +1,51 @@
 {
  "since": "2026-10-19",
- "until": "2026-11-02T23:31:54+00:00",
+ "until": "2026-11-02T23:56:32+00:00",
  "changes": [
+  {
+   "title": "Good Neighbor Engagement Events",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/good-neighbor-engagement-events",
+   "modified": "2026-11-02",
+   "summary": "This data set contains community input about top public safety of concerns in their neighborhood. The public has the opportunity to voice their concerns to the City of San Antonio via scheduled eve\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "SAPD Offenses",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/sapd-offenses",
+   "modified": "2026-11-02",
+   "summary": "Police offense reports data",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "SAPD Arrests",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/sapd-arrests",
+   "modified": "2026-11-02",
+   "summary": "Police arrest reports data",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Performance Measures",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/daily-shelter-intake",
+   "modified": "2026-11-02",
+   "summary": "Performance Measures show the most recent data on critical metrics relevant to services and operations at the City of San Antonio. It shows the City's response to community challenges. This data he\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
   {
    "title": "Rivers_All",
    "publisher": "Edwards Aquifer Authority",
@@ -10,6 +54,7 @@
    "modified": "2026-11-02",
    "summary": "Rivers that run through the Edwards Aquifer region.",
    "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer",
    "change": "updated"
   },
   {
@@ -20,6 +65,7 @@
    "modified": "2026-11-02",
    "summary": "Lakes within the Edwards Aquifer region or along rivers that run through the Edwards Aquifer region.",
    "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer",
    "change": "updated"
   },
   {
@@ -30,7 +76,41 @@
    "modified": "2026-11-02",
    "summary": "The Edwards Aquifer Authority monitors aquifer conditions using two main index wells. J-27 index well is in Uvalde County and J-17 index well is in Bexar County, both in the Artesian Zone. Water leve\u2026",
    "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer",
    "change": "updated"
+  },
+  {
+   "title": "Preliminary Plan Reviews",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/preliminary-plan-reviews",
+   "modified": "2026-11-01",
+   "summary": "Preliminary Development Plan Review (PDPR) and Preliminary Plan Review (PPR) meetings offer opportunities for the owner and/or owner\u2019s agent(s) to meet with Development Services staff to discuss fu\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Building Permits",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/building-permits",
+   "modified": "2026-11-01",
+   "summary": "The City requires permits for commercial and residential development, such as new single-family homes, commercial construction, remodels, additions and related activity like trade (mechanical, elec\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "311 Service Calls",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/service-calls",
+   "modified": "2026-11-01",
+   "summary": "311 Customer Service connects citizens with specially-trained customer service representatives ready to assist and facilitate City services including animals, potholes, solid waste collection, prop\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
   },
   {
    "title": "City of San Antonio Leased Facilities",
@@ -40,6 +120,7 @@
    "modified": "2026-10-29",
    "summary": "Public inventory of City of San Antonio leased facilities with location, department, and asset management details.",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "kind": "Map layer",
    "change": "updated"
   },
   {
@@ -50,7 +131,228 @@
    "modified": "2026-10-29",
    "summary": "City of San Antonio facilities and city-owned property inventory with location, department, and asset management details.",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "kind": "Map layer",
    "change": "updated"
+  },
+  {
+   "title": "COSA GIS COVID HUB",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/cosa-gis-covid-hub",
+   "modified": "2026-10-28",
+   "summary": "DO NOT DELETE OR MODIFY THIS ITEM. This item is managed by the ArcGIS Hub application. To make changes to this site, please visit https://hub.arcgis.com/admin/",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "COVID-19 Weekly Surveillance Data Public",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid-19-weekly-surveillance-data-public",
+   "modified": "2026-10-28",
+   "summary": "<b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b><div style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "COVID-19 Weekly Lab Testing Public",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid-19-weekly-lab-testing-public",
+   "modified": "2026-10-28",
+   "summary": "<b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b><div><br /></div><div>Weekly COVID-19 lab testing of San Antonio residents. Provided by San Antonio Metropolitan Health D\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Vaccinations County Stats - Public Share",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/vaccinations-county-stats-public-share",
+   "modified": "2026-10-28",
+   "summary": "<span style='font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, sans-serif; font-size:14px;'>This table contains the data of individuals that ha\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Vaccinations Weekly Totals - Public Share",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/vaccinations-weekly-totals-public-share",
+   "modified": "2026-10-28",
+   "summary": "<span style='font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, sans-serif; font-size:14px;'>This table contains the number of individuals vacci\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Vaccinations County Stats - Public",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/vaccinations-county-stats-public",
+   "modified": "2026-10-28",
+   "summary": "<span style='font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, sans-serif; font-size:14px;'>This table contains the data of individuals that ha\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "CoVID-19 Vaccination Data",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid-19-vaccination-data",
+   "modified": "2026-10-28",
+   "summary": "The City of San Antonio's Open Data page for CoVID-19 vaccination data.",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "CoVID-19 Surveillance Data",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid-19-surveillance-data",
+   "modified": "2026-10-28",
+   "summary": "The City of San Antonio's Open Data page for CoVID-19 surveillance data.",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "COVID-19 Daily Surveillance Data Public",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid-19-daily-surveillance-data-public",
+   "modified": "2026-10-28",
+   "summary": "<div style='font-variant-numeric:normal; font-variant-east-asian:normal;'><div style='box-sizing:border-box; font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe \u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "COVID-19 Weekly Data Public",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid-19-weekly-data-public",
+   "modified": "2026-10-28",
+   "summary": "<b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b><div><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, \u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "CoVID19 Deaths  byZipCode LessThan5",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid19-deaths-byzipcode-lessthan5",
+   "modified": "2026-10-28",
+   "summary": "{{description}}",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Bexar County COVID-19 Data by Zip Code",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/bexar-county-covid-19-data-by-zip-code",
+   "modified": "2026-10-28",
+   "summary": "<div><b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b></div><div><br /></div><div>This data set provides positive CoVID-19 cases by zip code, as they appear of the City o\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "CoVID19 Deaths by Zip Code",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid19-deaths-by-zip-code",
+   "modified": "2026-10-28",
+   "summary": "<div style='font-size:medium; font-variant-numeric:normal; font-variant-east-asian:normal;'>This data set provides categories of confirmed positive CoVID-19 cases by zip code, as they appear of the\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "COVID-19 Vaccinations by ZipCode",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid-19-vaccinations-by-zipcode",
+   "modified": "2026-10-28",
+   "summary": "<div style='font-size:medium; font-variant-numeric:normal; font-variant-east-asian:normal;'>This data set provides Bexar County CoVID-19 resident Vaccination information, as well as confirmed posit\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Event Dates Public",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/event-dates-public",
+   "modified": "2026-10-28",
+   "summary": "<div style='font-variant-numeric: normal; font-variant-east-asian: normal;'><b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b></div><div style='font-variant-numeric: norma\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Vaccinations CountyStats public",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/vaccinations-countystats-public",
+   "modified": "2026-10-28",
+   "summary": "{{description}}",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Event Dates",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/event-dates",
+   "modified": "2026-10-28",
+   "summary": "<div style='color:rgb(76, 76, 76); font-family:&amp; font-size:15px; font-style:normal; font-variant:normal; font-weight:400; letter-spacing:normal; text-align:left; text-decoration:none; text-inde\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Race Ethnicity Tracker",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/race-ethnicity-tracker",
+   "modified": "2026-10-28",
+   "summary": "<font style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><b>**TO DOWNLOAD THE DAT\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "Age Groups Tracker",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/age-groups-tracker",
+   "modified": "2026-10-28",
+   "summary": "<font style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><b>**TO DOWNLOAD THE DAT\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
+  },
+  {
+   "title": "COVID-19 Indicators",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid-19-indicators",
+   "modified": "2026-10-28",
+   "summary": "{{description}}",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "change": "new"
   },
   {
    "title": "TXST Parcels",
@@ -60,6 +362,7 @@
    "modified": "2026-10-27",
    "summary": "Parcels belonging to Texas State University.",
    "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer",
    "change": "updated"
   },
   {
@@ -70,6 +373,7 @@
    "modified": "2026-10-27",
    "summary": "Segments of the Edwards Aquifer. The Southern segment is managed by the Edwards Aquifer Authority (EAA) within the EAA Jurisdictional Boundary. The Southern segment extends through parts of Kinney, U\u2026",
    "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer",
    "change": "updated"
   },
   {
@@ -80,6 +384,7 @@
    "modified": "2026-10-27",
    "summary": "Correct EAA boundary as determined on 09/18/2015 by Marc Friberg's and Rick Illgner's research into creation and edit records of the EAA. Redrawn by Sarah Eason in parts using Ford Engineering lines,\u2026",
    "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer",
    "change": "updated"
   },
   {
@@ -90,6 +395,7 @@
    "modified": "2026-10-27",
    "summary": "Major Springs found in the Edwards Aquifer region. The San Marcos Springs and Comal Springs are found in the Southern segment. Barton Springs is found in the Barton Springs segment. San Gabriel Sprin\u2026",
    "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer",
    "change": "updated"
   },
   {
@@ -100,6 +406,7 @@
    "modified": "2026-10-26",
    "summary": "Spring Lake Imagery captured in 2026 by the Meadows Center for Water and the Environment. Images were captured by drone and mosaiced to create one continuous raster imagery dataset. Gamma values were\u2026",
    "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer",
    "change": "updated"
   },
   {
@@ -110,6 +417,7 @@
    "modified": "2026-10-26",
    "summary": "Spring Lake Depth raster layer. Derived from lidar data collected in Fall 2025.",
    "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer",
    "change": "updated"
   },
   {
@@ -120,6 +428,7 @@
    "modified": "2026-10-26",
    "summary": "Raster layer of lidar data collected over Spring Lake in San Marcos, Texas on October 2, 2025.",
    "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer",
    "change": "updated"
   },
   {
@@ -130,6 +439,7 @@
    "modified": "2026-10-19",
    "summary": "Outlines of nature based solutions opportunities in the San Antonio River Basin complied for usage in urban planning efforts.",
    "credit": "This uses River Authority's data but is not endorsed or verified by River Authority. (Add the date you retrieved it.)",
+   "kind": "Map layer",
    "change": "updated"
   }
  ]

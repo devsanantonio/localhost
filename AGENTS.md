@@ -18,6 +18,7 @@ python3 starters/permits-near-you/main.py --meters 60
 python3 starters/peek/main.py --find flood            # search every publisher's layers
 python3 starters/peek/main.py <layer address>         # fields and first rows of any ArcGIS layer
 python3 starters/peek/main.py --all                   # every public layer of every publisher, counted
+python3 starters/how-we-compare/main.py --owners      # the economy against seven peer metros
 python3 starters/creek-levels/main.py                 # live USGS gauges; --near lat,lon checks the draft floodplains
 python3 starters/aquifer-today/main.py                # J-17 level, 10-day average, springflow
 python3 starters/funded-projects/main.py --flooding   # the MPO's funded projects; --flooding for exposed streets

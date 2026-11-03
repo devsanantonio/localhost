@@ -24,6 +24,7 @@ Every starter takes `--json` and prints one JSON object with its credit line. Pr
 | Next scheduled buses at a stop | `via-next-bus` |
 | Acequias, 1718 onward | `acequias` |
 | San Antonio in 1896–97 | `san-antonio-1897` |
+| The economy against peer metros: GDP, industries, business owners, graduates | `how-we-compare` |
 | Creek and river levels now; draft floodplains | `creek-levels` |
 | The aquifer level, drought trigger, springflow | `aquifer-today` |
 | Funded road and transit projects; flood-exposed streets | `funded-projects` |

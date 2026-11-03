@@ -36,6 +36,7 @@ python3 main.py && open map.html     # macOS; see the starter for Windows and Li
 | [**Permits near you**](starters/permits-near-you) | City of San Antonio | Every building permit around a point since 2025, biggest first, with how long each took to issue. One SQL query to the City's API. |
 | [**311 by district**](starters/311-by-district) | City of San Antonio | Half a million service calls, counted server-side in about two seconds. What each district calls about, and how often it closes late. |
 | [**Next bus**](starters/via-next-bus) | VIA | Type a stop, get the next buses. The bones of a departure board, a bot, or the transit app you wish existed. |
+| [**How we compare**](starters/how-we-compare) | City of San Antonio | San Antonio's economy beside seven peer metros: GDP growth, target industries, who owns the businesses, what the colleges graduate. |
 | [**Creek levels**](starters/creek-levels) | USGS · River Authority | The river and San Pedro Creek right now, every 15 minutes, and whether a point sits in the River Authority's draft floodplains. Not a flood warning. |
 | [**The aquifer today**](starters/aquifer-today) | Edwards Aquifer Authority · USGS | The J-17 well's level and 10-day average, the drought trigger it sits under, and springflow at Comal and San Marcos Springs. |
 | [**Funded projects**](starters/funded-projects) | Alamo Area MPO | The region's 68 funded road and transit projects for 2027–2030, totaled by the server, and the streets most exposed to a 100-year flood. |
@@ -46,6 +47,16 @@ python3 main.py && open map.html     # macOS; see the starter for Windows and Li
 Each one is a single Python file using only the standard library, short enough to read before you run it. Every one takes `--json`, so you can pipe its answer into your own code, a GitHub Action or an agent. Read it, break it, take it somewhere.
 
 A GitHub Action runs every starter against the live sources each week and opens an issue if one breaks. The results, and a catalog of every public layer, are in [`data/`](data).
+
+## Start with a question
+
+Three kinds of data, each one command away:
+
+```sh
+python3 starters/311-by-district/main.py --district 5     # what people ask the City for
+python3 starters/how-we-compare/main.py --owners          # how San Antonio's economy compares
+python3 starters/funded-projects/main.py                  # where the region's road money goes
+```
 
 ## What to build
 

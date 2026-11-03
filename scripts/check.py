@@ -20,6 +20,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CASES = [
     ("311-by-district", [], ["City of San Antonio"]),
     ("permits-near-you", ["--meters", "60"], ["City of San Antonio"]),
+    ("how-we-compare", ["--owners"], ["City of San Antonio"]),
     ("acequias", [], ["Bexar County"]),
     ("san-antonio-1897", [], ["Bexar County"]),
     ("via-next-bus", ["houston & st mary", "--count", "3"], ["VIA Metropolitan Transit"]),

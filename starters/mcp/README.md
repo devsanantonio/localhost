@@ -1,6 +1,6 @@
 # MCP: San Antonio's open data, as tools for your agent
 
-The [Model Context Protocol](https://modelcontextprotocol.io) lets a coding agent call tools. This is a small MCP server, one standard-library Python file like every starter here, that gives your agent four:
+The [Model Context Protocol](https://modelcontextprotocol.io) lets a coding agent call tools. This is a small MCP server, one standard-library Python file like every starter here, that gives your agent (Claude Code, OpenAI Codex, Cursor or any other MCP client) four:
 
 | Tool | What it does |
 |---|---|
@@ -17,6 +17,20 @@ It runs on your machine, with your agent, on your own model account. Nothing is 
 
 ```sh
 claude mcp add localhost-210 -- python3 /path/to/localhost/starters/mcp/main.py
+```
+
+**OpenAI Codex**
+
+```sh
+codex mcp add localhost-210 -- python3 /path/to/localhost/starters/mcp/main.py
+```
+
+or in `~/.codex/config.toml`:
+
+```toml
+[mcp_servers.localhost-210]
+command = "python3"
+args = ["/path/to/localhost/starters/mcp/main.py"]
 ```
 
 **Claude Desktop, Cursor and others** that take a JSON config:
