@@ -7,6 +7,8 @@
 
 **Seven APIs. No one place to find them. This is the place.**
 
+localhost:210 turns San Antonio's open data into answers you can check.
+
 ```
 guest@devsa ~ % curl localhost:210
 
@@ -21,6 +23,21 @@ guest@devsa ~ % curl localhost:210
 Seven public agencies publish San Antonio's data in the open: the City, Bexar County, VIA, the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio and the Edwards Aquifer Authority. Each runs its own portal, with its own rules, and almost nobody builds with any of it, because there's no obvious place to start. This repo brings all seven together: what each one publishes, how to use it without breaking its rules, a list of every dataset they put out, and a small working program for each.
 
 Three experiments built from it are at [devsa.community/localhost](https://www.devsa.community/localhost).
+
+## How it works
+
+Six steps take a dataset to an answer you can check. This repo does the first two for all seven agencies today. The rest is what we're building next, in the open.
+
+| | Step | What happens | Where it lives |
+|---|---|---|---|
+| 1 | **Find** | Every dataset all seven publish, in one list, rebuilt every Monday by a GitHub Action | [`data/`](data) |
+| 2 | **Fetch** | A small program for each agency, run against its live source every week, so a broken source opens an issue | [`starters/`](starters) |
+| 3 | **Ask** | A question in plain English, to an AI agent that picks the right programs to answer it | [`starters/mcp`](starters/mcp) · *early* |
+| 4 | **Run** | Any code the agent writes to answer, run in a sandbox, never on your machine | *next* |
+| 5 | **Show** | The answer, with the code that made it and the agency it came from, so anyone can check it | *next* |
+| 6 | **Return** | What you build goes in the [showcase](SHOWCASE.md); what's wrong with the data goes in an [issue](https://github.com/devsanantonio/localhost/issues), and on to the agencies | [`SHOWCASE.md`](SHOWCASE.md) |
+
+**Where this is going:** anyone in San Antonio can ask their city's data a question, get an answer they can check, and the problems they find make it back to the people who publish it. Not an app: a habit, and the tools to make it easy.
 
 ## Start
 
@@ -50,13 +67,13 @@ Plus the **U.S. Geological Survey**'s live gauges on the river and San Pedro Cre
 
 **[SOURCES.md](SOURCES.md)** is the full guide: what each agency publishes, the field names, and how to query each API. **[ATTRIBUTION.md](ATTRIBUTION.md)** has the exact credit line for each, to copy.
 
-## Every dataset, in one list
+## 1 · Find: every dataset, in one list
 
 [`data/catalog.json`](data) lists every public dataset from all seven, with its address, when it was last updated and its credit line, rebuilt every Monday by a GitHub Action. The same run checks every starter against its live source and opens an issue if one breaks.
 
 To search it from the command line: `python3 starters/peek/main.py --find flood`. Peek searches every publisher at once, then shows any dataset's fields and first rows.
 
-## The starters
+## 2 · Fetch: the starters
 
 | Starter | Source | Build from it |
 |---|---|---|
@@ -73,6 +90,12 @@ To search it from the command line: `python3 starters/peek/main.py --find flood`
 | [**Peek**](starters/peek) | All seven | Search every publisher's datasets for a word, then see any one's fields and first rows. The way into the agencies nobody links to. |
 | [**MCP**](starters/mcp) | All seven | San Antonio's open data as tools for your own coding agent: Claude Code, Codex, Cursor. One line of config. |
 
+## 3 · Ask: bring your own agent
+
+Using a coding agent? It's welcome here. [AGENTS.md](AGENTS.md) gives it the sources, the commands and the ground rules, so what it builds follows the same rules you would. Claude Code also picks up [the localhost skill](.claude/skills/localhost/SKILL.md) on its own, and [the MCP starter](starters/mcp) gives any agent the starters as tools.
+
+**Next, steps 4 and 5:** an agent template you can ask in plain English. It writes the Python to answer, runs it in a sandbox rather than on your machine, and hands back the answer, a chart and the code. It isn't built yet; when it is, it'll be in `agents/`, with what it needs and what it costs said up front, since unlike the starters it will need an account and a model.
+
 ## What to build
 
 Starters are the first commit, not the project. A few directions, any of which would be a strong portfolio piece or a Build-and-tell Friday post. Most are [open issues](https://github.com/devsanantonio/localhost/issues), so you can claim one:
@@ -86,8 +109,6 @@ Starters are the first commit, not the project. A few directions, any of which w
 - **One district, every publisher.** Pick a district, say Downtown West, and put permits, bond projects, flood-exposed streets, bike stress and bus stops on one page.
 - **Something we haven't thought of.** Most of what's in [the catalog](data) has never been charted by anyone outside the agency that published it.
 
-Using a coding agent? It's welcome here. [AGENTS.md](AGENTS.md) gives it the sources, the commands and the ground rules, so what it builds follows the same rules you would. Claude Code also picks up [the localhost skill](.claude/skills/localhost/SKILL.md) on its own, and [the MCP starter](starters/mcp) gives any agent the data as tools.
-
 Maintained by [DEVSA](https://www.devsa.community), the nonprofit that connects the people building San Antonio tech. DEVSA isn't affiliated with any of these agencies, and nothing here speaks for them. The data is theirs. This is the way in.
 
 ## Build with care
@@ -98,7 +119,7 @@ Some of this data is about people. A few lines we hold to, and ask contributors 
 - **The 1897 directory is about real people.** It records names, jobs and, in the language of the time, race. Treat it as history — what the city was, who built it — not as a lookup of individuals.
 - **Credit every source, every time.** It's the license, and it's how the people who publish this data find out it's being used.
 
-## Show us what you built
+## 6 · Return: show us what you built, tell us what's wrong
 
 Built something with San Antonio data? Add it to [SHOWCASE.md](SHOWCASE.md) with a pull request: one line, a link to your repo or demo, and which sources it uses. Then share it in **#build-and-tell** on the [DEVSA Discord](https://www.devsa.community/discord) on a Friday.
 
