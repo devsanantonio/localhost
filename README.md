@@ -34,7 +34,7 @@ Six steps take a dataset to an answer you can check. This repo does the first tw
 |---|---|---|---|
 | 1 | **Find** | Every dataset all seven publish, in one list, rebuilt every Monday by a GitHub Action | [`data/`](data) |
 | 2 | **Fetch** | A small program for each agency, run against its live source every week, so a broken source opens an issue | [`starters/`](starters) |
-| 3 | **Ask** | A question in plain English, to an AI agent that picks the right programs to answer it | [`starters/mcp`](starters/mcp) · *early* |
+| 3 | **Ask** | A question in plain English, to an AI agent that picks the right programs to answer it | [`starters/mcp`](starters/mcp) · [Ask your data](https://github.com/devsanantonio/agent-patterns/tree/main/ask-your-data) · *new* |
 | 4 | **Run** | Any code the agent writes to answer, run in a sandbox, never on your machine | *next* |
 | 5 | **Show** | The answer, with the code that made it and the agency it came from, so anyone can check it | *next* |
 | 6 | **Return** | What you build goes in the [showcase](SHOWCASE.md); what's wrong with the data goes in an [issue](https://github.com/devsanantonio/localhost/issues), and on to the agencies | [`SHOWCASE.md`](SHOWCASE.md) |
@@ -96,7 +96,9 @@ To search it from the command line: `python3 starters/peek/main.py --find flood`
 
 Using a coding agent? It's welcome here. [AGENTS.md](AGENTS.md) gives it the sources, the commands and the ground rules, so what it builds follows the same rules you would. Claude Code also picks up [the localhost skill](.claude/skills/localhost/SKILL.md) on its own, and [the MCP starter](starters/mcp) gives any agent the starters as tools.
 
-**Next, steps 4 and 5:** an agent template you can ask in plain English. It writes the Python to answer, runs it in a sandbox rather than on your machine, and hands back the answer, a chart and the code. It isn't built yet; when it is, it'll be in `agents/`, with what it needs and what it costs said up front, since unlike the starters it will need an account and a model.
+**Or ask in a web chat.** [Ask your data](https://github.com/devsanantonio/agent-patterns/tree/main/ask-your-data), in DEVSA's [agent-patterns](https://github.com/devsanantonio/agent-patterns) repo, is an agent built on [eve](https://eve.dev) that answers from this repo: it runs a starter when one fits, searches the catalog when none does, and ends every answer with the agency's credit line. It carries a pinned copy of these starters and these rules, so it answers the way they do. It needs a free Vercel account and pays a few cents of model time per question.
+
+**Next, steps 4 and 5:** an agent template you can ask in plain English. It writes the Python to answer, runs it in a sandbox rather than on your machine, and hands back the answer, a chart and the code. It isn't built yet; when it is, it'll be in [agent-patterns](https://github.com/devsanantonio/agent-patterns) next to Ask your data, with what it needs and what it costs said up front.
 
 ## What to build
 
