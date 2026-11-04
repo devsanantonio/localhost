@@ -12,8 +12,9 @@ Starters and documentation for building with San Antonio's open data: the City o
 python3 starters/311-by-district/main.py              # prints a table
 python3 starters/311-by-district/main.py --district 5
 python3 starters/via-next-bus/main.py "houston & st mary"
-python3 starters/san-antonio-1897/main.py             # writes map.html and places-1897.geojson
 python3 starters/acequias/main.py                     # prints nearby ditches; writes map.html and acequias.geojson
+python3 starters/acequias/main.py --1897              # the 1896-97 city; writes map-1897.html and places-1897.geojson
+python3 starters/who-represents-me/main.py --address "100 Military Plaza, San Antonio, TX"   # every district, City Council to Congress
 python3 starters/permits-near-you/main.py --meters 60
 python3 starters/peek/main.py --find flood            # search every publisher's layers
 python3 starters/peek/main.py <layer address>         # fields and first rows of any ArcGIS layer
@@ -22,7 +23,7 @@ python3 starters/how-we-compare/main.py --owners      # the economy against seve
 python3 starters/creek-levels/main.py                 # live USGS gauges; --near lat,lon checks the draft floodplains
 python3 starters/aquifer-today/main.py                # J-17 level, 10-day average, springflow
 python3 starters/funded-projects/main.py --flooding   # the MPO's funded projects; --flooding for exposed streets
-python3 starters/low-water-crossings/main.py          # nearest crossings; writes map.html
+python3 starters/housing-near-you/main.py --bus      # Opportunity Home communities nearest a point, and bus service
 python3 starters/mcp/main.py                          # an MCP server over stdio (see starters/mcp/README.md)
 ```
 
@@ -53,7 +54,9 @@ These are not style preferences. Two are license terms, and the rest are this re
 4. **No neighborhood crime rankings.** Don't build anything that ranks or scores areas from the SAPD datasets.
 5. **Leave survey and feedback layers alone.** Some publishers' public layers hold what people submitted through forms, sometimes with names and addresses. Don't query or republish them.
 6. **The 1897 Residence and Employment layers record real people, with race.** Use them for history in aggregate, never as a lookup of individuals.
-7. **The flood starters are not warnings.** `creek-levels` and `low-water-crossings` show readings and places, not whether it is safe. Anything built on them says so and points to weather.gov/ewx and BexarFlood.org.
+7. **The flood starters are not warnings.** `creek-levels` and `funded-projects --flooding` show readings and places, not whether it is safe. Anything built on them says so and points to weather.gov/ewx and BexarFlood.org.
+8. **Districts are data; names are a convenience.** `who-represents-me` is sure of which districts a point is in. The officeholders' names are what the County's maps list (`map_lists` in its JSON), and they can be years out of date. Never present one as fact without checking it.
+9. **Housing is people's homes.** `housing-near-you` lists communities and counts homes. Never pair it with police or crime data to rank places, and never single out residents.
 
 If a request would break one of these, say which one and suggest an alternative instead of building it.
 

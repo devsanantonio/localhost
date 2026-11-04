@@ -30,7 +30,9 @@ INSTRUCTIONS = """Tools for San Antonio's open data, from devsanantonio/localhos
 4. No rankings or scores of neighborhoods from police (SAPD) data.
 5. Leave survey and feedback layers alone; they can hold people's names and addresses.
 6. The 1897 Residence and Employment layers are about real people: use them for history in aggregate only.
-7. creek-levels and low-water-crossings are not flood warnings. Point people to weather.gov/ewx and BexarFlood.org.
+7. creek-levels and funded-projects --flooding are not flood warnings. Point people to weather.gov/ewx and BexarFlood.org.
+8. who-represents-me is sure of districts, not names: its names are what the County's maps list, and can be years stale. Say so.
+9. housing-near-you lists people's homes: never pair it with police or crime data, and never single out residents.
 If a request would break one of these, say which rule and suggest an alternative."""
 
 

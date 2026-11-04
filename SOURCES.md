@@ -11,7 +11,7 @@ Not sure where something lives? `python3 starters/peek/main.py --find <word>` se
 - **VIA Metropolitan Transit** publishes **the buses**: every route, stop and scheduled trip, and live positions.
 - **San Antonio River Authority** publishes **the river and creeks**: floodplains, water quality, the Mission Reach.
 - **Alamo Area MPO** publishes **where the region's roads are going**: funded projects, flood-exposed roads, bike stress.
-- **Opportunity Home San Antonio** publishes **public housing**: its communities by district, and low water crossings.
+- **Opportunity Home San Antonio** publishes **public and affordable housing**: its 135 communities, who each is for, homes and bedrooms, by council district.
 - **Edwards Aquifer Authority** publishes **the water underneath**: the aquifer's level, springflow and drought stage.
 
 The best projects usually combine them: the City's 311 calls divided by the County's census population, or the County's 1896 buildings beside the City's historic landmarks.
@@ -105,7 +105,7 @@ Every layer is an ArcGIS feature or map service. Find a layer's service address 
 .../MapServer/0/query?geometry=-98.4936,29.4241&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&f=json
 ```
 
-Services return at most 1,000 to 2,000 features per request: page with `resultOffset` until `exceededTransferLimit` is false. The `san-antonio-1897` starter shows how.
+Services return at most 1,000 to 2,000 features per request: page with `resultOffset` until `exceededTransferLimit` is false. The `acequias --1897` starter shows how.
 
 ---
 

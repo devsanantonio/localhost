@@ -15,6 +15,8 @@ guest@devsa ~ % curl localhost:210
   → the next real bus from any VIA stop, every scheduled trip
   → every building permit since 2025: what, where, how much, how long it took
   → San Antonio against its peer cities: growth, who owns the businesses
+  → who represents any address, City Council to Congress
+  → 135 housing communities, and how often a bus comes by
   → the river, the creeks and the aquifer, live
   → the acequias from 1718, and 4,200 places from 1897
   → 7 publishers · one catalog, rebuilt every Monday · no API keys
@@ -56,11 +58,11 @@ Then pick any starter below. Each one is a single Python file using only the sta
 | Publisher | What only it has | Terms | Starters |
 |---|---|---|---|
 | **[City of San Antonio](https://data.sanantonio.gov)** | 311 calls, building permits, zoning, bond projects, the economy beside peer metros | CC BY 4.0 | [permits-near-you](starters/permits-near-you), [311-by-district](starters/311-by-district), [how-we-compare](starters/how-we-compare) |
-| **[Bexar County](https://gis-bexar.opendata.arcgis.com)** | Census geography, schools, voting districts, and the city in 1718 and 1896–97 | Per dataset, in each layer's description | [acequias](starters/acequias), [san-antonio-1897](starters/san-antonio-1897) |
+| **[Bexar County](https://gis-bexar.opendata.arcgis.com)** | Every district people vote in, census population, schools, and the city in 1718 and 1896–97 | Per dataset, in each layer's description | [who-represents-me](starters/who-represents-me), [acequias](starters/acequias) |
 | **[VIA Metropolitan Transit](https://www.viainfo.net/developers-resources/)** | Every route, stop and scheduled trip, and live bus positions | VIA's developer license: uses that help riders, no VIA logos | [via-next-bus](starters/via-next-bus) |
 | **[San Antonio River Authority](https://sariverauthority-sara-tx.opendata.arcgis.com)** | Floodplains, water quality, the Mission Reach | Its own; cite the date you retrieved the data | [creek-levels](starters/creek-levels) |
 | **[Alamo Area MPO](https://aampo-openmap-nexus-mpo.hub.arcgis.com)** | Funded road and transit projects, flood-exposed roads, bike stress | As-is disclaimer | [funded-projects](starters/funded-projects) |
-| **Opportunity Home San Antonio** | Housing communities by district, low water crossings | Informational use | [low-water-crossings](starters/low-water-crossings) |
+| **Opportunity Home San Antonio** | 135 public and affordable housing communities: who each is for, homes, bedrooms, district | Informational use | [housing-near-you](starters/housing-near-you) |
 | **[Edwards Aquifer Authority](https://data.edwardsaquifer.org)** | The aquifer's daily level, springflow, drought stage | Informational use, per layer | [aquifer-today](starters/aquifer-today) |
 
 Plus the **U.S. Geological Survey**'s live gauges on the river and San Pedro Creek, every 15 minutes, in the public domain.
@@ -84,9 +86,9 @@ To search it from the command line: `python3 starters/peek/main.py --find flood`
 | [**Funded projects**](starters/funded-projects) | Alamo Area MPO | The region's 68 funded road and transit projects for 2027–2030, totaled by the server, and the streets most exposed to a 100-year flood. |
 | [**Creek levels**](starters/creek-levels) | USGS · River Authority | The river and San Pedro Creek right now, every 15 minutes, and whether a point sits in the River Authority's draft floodplains. Not a flood warning. |
 | [**The aquifer today**](starters/aquifer-today) | Edwards Aquifer Authority · USGS | The J-17 well's level and 10-day average, the drought trigger it sits under, and springflow at Comal and San Marcos Springs. |
-| [**Low water crossings**](starters/low-water-crossings) | Opportunity Home San Antonio | The 156 crossings inside the FEMA floodplain, nearest first, on a map. Not a flood warning. |
-| [**Acequias**](starters/acequias) | Bexar County | The Spanish irrigation ditches San Antonio grew around, each with the year it was dug and the year it went dry. Which ran near you, and a map with a year slider. |
-| [**San Antonio, 1896–97**](starters/san-antonio-1897) | Bexar County | A map of the city about 130 years ago: saloons, wagon yards, breweries, schools, over today's streets. Data almost no other city has. |
+| [**Housing near you**](starters/housing-near-you) | Opportunity Home San Antonio · VIA | The housing authority's communities nearest a point: who each is for, homes and bedrooms, the year built. `--bus` adds how many buses an hour stop within a quarter mile. |
+| [**Who represents me**](starters/who-represents-me) | Bexar County · City of San Antonio | Every district an address sits in, City Council to Congress, and the 2020 Census population around it. Takes a street address. |
+| [**History: acequias and 1896–97**](starters/acequias) | Bexar County | The Spanish irrigation ditches from 1718, with a year slider; `--1897` maps 4,200 places from the 1896–97 city over today's streets. Data almost no other city has. |
 | [**Peek**](starters/peek) | All seven | Search every publisher's datasets for a word, then see any one's fields and first rows. The way into the agencies nobody links to. |
 | [**MCP**](starters/mcp) | All seven | San Antonio's open data as tools for your own coding agent: Claude Code, Codex, Cursor. One line of config. |
 

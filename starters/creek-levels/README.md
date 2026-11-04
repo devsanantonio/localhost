@@ -27,7 +27,7 @@ San Pedro Ck at Furnish St, San Antonio, TX (USGS 08178500) · 2026-11-02 16:00
 
 ## Where to take it
 
-- **When it rains.** Put these gauges beside the Alamo Area MPO's flood-exposed roads (`funded-projects --flooding`) and the low water crossings (`low-water-crossings`).
+- **When it rains.** Put these gauges beside the Alamo Area MPO's flood-exposed roads (`funded-projects --flooding`), and the 156 low water crossings Opportunity Home maps in the FEMA floodplain (find them with `peek --find "low water"`).
 - **A rise chart.** `period=P7D` returns a week of 15-minute readings. Draw both creeks on one chart.
 - **More gauges.** Search waterdata.usgs.gov for "San Antonio, TX". Salado, Leon and Olmos creeks all have them.
 
