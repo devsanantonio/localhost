@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-02T23:56:32+00:00",
- "count": 1599,
+ "generated": "2026-11-09T13:02:04+00:00",
+ "count": 1600,
  "by_publisher": {
   "City of San Antonio": 775,
   "Bexar County": 375,
   "Alamo Area MPO": 209,
-  "Edwards Aquifer Authority": 126,
+  "Edwards Aquifer Authority": 127,
   "San Antonio River Authority": 99,
   "Opportunity Home San Antonio": 12,
   "VIA Metropolitan Transit": 2,
   "U.S. Geological Survey": 1
  },
  "by_kind": {
-  "Map layer": 1543,
+  "Map layer": 1544,
   "Table": 52,
   "Download": 2,
   "Live feed": 2
@@ -3759,22 +3759,22 @@
    "kind": "Map layer"
   },
   {
-   "title": "Levi Strauss Park Trails",
-   "publisher": "City of San Antonio",
-   "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/Levi_Strauss_Park_Trails/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-03-22",
-   "summary": "Levi Strauss Park Trails for Pride Hike 2022",
-   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
-   "kind": "Map layer"
-  },
-  {
    "title": "Comanche Lookout Park Trails v2_WFL1",
    "publisher": "City of San Antonio",
    "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/Comanche_Lookout_Park_Trails_v2_WFL1/FeatureServer",
    "type": "Feature Service",
    "modified": "2023-03-22",
    "summary": "Comanche Lookout Park Trails for Pride Hike 2022",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Levi Strauss Park Trails",
+   "publisher": "City of San Antonio",
+   "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/Levi_Strauss_Park_Trails/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2023-03-22",
+   "summary": "Levi Strauss Park Trails for Pride Hike 2022",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
    "kind": "Map layer"
   },
@@ -7489,22 +7489,22 @@
    "kind": "Map layer"
   },
   {
-   "title": "Bite and Aggression Calls 10.1.25_3.31.26",
-   "publisher": "Bexar County",
-   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/Bite_and_Aggression_Calls_10.1.25_3.31.26/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-08-06",
-   "summary": "Bite and Aggression Calls from Wufoo and GovPilot",
-   "credit": "Data: Bexar County Information Technology GIS",
-   "kind": "Map layer"
-  },
-  {
    "title": "Animal Control Calls 10.1.25_3.31.26",
    "publisher": "Bexar County",
    "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/Animal_Control_Calls_10.1.25_3.31.26/FeatureServer",
    "type": "Feature Service",
    "modified": "2026-08-06",
    "summary": "All calls agreggated from wufoo and govpilot for the following dates 10.1.25 - 3.31.26",
+   "credit": "Data: Bexar County Information Technology GIS",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Bite and Aggression Calls 10.1.25_3.31.26",
+   "publisher": "Bexar County",
+   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/Bite_and_Aggression_Calls_10.1.25_3.31.26/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-08-06",
+   "summary": "Bite and Aggression Calls from Wufoo and GovPilot",
    "credit": "Data: Bexar County Information Technology GIS",
    "kind": "Map layer"
   },
@@ -10389,22 +10389,22 @@
    "kind": "Map layer"
   },
   {
-   "title": "ShawneeTrail",
-   "publisher": "Bexar County",
-   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/ShawneeTrail_94f4450eace44d03bd4127c22504cfed/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-11-19",
-   "summary": "Shawnee Trail",
-   "credit": "Data: Bexar County Information Technology GIS",
-   "kind": "Map layer"
-  },
-  {
    "title": "precip1961_1990_a_tx",
    "publisher": "Bexar County",
    "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/precip1961_1990_a_tx_d77477a4df6d4dc09f74e32303bb4626/FeatureServer",
    "type": "Feature Service",
    "modified": "2020-11-19",
    "summary": "Average Annual Precipitation (PRISM model) 1961 - 1990",
+   "credit": "Data: Bexar County Information Technology GIS",
+   "kind": "Map layer"
+  },
+  {
+   "title": "ShawneeTrail",
+   "publisher": "Bexar County",
+   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/ShawneeTrail_94f4450eace44d03bd4127c22504cfed/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2020-11-19",
+   "summary": "Shawnee Trail",
    "credit": "Data: Bexar County Information Technology GIS",
    "kind": "Map layer"
   },
@@ -10559,22 +10559,22 @@
    "kind": "Map layer"
   },
   {
-   "title": "Regions_of_Sale",
-   "publisher": "Bexar County",
-   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/Regions_of_Sale/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-11-05",
-   "summary": null,
-   "credit": "Data: Bexar County Information Technology GIS",
-   "kind": "Map layer"
-  },
-  {
    "title": "EmbarkedRegions",
    "publisher": "Bexar County",
    "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/EmbarkedRegions/FeatureServer",
    "type": "Feature Service",
    "modified": "2020-11-05",
    "summary": "Regions from which enslaved peoples were forced to embark as part of the Trans-atlantic slave trade",
+   "credit": "Data: Bexar County Information Technology GIS",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Regions_of_Sale",
+   "publisher": "Bexar County",
+   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/Regions_of_Sale/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2020-11-05",
+   "summary": null,
    "credit": "Data: Bexar County Information Technology GIS",
    "kind": "Map layer"
   },
@@ -14119,22 +14119,22 @@
    "kind": "Map layer"
   },
   {
-   "title": "Beacon Developments",
-   "publisher": "Opportunity Home San Antonio",
-   "url": "https://services2.arcgis.com/nH68joXCaOE0Iiws/arcgis/rest/services/OpportunityHome_MFDevelopments_3_view/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-07-23",
-   "summary": "Multi-family housing communities owned and/or managed by Beacon Communities.",
-   "credit": "Data: Opportunity Home San Antonio",
-   "kind": "Map layer"
-  },
-  {
    "title": "Partnerships Developments",
    "publisher": "Opportunity Home San Antonio",
    "url": "https://services2.arcgis.com/nH68joXCaOE0Iiws/arcgis/rest/services/Partnerships/FeatureServer",
    "type": "Feature Service",
    "modified": "2025-07-23",
    "summary": "Partnerships multi-family housing communities owned and/or managed by Opportunity Home San Antonio and its affiliates.",
+   "credit": "Data: Opportunity Home San Antonio",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Beacon Developments",
+   "publisher": "Opportunity Home San Antonio",
+   "url": "https://services2.arcgis.com/nH68joXCaOE0Iiws/arcgis/rest/services/OpportunityHome_MFDevelopments_3_view/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2025-07-23",
+   "summary": "Multi-family housing communities owned and/or managed by Beacon Communities.",
    "credit": "Data: Opportunity Home San Antonio",
    "kind": "Map layer"
   },
@@ -14196,6 +14196,26 @@
    "modified": "2020-03-05",
    "summary": "internal use only",
    "credit": "Data: Opportunity Home San Antonio",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Gauging Site System",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Gauging_Site_Locations/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-05",
+   "summary": "All active and historical EAA continuous data collection sites",
+   "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Additional Springs",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Additional_Springs/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-04",
+   "summary": "Several springs found in the Southern Segment of the Edwards Aquifer, not including major springs such as the Comal and San Marcos Springs or major springs in the Barton Springs or Northern Segments.",
+   "credit": "Data: Edwards Aquifer Authority",
    "kind": "Map layer"
   },
   {
@@ -14415,16 +14435,6 @@
    "type": "Feature Service",
    "modified": "2026-08-28",
    "summary": null,
-   "credit": "Data: Edwards Aquifer Authority",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Gauging Site System",
-   "publisher": "Edwards Aquifer Authority",
-   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Gauging_Site_Locations/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-08-27",
-   "summary": "All active and historical EAA continuous data collection sites",
    "credit": "Data: Edwards Aquifer Authority",
    "kind": "Map layer"
   },
@@ -14949,16 +14959,6 @@
    "kind": "Map layer"
   },
   {
-   "title": "2012_0611_SMHeadwaters_NAIP",
-   "publisher": "Edwards Aquifer Authority",
-   "url": "https://tiles.arcgis.com/tiles/p0kPTvyvhLmiT5Ha/arcgis/rest/services/2012_0611_SMHeadwaters_NAIP/MapServer",
-   "type": "Map Service",
-   "modified": "2022-07-08",
-   "summary": "NAIP imagery collected on June 11, 2012 and clipped to the San Marcos River headwaters.",
-   "credit": "Data: Edwards Aquifer Authority",
-   "kind": "Map layer"
-  },
-  {
    "title": "SM Spring Lake and Spring Lake dam extent boundary",
    "publisher": "Edwards Aquifer Authority",
    "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SM_Headwaters_Extent/FeatureServer",
@@ -14969,12 +14969,32 @@
    "kind": "Map layer"
   },
   {
+   "title": "2012_0611_SMHeadwaters_NAIP",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://tiles.arcgis.com/tiles/p0kPTvyvhLmiT5Ha/arcgis/rest/services/2012_0611_SMHeadwaters_NAIP/MapServer",
+   "type": "Map Service",
+   "modified": "2022-07-08",
+   "summary": "NAIP imagery collected on June 11, 2012 and clipped to the San Marcos River headwaters.",
+   "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer"
+  },
+  {
    "title": "SMR_poly",
    "publisher": "Edwards Aquifer Authority",
    "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SMR_poly/FeatureServer",
    "type": "Feature Service",
    "modified": "2022-07-08",
    "summary": "San Marcos River polygon",
+   "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Texas Counties",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Texas_Counties/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2022-07-08",
+   "summary": "Texas Counties",
    "credit": "Data: Edwards Aquifer Authority",
    "kind": "Map layer"
   },
@@ -14995,16 +15015,6 @@
    "type": "Feature Service",
    "modified": "2022-07-08",
    "summary": "Comal River and Landa Lake",
-   "credit": "Data: Edwards Aquifer Authority",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Texas Counties",
-   "publisher": "Edwards Aquifer Authority",
-   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/Texas_Counties/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-07-08",
-   "summary": "Texas Counties",
    "credit": "Data: Edwards Aquifer Authority",
    "kind": "Map layer"
   },
@@ -15454,7 +15464,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/good-neighbor-engagement-events",
-   "modified": "2026-11-02",
+   "modified": "2026-11-09",
    "summary": "This data set contains community input about top public safety of concerns in their neighborhood. The public has the opportunity to voice their concerns to the City of San Antonio via scheduled eve\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15464,7 +15474,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/sapd-offenses",
-   "modified": "2026-11-02",
+   "modified": "2026-11-09",
    "summary": "Police offense reports data",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15474,7 +15484,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/sapd-arrests",
-   "modified": "2026-11-02",
+   "modified": "2026-11-09",
    "summary": "Police arrest reports data",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15484,7 +15494,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/daily-shelter-intake",
-   "modified": "2026-11-02",
+   "modified": "2026-11-09",
    "summary": "Performance Measures show the most recent data on critical metrics relevant to services and operations at the City of San Antonio. It shows the City's response to community challenges. This data he\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15494,7 +15504,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/preliminary-plan-reviews",
-   "modified": "2026-11-01",
+   "modified": "2026-11-08",
    "summary": "Preliminary Development Plan Review (PDPR) and Preliminary Plan Review (PPR) meetings offer opportunities for the owner and/or owner\u2019s agent(s) to meet with Development Services staff to discuss fu\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15504,7 +15514,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/building-permits",
-   "modified": "2026-11-01",
+   "modified": "2026-11-08",
    "summary": "The City requires permits for commercial and residential development, such as new single-family homes, commercial construction, remodels, additions and related activity like trade (mechanical, elec\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15514,7 +15524,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/service-calls",
-   "modified": "2026-11-01",
+   "modified": "2026-11-08",
    "summary": "311 Customer Service connects citizens with specially-trained customer service representatives ready to assist and facilitate City services including animals, potholes, solid waste collection, prop\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15524,7 +15534,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/sapd-calls-for-service",
-   "modified": "2026-10-06",
+   "modified": "2026-11-04",
    "summary": "Police calls for service within SAPD jurisdiction",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15534,7 +15544,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/fire-department-calls-for-service",
-   "modified": "2026-10-06",
+   "modified": "2026-11-04",
    "summary": "Fire calls for service within SAFD jurisdiction",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15544,7 +15554,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/fire-department-inspections",
-   "modified": "2026-10-06",
+   "modified": "2026-11-04",
    "summary": "Fire inspection report data",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15554,7 +15564,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/fire-department-arson-investigations",
-   "modified": "2026-10-06",
+   "modified": "2026-11-04",
    "summary": "Fire arson report data",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15754,7 +15764,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/cosa-gis-covid-hub",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "DO NOT DELETE OR MODIFY THIS ITEM. This item is managed by the ArcGIS Hub application. To make changes to this site, please visit https://hub.arcgis.com/admin/",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15774,7 +15784,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-weekly-surveillance-data-public",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b><div style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15784,7 +15794,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-weekly-lab-testing-public",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b><div><br /></div><div>Weekly COVID-19 lab testing of San Antonio residents. Provided by San Antonio Metropolitan Health D\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15794,7 +15804,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/vaccinations-county-stats-public-share",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<span style='font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, sans-serif; font-size:14px;'>This table contains the data of individuals that ha\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15804,7 +15814,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/vaccinations-weekly-totals-public-share",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<span style='font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, sans-serif; font-size:14px;'>This table contains the number of individuals vacci\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15814,7 +15824,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/vaccinations-county-stats-public",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<span style='font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, sans-serif; font-size:14px;'>This table contains the data of individuals that ha\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15824,7 +15834,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-vaccination-data",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "The City of San Antonio's Open Data page for CoVID-19 vaccination data.",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15834,7 +15844,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-surveillance-data",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "The City of San Antonio's Open Data page for CoVID-19 surveillance data.",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15844,7 +15854,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-daily-surveillance-data-public",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<div style='font-variant-numeric:normal; font-variant-east-asian:normal;'><div style='box-sizing:border-box; font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe \u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15854,8 +15864,18 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-weekly-data-public",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b><div><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, \u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
+  },
+  {
+   "title": "CoVID19 Deaths by Zip Code",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid19-deaths-by-zip-code",
+   "modified": "2026-11-04",
+   "summary": "<div style='font-size:medium; font-variant-numeric:normal; font-variant-east-asian:normal;'>This data set provides categories of confirmed positive CoVID-19 cases by zip code, as they appear of the\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
   {
@@ -15864,7 +15884,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid19-deaths-byzipcode-lessthan5",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "{{description}}",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15874,18 +15894,8 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/bexar-county-covid-19-data-by-zip-code",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<div><b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b></div><div><br /></div><div>This data set provides positive CoVID-19 cases by zip code, as they appear of the City o\u2026",
-   "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
-  },
-  {
-   "title": "CoVID19 Deaths by Zip Code",
-   "publisher": "City of San Antonio",
-   "type": "Table",
-   "kind": "Table",
-   "url": "https://data.sanantonio.gov/dataset/covid19-deaths-by-zip-code",
-   "modified": "2026-10-28",
-   "summary": "<div style='font-size:medium; font-variant-numeric:normal; font-variant-east-asian:normal;'>This data set provides categories of confirmed positive CoVID-19 cases by zip code, as they appear of the\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
   {
@@ -15894,7 +15904,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-vaccinations-by-zipcode",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<div style='font-size:medium; font-variant-numeric:normal; font-variant-east-asian:normal;'>This data set provides Bexar County CoVID-19 resident Vaccination information, as well as confirmed posit\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15904,7 +15914,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/event-dates-public",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<div style='font-variant-numeric: normal; font-variant-east-asian: normal;'><b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b></div><div style='font-variant-numeric: norma\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15914,7 +15924,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/vaccinations-countystats-public",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "{{description}}",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15934,7 +15944,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/event-dates",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<div style='color:rgb(76, 76, 76); font-family:&amp; font-size:15px; font-style:normal; font-variant:normal; font-weight:400; letter-spacing:normal; text-align:left; text-decoration:none; text-inde\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15944,7 +15954,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/race-ethnicity-tracker",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<font style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><b>**TO DOWNLOAD THE DAT\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15954,7 +15964,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/age-groups-tracker",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "<font style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><b>**TO DOWNLOAD THE DAT\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15964,7 +15974,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-indicators",
-   "modified": "2026-10-28",
+   "modified": "2026-11-04",
    "summary": "{{description}}",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },

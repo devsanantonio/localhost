@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-03T01:03:09+00:00",
-  "ok": true,
+  "checked_at": "2026-11-09T13:02:30+00:00",
+  "ok": false,
   "publishers": [
     {
       "publisher": "City of San Antonio",
@@ -16,7 +16,7 @@
     },
     {
       "publisher": "U.S. Geological Survey",
-      "ok": true
+      "ok": false
     },
     {
       "publisher": "San Antonio River Authority",
@@ -24,7 +24,7 @@
     },
     {
       "publisher": "Edwards Aquifer Authority",
-      "ok": true
+      "ok": false
     },
     {
       "publisher": "Alamo Area MPO",
@@ -40,7 +40,7 @@
       "starter": "311-by-district",
       "args": [],
       "ok": true,
-      "seconds": 0.6,
+      "seconds": 1.1,
       "error": null,
       "publishers": [
         "City of San Antonio"
@@ -53,7 +53,7 @@
         "60"
       ],
       "ok": true,
-      "seconds": 0.6,
+      "seconds": 0.3,
       "error": null,
       "publishers": [
         "City of San Antonio"
@@ -65,7 +65,7 @@
         "--owners"
       ],
       "ok": true,
-      "seconds": 0.5,
+      "seconds": 0.3,
       "error": null,
       "publishers": [
         "City of San Antonio"
@@ -75,20 +75,33 @@
       "starter": "acequias",
       "args": [],
       "ok": true,
-      "seconds": 1.2,
+      "seconds": 0.8,
       "error": null,
       "publishers": [
         "Bexar County"
       ]
     },
     {
-      "starter": "san-antonio-1897",
-      "args": [],
+      "starter": "acequias",
+      "args": [
+        "--1897"
+      ],
       "ok": true,
-      "seconds": 2.0,
+      "seconds": 1.3,
       "error": null,
       "publishers": [
         "Bexar County"
+      ]
+    },
+    {
+      "starter": "who-represents-me",
+      "args": [],
+      "ok": true,
+      "seconds": 6.7,
+      "error": null,
+      "publishers": [
+        "Bexar County",
+        "City of San Antonio"
       ]
     },
     {
@@ -99,7 +112,7 @@
         "3"
       ],
       "ok": true,
-      "seconds": 2.5,
+      "seconds": 2.2,
       "error": null,
       "publishers": [
         "VIA Metropolitan Transit"
@@ -112,7 +125,7 @@
         "29.3270,-98.4500"
       ],
       "ok": true,
-      "seconds": 10.1,
+      "seconds": 10.0,
       "error": null,
       "publishers": [
         "U.S. Geological Survey",
@@ -122,9 +135,9 @@
     {
       "starter": "aquifer-today",
       "args": [],
-      "ok": true,
-      "seconds": 0.9,
-      "error": null,
+      "ok": false,
+      "seconds": 0.3,
+      "error": "RuntimeError: urllib.error.HTTPError: HTTP Error 500: Internal Server Error",
       "publishers": [
         "Edwards Aquifer Authority",
         "U.S. Geological Survey"
@@ -134,7 +147,7 @@
       "starter": "funded-projects",
       "args": [],
       "ok": true,
-      "seconds": 1.3,
+      "seconds": 1.0,
       "error": null,
       "publishers": [
         "Alamo Area MPO"
@@ -146,17 +159,17 @@
         "--flooding"
       ],
       "ok": true,
-      "seconds": 0.5,
+      "seconds": 1.4,
       "error": null,
       "publishers": [
         "Alamo Area MPO"
       ]
     },
     {
-      "starter": "low-water-crossings",
+      "starter": "housing-near-you",
       "args": [],
       "ok": true,
-      "seconds": 0.6,
+      "seconds": 0.9,
       "error": null,
       "publishers": [
         "Opportunity Home San Antonio"
@@ -169,7 +182,7 @@
         "flood"
       ],
       "ok": true,
-      "seconds": 0.3,
+      "seconds": 0.2,
       "error": null,
       "publishers": [
         "City of San Antonio",
