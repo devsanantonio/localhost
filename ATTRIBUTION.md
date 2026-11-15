@@ -56,6 +56,16 @@ Every dataset in this repo's starters belongs to the agency that publishes it. T
 
   > Data: Edwards Aquifer Authority
 
+## Texas Department of Transportation
+
+- **Terms:** the strictest here. Each TxDOT layer's description on [its portal](https://gis-txdot.opendata.arcgis.com) says, in full: "This data was produced for internal use and is provided for informational purposes only, and is subject to change. TxDOT makes no warranty of any kind as to the accuracy or validity of the data provided. GIS content and data provided is the property of TxDOT and may not be used for commercial purposes or resold. Distribution of this content to third parties without TxDOT's written consent is strictly prohibited." In practice:
+  - Fetch it live and explore it for yourself, as `busiest-roads` does.
+  - No commercial use, and no reselling.
+  - Don't publish what you make from it (a map, a chart, a screenshot, a table, a dataset) without TxDOT's written consent. Ask TPP-Traffic-Data@txdot.gov (traffic counts) or TPP-GIS@txdot.gov (projects and GIS).
+- **Credit line:**
+
+  > Data: Texas Department of Transportation
+
 ## U.S. Geological Survey
 
 - **Terms:** U.S. government work, in the public domain.

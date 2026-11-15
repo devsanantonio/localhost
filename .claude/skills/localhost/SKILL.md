@@ -1,11 +1,11 @@
 ---
 name: localhost
-description: San Antonio's open data from seven publishers (City of San Antonio, Bexar County, VIA, San Antonio River Authority, Alamo Area MPO, Opportunity Home, Edwards Aquifer Authority, plus USGS gauges). Use when building with or answering questions about this data, adding or changing a starter, or finding which publisher has a dataset.
+description: San Antonio's open data from eight publishers (City of San Antonio, Bexar County, VIA, San Antonio River Authority, Alamo Area MPO, Opportunity Home, Edwards Aquifer Authority, Texas Department of Transportation, plus USGS gauges). Use when building with or answering questions about this data, adding or changing a starter, or finding which publisher has a dataset.
 ---
 
 # Building with San Antonio's open data
 
-Read [AGENTS.md](../../../AGENTS.md) first. Its rules are not style preferences: two are license terms (credit lines, VIA's license) and the rest are this repo's standards (no affiliation claims, no neighborhood crime rankings, no survey layers, the 1897 people layers in aggregate only, the flood starters are not warnings). If a request would break one, say which and offer an alternative.
+Read [AGENTS.md](../../../AGENTS.md) first. Its rules are not style preferences: two are license terms (credit lines, VIA's license) and the rest are this repo's standards (no affiliation claims, no neighborhood crime rankings, no survey layers, the 1897 people layers in aggregate only, the flood starters are not warnings, TxDOT's data is for exploring, never publishing without its consent). If a request would break one, say which and offer an alternative.
 
 ## Find the data before writing code
 

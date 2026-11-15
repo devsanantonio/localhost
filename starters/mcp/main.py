@@ -33,6 +33,7 @@ INSTRUCTIONS = """Tools for San Antonio's open data, from devsanantonio/localhos
 7. creek-levels and funded-projects --flooding are not flood warnings. Point people to weather.gov/ewx and BexarFlood.org.
 8. who-represents-me is sure of districts, not names: its names are what the County's maps list, and can be years stale. Say so.
 9. housing-near-you lists people's homes: never pair it with police or crime data, and never single out residents.
+10. busiest-roads uses TxDOT data: informational use only, never commercial, and nothing made from it (map, chart, table) is published without TxDOT's written consent. Say so when you share an answer.
 If a request would break one of these, say which rule and suggest an alternative."""
 
 
@@ -84,7 +85,7 @@ TOOLS = [
          "required": ["address"], "additionalProperties": False}},
     {"name": "list_starters",
      "description": "List the repo's starters: small programs that each answer one kind of question about San Antonio "
-                    "(311 by district, permits near a point, next bus, creek levels, the aquifer, funded road projects…).",
+                    "(311 by district, permits near a point, next bus, creek levels, the aquifer, funded road projects, traffic counts…).",
      "inputSchema": {"type": "object", "properties": {}, "additionalProperties": False}},
     {"name": "run_starter",
      "description": "Run a starter and get its answer as JSON. args are the starter's own options, without --json, e.g. "

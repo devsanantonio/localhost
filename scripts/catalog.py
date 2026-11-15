@@ -4,8 +4,8 @@
 
 The ArcGIS map layers come from `peek --all`, the City's tables (311, permits, the
 economy) from its portal's search API. VIA's feeds, the USGS gauges and
-the aquifer authority's well data aren't ArcGIS layers, so they're listed here
-by hand. Each run compares against the last catalog and writes data/changes.json:
+the aquifer authority's well data aren't ArcGIS layers, and TxDOT's are statewide, so they're
+listed here by hand. Each run compares against the last catalog and writes data/changes.json:
 every layer its publisher updated in the last 14 days, newest first, with the ones
 that weren't in the last catalog marked new.
 """
@@ -35,6 +35,23 @@ EXTRA = [
     {"title": "J-17 index well water level (CSV, since 1992)", "publisher": "Edwards Aquifer Authority", "type": "CSV", "kind": "Download", "modified": "2026-11-02",
      "url": "https://data.edwardsaquifer.org/GroundWater/DownloadGroundwaterCsv?siteId=J17WL&sensorName=WLE",
      "summary": "Every 15 minutes, newest first. aquifer-today reads it.", "credit": "Data: Edwards Aquifer Authority"},
+    # TxDOT publishes for all of Texas, so peek doesn't sweep its account; these are its layers worth starting from.
+    # Its terms: informational use, no commercial use, and no distribution to third parties without written consent.
+    {"title": "Traffic counts (AADT) at every state-road count station, 19 years of history", "publisher": "Texas Department of Transportation",
+     "type": "Feature Layer", "kind": "Map layer", "modified": "2026-11-14",
+     "url": "https://services.arcgis.com/KTcxiTD9dsQw4r7Z/ArcGIS/rest/services/TxDOT_AADT_Annuals_(Public_View)/FeatureServer/0",
+     "summary": "Vehicles a day at each station, statewide; 893 stations in Bexar County through 2025. busiest-roads reads it.",
+     "credit": "Data: Texas Department of Transportation"},
+    {"title": "Every TxDOT project: highway, limits, work, stage, estimated cost", "publisher": "Texas Department of Transportation",
+     "type": "Feature Layer", "kind": "Map layer", "modified": "2026-11-14",
+     "url": "https://services.arcgis.com/KTcxiTD9dsQw4r7Z/ArcGIS/rest/services/TxDOT_DCIS_All_Projects/FeatureServer/0",
+     "summary": "Statewide; 428 active in Bexar County, about $11.7 billion. busiest-roads --building reads it.",
+     "credit": "Data: Texas Department of Transportation"},
+    {"title": "DriveTexas: closures, construction and delays on state highways", "publisher": "Texas Department of Transportation",
+     "type": "Feature Layer", "kind": "Live feed", "modified": "2026-11-14",
+     "url": "https://services.arcgis.com/KTcxiTD9dsQw4r7Z/ArcGIS/rest/services/DriveTexas_Lines/FeatureServer/0",
+     "summary": "Refreshed about every 15 minutes; points in DriveTexas_Points. Was empty when checked.",
+     "credit": "Data: Texas Department of Transportation"},
 ]
 
 

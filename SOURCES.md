@@ -1,6 +1,6 @@
 # The sources
 
-San Antonio's open data doesn't come from one place. Seven public agencies publish it, each on its own portal, because each does a different job: the City, Bexar County and VIA, which most people have heard of, and the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio and the Edwards Aquifer Authority, which almost nobody links to. The federal government's live river gauges round it out. The first three have the most, so this page starts with them; the other four are [further down](#more-publishers).
+San Antonio's open data doesn't come from one place. Eight public agencies publish it, each on its own portal, because each does a different job: the City, Bexar County and VIA, which most people have heard of, and the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio, the Edwards Aquifer Authority and the Texas Department of Transportation, which almost nobody links to. The federal government's live river gauges round it out. The first three have the most, so this page starts with them; the other five are [further down](#more-publishers).
 
 Not sure where something lives? `python3 starters/peek/main.py --find <word>` searches every publisher's layers at once.
 
@@ -13,6 +13,7 @@ Not sure where something lives? `python3 starters/peek/main.py --find <word>` se
 - **Alamo Area MPO** publishes **where the region's roads are going**: funded projects, flood-exposed roads, bike stress.
 - **Opportunity Home San Antonio** publishes **public and affordable housing**: its 135 communities, who each is for, homes and bedrooms, by council district.
 - **Edwards Aquifer Authority** publishes **the water underneath**: the aquifer's level, springflow and drought stage.
+- **Texas Department of Transportation** publishes **the state's roads**: traffic counts on every state road, with twenty years of history, and every project it's building. Its terms are the strictest here: see below.
 
 The best projects usually combine them: the City's 311 calls divided by the County's census population, or the County's 1896 buildings beside the City's historic landmarks.
 
@@ -190,6 +191,20 @@ The aquifer under San Antonio, and the springs it feeds. The authority posts the
 - **Terms:** most layers are marked for demonstration and informational use. Read the disclaimer on the one you use.
 - **Note:** the daily readings come as a web page and an embeddable widget, not a data feed.
 - **Credit:** `Data: Edwards Aquifer Authority`
+
+### Texas Department of Transportation — [gis-txdot.opendata.arcgis.com](https://gis-txdot.opendata.arcgis.com)
+
+TxDOT publishes for the whole state, so most of its 800-plus layers aren't about San Antonio, and many are old or internal. `peek` recognizes and credits any TxDOT layer you give it by address, but `peek --find` and the catalog don't sweep TxDOT's account; the layers worth starting from are listed here and in [`data/`](data). Checked November 14, 2026:
+
+- **Traffic counts:** `TxDOT_AADT_Annuals_(Public_View)`, the Annual Average Daily Traffic at every count station on state roads, with nineteen years of history. 893 stations in Bexar County, counted through 2025. [busiest-roads](starters/busiest-roads) reads it.
+- **Projects:** `TxDOT_DCIS_All_Projects`, every project TxDOT runs, with its highway, limits, type of work, stage and estimated cost. 428 active in Bexar County, about $11.7 billion. `busiest-roads --building` reads it.
+- **Road conditions, live:** `DriveTexas_Points` and `DriveTexas_Lines`, closures, construction and delays on state highways, refreshed about every 15 minutes. Both were empty when checked; TxDOT also publishes a national-standard work-zone feed (WZDx), listed on data.gov.
+- **Crash data:** not an open API. TxDOT's CRIS query tool and a public extract with personal details removed are available by request at [txdot.gov](https://www.txdot.gov/data-maps/crash-reports-records.html). Leave crash records out of anything public.
+
+All of these sit under `services.arcgis.com/KTcxiTD9dsQw4r7Z`.
+
+- **Terms:** informational use only and no warranty; not for commercial use or resale; and **distribution to third parties needs TxDOT's written consent**. Explore it for yourself; ask TxDOT before you publish anything made from it. The full text is in [ATTRIBUTION.md](ATTRIBUTION.md#texas-department-of-transportation).
+- **Credit:** `Data: Texas Department of Transportation`
 
 ### USGS river gauges — [waterdata.usgs.gov](https://waterdata.usgs.gov)
 

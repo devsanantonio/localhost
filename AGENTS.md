@@ -4,7 +4,7 @@ Instructions for coding agents working in this repo. People are welcome to read 
 
 ## What this repo is
 
-Starters and documentation for building with San Antonio's open data: the City of San Antonio, Bexar County and VIA Metropolitan Transit, plus the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio, the Edwards Aquifer Authority and USGS's river gauges (see SOURCES.md). Each starter is one Python file under `starters/<name>/main.py` with a `README.md` beside it.
+Starters and documentation for building with San Antonio's open data: the City of San Antonio, Bexar County and VIA Metropolitan Transit, plus the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio, the Edwards Aquifer Authority, the Texas Department of Transportation and USGS's river gauges (see SOURCES.md). Each starter is one Python file under `starters/<name>/main.py` with a `README.md` beside it.
 
 ## Commands
 
@@ -24,6 +24,7 @@ python3 starters/creek-levels/main.py                 # live USGS gauges; --near
 python3 starters/aquifer-today/main.py                # J-17 level, 10-day average, springflow
 python3 starters/funded-projects/main.py --flooding   # the MPO's funded projects; --flooding for exposed streets
 python3 starters/housing-near-you/main.py --bus      # Opportunity Home communities nearest a point, and bus service
+python3 starters/busiest-roads/main.py --building    # TxDOT traffic counts by county; --building for its active projects
 python3 starters/mcp/main.py                          # an MCP server over stdio (see starters/mcp/README.md)
 ```
 
@@ -57,6 +58,8 @@ These are not style preferences. Two are license terms, and the rest are this re
 7. **The flood starters are not warnings.** `creek-levels` and `funded-projects --flooding` show readings and places, not whether it is safe. Anything built on them says so and points to weather.gov/ewx and BexarFlood.org.
 8. **Districts are data; names are a convenience.** `who-represents-me` is sure of which districts a point is in. The officeholders' names are what the County's maps list (`map_lists` in its JSON), and they can be years out of date. Never present one as fact without checking it.
 9. **Housing is people's homes.** `housing-near-you` lists communities and counts homes. Never pair it with police or crime data to rank places, and never single out residents.
+
+10. **TxDOT's data is for exploring, not publishing.** Its terms: informational use only, no commercial use or resale, and no distribution to third parties without TxDOT's written consent. `busiest-roads` fetches it live for whoever runs it. Don't commit its output, put it on a page, or build a product on it; if someone wants to publish, point them to TxDOT (ATTRIBUTION.md has the contacts).
 
 If a request would break one of these, say which one and suggest an alternative instead of building it.
 

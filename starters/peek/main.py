@@ -35,6 +35,12 @@ PUBLISHERS = {
     "nH68joXCaOE0Iiws": ("Opportunity Home San Antonio", "Data: Opportunity Home San Antonio"),
     "p0kPTvyvhLmiT5Ha": ("Edwards Aquifer Authority", "Data: Edwards Aquifer Authority"),
 }
+# Statewide publishers: credited when you give peek one of their layers by address, but not swept by
+# --find and --all, because most of their hundreds of layers aren't about San Antonio. Their layers worth
+# starting from are listed in SOURCES.md and in the catalog.
+STATEWIDE = {
+    "KTcxiTD9dsQw4r7Z": ("Texas Department of Transportation", "Data: Texas Department of Transportation"),
+}
 # Bexar County also serves layers from its own server, outside ArcGIS Online.
 HOSTS = {"maps.bexar.org": "8onVmslF2KXErTHT"}
 
@@ -51,7 +57,7 @@ def get(url, **params):
 def publisher(url):
     m = re.search(r"arcgis\.com/([A-Za-z0-9]{16})/", url)
     org = m.group(1) if m else HOSTS.get(urllib.parse.urlparse(url).hostname)
-    return PUBLISHERS.get(org, ("an unlisted publisher", "Check the layer's description for how to credit it."))
+    return PUBLISHERS.get(org) or STATEWIDE.get(org) or ("an unlisted publisher", "Check the layer's description for how to credit it.")
 
 
 def day(ms):

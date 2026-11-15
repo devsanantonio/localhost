@@ -30,6 +30,8 @@ CASES = [
     ("funded-projects", [], ["Alamo Area MPO"]),
     ("funded-projects", ["--flooding"], ["Alamo Area MPO"]),
     ("housing-near-you", [], ["Opportunity Home San Antonio"]),
+    ("busiest-roads", [], ["Texas Department of Transportation"]),
+    ("busiest-roads", ["--building"], ["Texas Department of Transportation"]),
     ("peek", ["--find", "flood"], ["City of San Antonio", "Bexar County", "San Antonio River Authority", "Alamo Area MPO",
                                    "Opportunity Home San Antonio", "Edwards Aquifer Authority"]),
 ]

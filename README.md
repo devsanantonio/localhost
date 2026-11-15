@@ -5,7 +5,7 @@
 
 # localhost:210
 
-**Seven APIs. No one place to find them. This is the place.**
+**Eight APIs. No one place to find them. This is the place.**
 
 localhost:210 turns San Antonio's open data into answers you can check.
 
@@ -18,21 +18,22 @@ guest@devsa ~ % curl localhost:210
   → who represents any address, City Council to Congress
   → 135 housing communities, and how often a bus comes by
   → the river, the creeks and the aquifer, live
+  → the busiest roads, and what TxDOT is building on them
   → the acequias from 1718, and 4,200 places from 1897
-  → 7 publishers · one catalog, rebuilt every Monday · no API keys
+  → 8 publishers · one catalog, rebuilt every Monday · no API keys
 ```
 
-Seven public agencies publish San Antonio's data in the open: the City, Bexar County, VIA, the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio and the Edwards Aquifer Authority. Each runs its own portal, with its own rules, and almost nobody builds with any of it, because there's no obvious place to start. This repo brings all seven together: what each one publishes, how to use it without breaking its rules, a list of every dataset they put out, and a small working program for each.
+Eight public agencies publish San Antonio's data in the open: the City, Bexar County, VIA, the San Antonio River Authority, the Alamo Area MPO, Opportunity Home San Antonio, the Edwards Aquifer Authority and the Texas Department of Transportation. Each runs its own portal, with its own rules, and almost nobody builds with any of it, because there's no obvious place to start. This repo brings all eight together: what each one publishes, how to use it without breaking its rules, a list of every dataset they put out, and a small working program for each.
 
 Three experiments built from it are at [devsa.community/localhost](https://www.devsa.community/localhost).
 
 ## How it works
 
-Six steps take a dataset to an answer you can check. This repo does the first two for all seven agencies today. The rest is what we're building next, in the open.
+Six steps take a dataset to an answer you can check. This repo does the first two for all eight agencies today. The rest is what we're building next, in the open.
 
 | | Step | What happens | Where it lives |
 |---|---|---|---|
-| 1 | **Find** | Every dataset all seven publish, in one list, rebuilt every Monday by a GitHub Action | [`data/`](data) |
+| 1 | **Find** | Every dataset all eight publish, in one list, rebuilt every Monday by a GitHub Action | [`data/`](data) |
 | 2 | **Fetch** | A small program for each agency, run against its live source every week, so a broken source opens an issue | [`starters/`](starters) |
 | 3 | **Ask** | A question in plain English, to an AI agent that picks the right programs to answer it | [`starters/mcp`](starters/mcp) · [Ask your data](https://github.com/devsanantonio/agent-patterns/tree/main/ask-your-data) · *new* |
 | 4 | **Run** | Any code the agent writes to answer, run in a sandbox, never on your machine | *next* |
@@ -53,7 +54,7 @@ python3 starters/via-next-bus/main.py "houston & st mary"     # the next buses f
 
 Then pick any starter below. Each one is a single Python file using only the standard library, short enough to read before you run it, and every one takes `--json`, so you can pipe its answer into your own code, a GitHub Action or an agent.
 
-## The seven publishers
+## The eight publishers
 
 | Publisher | What only it has | Terms | Starters |
 |---|---|---|---|
@@ -64,6 +65,7 @@ Then pick any starter below. Each one is a single Python file using only the sta
 | **[Alamo Area MPO](https://aampo-openmap-nexus-mpo.hub.arcgis.com)** | Funded road and transit projects, flood-exposed roads, bike stress | As-is disclaimer | [funded-projects](starters/funded-projects) |
 | **Opportunity Home San Antonio** | 135 public and affordable housing communities: who each is for, homes, bedrooms, district | Informational use | [housing-near-you](starters/housing-near-you) |
 | **[Edwards Aquifer Authority](https://data.edwardsaquifer.org)** | The aquifer's daily level, springflow, drought stage | Informational use, per layer | [aquifer-today](starters/aquifer-today) |
+| **[Texas Department of Transportation](https://gis-txdot.opendata.arcgis.com)** | Traffic counts on every state road with twenty years of history, and every project TxDOT is building | Informational use only; no commercial use; **no publishing what you make from it without TxDOT's written consent** | [busiest-roads](starters/busiest-roads) |
 
 Plus the **U.S. Geological Survey**'s live gauges on the river and San Pedro Creek, every 15 minutes, in the public domain.
 
@@ -71,7 +73,7 @@ Plus the **U.S. Geological Survey**'s live gauges on the river and San Pedro Cre
 
 ## 1 · Find: every dataset, in one list
 
-[`data/catalog.json`](data) lists every public dataset from all seven, with its address, when it was last updated and its credit line, rebuilt every Monday by a GitHub Action. The same run checks every starter against its live source and opens an issue if one breaks.
+[`data/catalog.json`](data) lists every public dataset from all eight (TxDOT's statewide account by its key layers), with its address, when it was last updated and its credit line, rebuilt every Monday by a GitHub Action. The same run checks every starter against its live source and opens an issue if one breaks.
 
 To search it from the command line: `python3 starters/peek/main.py --find flood`. Peek searches every publisher at once, then shows any dataset's fields and first rows.
 
@@ -83,14 +85,15 @@ To search it from the command line: `python3 starters/peek/main.py --find flood`
 | [**Permits near you**](starters/permits-near-you) | City of San Antonio | Every building permit around a point since 2025, biggest first, with how long each took to issue. One SQL query to the City's API. |
 | [**311 by district**](starters/311-by-district) | City of San Antonio | Half a million service calls, counted server-side in about two seconds. What each district calls about, and how often it closes late. |
 | [**How we compare**](starters/how-we-compare) | City of San Antonio | San Antonio's economy beside seven peer metros: GDP growth, target industries, who owns the businesses, what the colleges graduate. |
+| [**Busiest roads**](starters/busiest-roads) | Texas Department of Transportation | Traffic on every state road in any county, the stations that grew most since 2019, and TxDOT's active projects with their cost. For exploring: TxDOT's terms don't allow publishing what you make without its consent. |
 | [**Funded projects**](starters/funded-projects) | Alamo Area MPO | The region's 68 funded road and transit projects for 2027–2030, totaled by the server, and the streets most exposed to a 100-year flood. |
 | [**Creek levels**](starters/creek-levels) | USGS · River Authority | The river and San Pedro Creek right now, every 15 minutes, and whether a point sits in the River Authority's draft floodplains. Not a flood warning. |
 | [**The aquifer today**](starters/aquifer-today) | Edwards Aquifer Authority · USGS | The J-17 well's level and 10-day average, the drought trigger it sits under, and springflow at Comal and San Marcos Springs. |
 | [**Housing near you**](starters/housing-near-you) | Opportunity Home San Antonio · VIA | The housing authority's communities nearest a point: who each is for, homes and bedrooms, the year built. `--bus` adds how many buses an hour stop within a quarter mile. |
 | [**Who represents me**](starters/who-represents-me) | Bexar County · City of San Antonio | Every district an address sits in, City Council to Congress, and the 2020 Census population around it. Takes a street address. |
 | [**History: acequias and 1896–97**](starters/acequias) | Bexar County | The Spanish irrigation ditches from 1718, with a year slider; `--1897` maps 4,200 places from the 1896–97 city over today's streets. Data almost no other city has. |
-| [**Peek**](starters/peek) | All seven | Search every publisher's datasets for a word, then see any one's fields and first rows. The way into the agencies nobody links to. |
-| [**MCP**](starters/mcp) | All seven | San Antonio's open data as tools for your own coding agent: Claude Code, Codex, Cursor. One line of config. |
+| [**Peek**](starters/peek) | All eight | Search every publisher's datasets for a word (TxDOT's by address), then see any one's fields and first rows. The way into the agencies nobody links to. |
+| [**MCP**](starters/mcp) | All eight | San Antonio's open data as tools for your own coding agent: Claude Code, Codex, Cursor. One line of config. |
 
 ## 3 · Ask: bring your own agent
 
