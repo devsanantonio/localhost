@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T13:02:30+00:00",
+  "checked_at": "2026-11-16T13:10:10+00:00",
   "ok": false,
   "publishers": [
     {
@@ -33,6 +33,10 @@
     {
       "publisher": "Opportunity Home San Antonio",
       "ok": true
+    },
+    {
+      "publisher": "Texas Department of Transportation",
+      "ok": true
     }
   ],
   "starters": [
@@ -40,7 +44,7 @@
       "starter": "311-by-district",
       "args": [],
       "ok": true,
-      "seconds": 1.1,
+      "seconds": 1.0,
       "error": null,
       "publishers": [
         "City of San Antonio"
@@ -65,7 +69,7 @@
         "--owners"
       ],
       "ok": true,
-      "seconds": 0.3,
+      "seconds": 0.2,
       "error": null,
       "publishers": [
         "City of San Antonio"
@@ -75,7 +79,7 @@
       "starter": "acequias",
       "args": [],
       "ok": true,
-      "seconds": 0.8,
+      "seconds": 0.6,
       "error": null,
       "publishers": [
         "Bexar County"
@@ -87,7 +91,7 @@
         "--1897"
       ],
       "ok": true,
-      "seconds": 1.3,
+      "seconds": 1.2,
       "error": null,
       "publishers": [
         "Bexar County"
@@ -97,7 +101,7 @@
       "starter": "who-represents-me",
       "args": [],
       "ok": true,
-      "seconds": 6.7,
+      "seconds": 20.1,
       "error": null,
       "publishers": [
         "Bexar County",
@@ -112,7 +116,7 @@
         "3"
       ],
       "ok": true,
-      "seconds": 2.2,
+      "seconds": 2.9,
       "error": null,
       "publishers": [
         "VIA Metropolitan Transit"
@@ -125,7 +129,7 @@
         "29.3270,-98.4500"
       ],
       "ok": true,
-      "seconds": 10.0,
+      "seconds": 52.2,
       "error": null,
       "publishers": [
         "U.S. Geological Survey",
@@ -147,7 +151,7 @@
       "starter": "funded-projects",
       "args": [],
       "ok": true,
-      "seconds": 1.0,
+      "seconds": 0.7,
       "error": null,
       "publishers": [
         "Alamo Area MPO"
@@ -159,7 +163,7 @@
         "--flooding"
       ],
       "ok": true,
-      "seconds": 1.4,
+      "seconds": 0.3,
       "error": null,
       "publishers": [
         "Alamo Area MPO"
@@ -169,10 +173,32 @@
       "starter": "housing-near-you",
       "args": [],
       "ok": true,
-      "seconds": 0.9,
+      "seconds": 0.5,
       "error": null,
       "publishers": [
         "Opportunity Home San Antonio"
+      ]
+    },
+    {
+      "starter": "busiest-roads",
+      "args": [],
+      "ok": true,
+      "seconds": 0.4,
+      "error": null,
+      "publishers": [
+        "Texas Department of Transportation"
+      ]
+    },
+    {
+      "starter": "busiest-roads",
+      "args": [
+        "--building"
+      ],
+      "ok": true,
+      "seconds": 1.0,
+      "error": null,
+      "publishers": [
+        "Texas Department of Transportation"
       ]
     },
     {
