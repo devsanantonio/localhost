@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-16T13:08:49+00:00",
- "count": 1603,
+ "generated": "2026-11-23T13:01:45+00:00",
+ "count": 1604,
  "by_publisher": {
   "City of San Antonio": 776,
   "Bexar County": 375,
-  "Alamo Area MPO": 209,
+  "Alamo Area MPO": 210,
   "Edwards Aquifer Authority": 125,
   "San Antonio River Authority": 100,
   "Opportunity Home San Antonio": 12,
@@ -13,7 +13,7 @@
   "U.S. Geological Survey": 1
  },
  "by_kind": {
-  "Map layer": 1546,
+  "Map layer": 1547,
   "Table": 52,
   "Live feed": 3,
   "Download": 2
@@ -3770,22 +3770,22 @@
    "kind": "Map layer"
   },
   {
-   "title": "Levi Strauss Park Trails",
-   "publisher": "City of San Antonio",
-   "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/Levi_Strauss_Park_Trails/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-03-22",
-   "summary": "Levi Strauss Park Trails for Pride Hike 2022",
-   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
-   "kind": "Map layer"
-  },
-  {
    "title": "Comanche Lookout Park Trails v2_WFL1",
    "publisher": "City of San Antonio",
    "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/Comanche_Lookout_Park_Trails_v2_WFL1/FeatureServer",
    "type": "Feature Service",
    "modified": "2023-03-22",
    "summary": "Comanche Lookout Park Trails for Pride Hike 2022",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Levi Strauss Park Trails",
+   "publisher": "City of San Antonio",
+   "url": "https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/Levi_Strauss_Park_Trails/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2023-03-22",
+   "summary": "Levi Strauss Park Trails for Pride Hike 2022",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0",
    "kind": "Map layer"
   },
@@ -8510,22 +8510,22 @@
    "kind": "Map layer"
   },
   {
-   "title": "After French and Indian War_WFL1",
-   "publisher": "Bexar County",
-   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/After_French_and_Indian_War_WFL1/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-11-18",
-   "summary": "Map of territories claimed by Spain, Britain, and France after the French and Indian War.",
-   "credit": "Data: Bexar County Information Technology GIS",
-   "kind": "Map layer"
-  },
-  {
    "title": "GalvezCattleDriveMap_WFL1",
    "publisher": "Bexar County",
    "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/GalvezCattleDriveMap_WFL1/FeatureServer",
    "type": "Feature Service",
    "modified": "2025-11-18",
    "summary": "Galvez Cattle Drive Route and Cities",
+   "credit": "Data: Bexar County Information Technology GIS",
+   "kind": "Map layer"
+  },
+  {
+   "title": "After French and Indian War_WFL1",
+   "publisher": "Bexar County",
+   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/After_French_and_Indian_War_WFL1/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2025-11-18",
+   "summary": "Map of territories claimed by Spain, Britain, and France after the French and Indian War.",
    "credit": "Data: Bexar County Information Technology GIS",
    "kind": "Map layer"
   },
@@ -10400,22 +10400,22 @@
    "kind": "Map layer"
   },
   {
-   "title": "ShawneeTrail",
-   "publisher": "Bexar County",
-   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/ShawneeTrail_94f4450eace44d03bd4127c22504cfed/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-11-19",
-   "summary": "Shawnee Trail",
-   "credit": "Data: Bexar County Information Technology GIS",
-   "kind": "Map layer"
-  },
-  {
    "title": "precip1961_1990_a_tx",
    "publisher": "Bexar County",
    "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/precip1961_1990_a_tx_d77477a4df6d4dc09f74e32303bb4626/FeatureServer",
    "type": "Feature Service",
    "modified": "2020-11-19",
    "summary": "Average Annual Precipitation (PRISM model) 1961 - 1990",
+   "credit": "Data: Bexar County Information Technology GIS",
+   "kind": "Map layer"
+  },
+  {
+   "title": "ShawneeTrail",
+   "publisher": "Bexar County",
+   "url": "https://services1.arcgis.com/8onVmslF2KXErTHT/arcgis/rest/services/ShawneeTrail_94f4450eace44d03bd4127c22504cfed/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2020-11-19",
+   "summary": "Shawnee Trail",
    "credit": "Data: Bexar County Information Technology GIS",
    "kind": "Map layer"
   },
@@ -11010,6 +11010,16 @@
    "kind": "Map layer"
   },
   {
+   "title": "Park Boundaries",
+   "publisher": "San Antonio River Authority",
+   "url": "https://services2.arcgis.com/Eb8y2VjBgkqbQJwk/arcgis/rest/services/Park_Boundaries/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "This is layer represents all The River Authority parks existing and undeveloped as polygons.",
+   "credit": "This uses River Authority's data but is not endorsed or verified by River Authority. (Add the date you retrieved it.)",
+   "kind": "Map layer"
+  },
+  {
    "title": "BexarFlood Outlines",
    "publisher": "San Antonio River Authority",
    "url": "https://services2.arcgis.com/Eb8y2VjBgkqbQJwk/arcgis/rest/services/BexarFlood/FeatureServer",
@@ -11106,16 +11116,6 @@
    "type": "Feature Service",
    "modified": "2025-12-18",
    "summary": "A dataset displaying the boundaries of the Edwards Aquifer Zones - Contributing, Recharge, and Artesian.",
-   "credit": "This uses River Authority's data but is not endorsed or verified by River Authority. (Add the date you retrieved it.)",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Park Boundaries",
-   "publisher": "San Antonio River Authority",
-   "url": "https://gis.sara-tx.org/ags1/rest/services/SARA_WPO/SARA_ParkBoundaries_PROD/FeatureServer/0",
-   "type": "Feature Service",
-   "modified": "2025-12-18",
-   "summary": "This is layer represents all The River Authority parks existing and undeveloped as polygons.",
    "credit": "This uses River Authority's data but is not endorsed or verified by River Authority. (Add the date you retrieved it.)",
    "kind": "Map layer"
   },
@@ -12010,11 +12010,91 @@
    "kind": "Map layer"
   },
   {
-   "title": "ESRI 2032",
+   "title": "TDM_Map_gdb",
    "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/ESRI_2032/FeatureServer",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TDM_Map_gdb/FeatureServer",
    "type": "Feature Service",
-   "modified": "2026-08-06",
+   "modified": "2026-11-19",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Road Exposure Risk Analysis for Flood Events",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Roads_Exposure_Risk/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "This service offers spatial data on road segments exposed to various flood events, highlighting flood risks for enhanced transportation infrastructure resilience planning.",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Lighting",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Lighting_/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Transporte Activo",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TranspAct_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CFP_2021_updated",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CFP_2021_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Congestion",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Congestion_/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "OverlandEmployeeAddresses_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/OverlandEmployeeAddresses_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Pedestrian Facility Issues",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/PedestrianFacilityIssues_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "EJ_2018acs5y_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/EJ_2018acs5y_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
    "summary": null,
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
@@ -12024,7 +12104,797 @@
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TDM_2040/FeatureServer",
    "type": "Feature Service",
-   "modified": "2026-08-06",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "VIA Transit",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/VIA_Transit/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "VIA transit routes and bus stops updated May 2022",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Call for Projects 2023_CopyforQAQC_SP",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Call_for_Projects_2023_CopyforQAQC_SP/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Age and Sex 65 and Over 2018 bg",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Age65andOver_bg_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Projects Edit",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Projects_Edit/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Garden Ridge Subdivisions",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/GR_Subd_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Mobility2050_Networks_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Mobility2050_Networks_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "TDM Network 2025_2050",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/ESRI_shapefiles_10_25_2023/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Bike Facilities Update Layers",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Bike_Facilities_TL/MapServer",
+   "type": "Map Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Bicycle Facilities 2020",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Bike_Facilities_Update_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "WCW_BeaconHill_AltaVistaData",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/WCW_BeaconHill_AltaVistaData/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Data created for Beacon Hill/Alta Vista walkable community workshop",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "MeansOfTransport_CC1_acs2021_5y_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MeansOfTransport_CC1_acs2021_5y_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "RecommendedMobilityImprovement_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/RecommendedMobilityImprovement_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "MTP Mobility 2045",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MTP_Mobility_2045/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "LabelsCFP_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/LabelsCFP_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Parking",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Parking_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Culverts_HydraulicallyModeled_Exposure_Risk",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Culverts_HydraulicallyModeled_Exposure_Risk/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "VIA_Frequent_Routes_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/VIA_Frequent_Routes_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Limited English Proficiency (LEP) ACS2017-2021 5Y",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/LEP_acs2021_5Y_Tracts_aampo_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "The Alamo Area Metropolitan Planning Organization (AAMPO) is a transportation policy-making board responsible for planning and prioritizing transportation projects and funding allocation in the alamo\u2026",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Aesthetics and Geography",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AestGeo_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Public Transportation",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/PublicTransportation_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CFP_submitted2025",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CFP_submitted2025/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Projects submitted during the 2025 project call.",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Proposed Projects",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Proposed_Projects/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Minority_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Minority_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "TxDOT Park and Pool",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TxDOT_ParkPool_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CoSA_District7",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSA_District7/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Public Input Update 2020",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Public_Input_Update_2020/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CMP_Network_2025_hdr view",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CMP_Network_2025_hdr_view/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "CMP 2025",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CMP_Network_2025_hdr",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CMP_Network_2025_hdr/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "CMP 2025",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "RSR_Dec2021",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/RSR_Dec2021/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "RSR Updates Dec 2021",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "ESRI 2032",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/ESRI_2032/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Edwards Aquifer",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Edwards_Aquifer/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Edwards aquifer shared to the web on December 2024",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Call for Projects 2021 Update Tableau",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Call_for_Projects_2021_Update_Tableau/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Roadways",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Roadways2_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CoSA_District9",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSA_District9/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Bridges_HydraulicallyModeled_Exposure_Risk",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Bridges_HydraulicallyModeled_Exposure_Risk/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Driver Behavior",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/DriverBehavior_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "MeansOfTransport_CoSACCD7_ACS2021_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MeansOfTransport_CoSACCD7_ACS2021_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Public Input",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Public_Input/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Pedestrian Facilities",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Pedestrian_Facilities_GRWC_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Garden Ridge Mask",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/GR_WCW_Buffer_20m_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "TIP_2025_2028_MTP",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TIP_2025_2028_MTP/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Intersection Safety",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/IntersectionSafety_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "EJ_EnvironmentalJusticeAAMPO_Census2020",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/EJ_EnvironmentalJusticeAAMPO_Census2020/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Based on Census data 2020 this layer depicts population's race and low income for the AAMPO region",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CoSA_District6",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSA_District6/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "UTSA_mask_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/UTSA_mask_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CFP_submitted2025_Public49_7",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CFP_submitted2025_Public49_7/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Call for projects layer including 49 projects for public input.",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CMP Updates 03-16-2022",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CMP__gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Copy of CMP feature class created for edits/collab/updates and web application. 03-16-2022",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "MeansOfTransport_CC6_acs2021_5y_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MeansOfTransport_CC6_acs2021_5y_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "District2MeansOfTransport_2021_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/District2MeansOfTransport_2021_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "UTSA_BUffer10mi_mpo_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/UTSA_BUffer10mi_mpo_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CFP_2021_final_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CFP_2021_final_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "WCW Slowdown Southtown",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/WCW_Slowdown_Southtown/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "GIS layers for Walkable Community Workshop Slowdown Southtown",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Current Bike Facilities",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Current_Bike_Facilities/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "TAZ_demographics_2020_2050",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TAZ_demographics_2020_2050/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Call for Projects 2023_CopyforQAQC",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Call_for_Projects_2023_CopyforQAQC/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Congesti\u00f3n de Tr\u00e1fico",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CongestionTraf_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "LEP_ACS5Y2019_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/LEP_ACS5Y2019_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Language English Proficiency Census tracts ACS5y 2019 for the Alamo Area MPO region",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "AAMPO_boundary_2025",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/_boundary_2025/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CoSA_CitywidePedAccImp_draft_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSA_CitywidePedAccImp_draft_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Digital_DivideACS_2015_2019_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Digital_DivideACS_2015_2019_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "New Braunfels Downtown Business Corridor",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/aampo_nbDTcorridorBs/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "AQ Network 2035",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AQ_Network_2035/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "AAMPO buffer",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/aampoBuffer50m_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "AAMPO_Boundary_2024",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AAMPO_Boundary_2024/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "AAMPO boundary 2024",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Bike Data Edits",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Bike_Data_Edits/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "WCW_BeaconHill_AltaVistaBuffer",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/WCW_BeaconHill_AltaVistaBuffer/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CoSADistrict9_MeansOfTransport_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSADistricts_MeansOfTransport_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "TAZ_Layer",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TAZ_Layer/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "AirportPavement_Exposure_Risk",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AirportPavement_Exposure_Risk/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "MPO Plans",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MPO_Plans/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "MPO plans group layer created for 5.2 on Dec 2024",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Transit Access",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TransAcc_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Callforprojects23view",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Callforprojects23view/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Race_HOLOR_ACS2018_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Race_HOLOR_ACS2018_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Garden Ridge Study Area 1/2 mi Buffer",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/GR_WCW_HalfMBuffer_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Half mile buffer for Garden Ridge Walkable Community Workshop",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Aesthetics and Geography",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AestheticsGeography_GR_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "060420 - Bike Data Update 2020",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Bike_Data_Update_2020/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Bicycle Facilities",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/BicycleFacilities_GRWC_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "UTSA locations",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/UTSA_locations_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Pedestrian or Cyclist Behavior",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/PedestrianCyclistBehavior_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
    "summary": null,
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
@@ -12034,7 +12904,447 @@
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/ESRI_2050/FeatureServer",
    "type": "Feature Service",
-   "modified": "2026-08-06",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Ratio of Income to Poverty ACS 2018 Y5",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/RatioIncPov_2018Y5acs_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Boundaries",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Boundaries/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Boundary grouped layers for iMap 5.2 created on Dec 2024",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "AQ Network 2045",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AQ_Network_2045/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Transporte P\u00fablico",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TranspPub_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Bicycle Facility Issues",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/BicycleFacilityIssues_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Sidewalks_BeaconHills_AltaVistaUPd",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Sidewalks_BeaconHills_AltaVistaUPd/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "The purpose of the PW Sidewalk data is for inventory of Sidewalks that are maintained within the City of San Antonio.",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "LEP_acs2022_5Y_5cnty_tracts",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/LEP_acs2022_5Y_5cnty_tracts/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Based on Census data ACS 2022 5 year estimates the layer depicts population with language English proficiency",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Aesthetics and Geography",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AestheticsGeography_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Overland_sidewalks2mi",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Overland_sidewalks2mi/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "The purpose of the PW Sidewalk data is for inventory of Sidewalks that are maintained within the City of San Antonio.",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Bicycle and Pedestrian Facility Issues",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/BikePedFac_Issues_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Point Data",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/OverlandEA_Hex_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "MTP Mobility 2050 ",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MTP_2050_612022/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "The MTP outlines specific goals, policies, and projects across multiple modes of transportation, including roads, public transit, and alternative forms of mobility.",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Environmental Justice Boundary ",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/EJ_50Min_AvRePeBePo_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Transit_Bicycles",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Transit_Bicycles/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "VIA transit data January 2025 and Bicycle Facilities Feb 2025",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Garden Ridge Study Area Boundary",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/GardenRidge_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Geodataset created for Garden Ride Walkable Community Worshop",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Safety",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Safety_/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Electric Vehicles",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/ElectricVehicles_/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "TIP 2019-2022",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TIP2019_2022_10282021_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "TIP_2025_2028_MTP_copy_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TIP_2025_2028_MTP_copy_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "TIP_2027_2030",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TIP_2027_2030/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "2045_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/2045_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "TIP_2025_2028_MTP_10124",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TIP_2025_2028_MTP_10124/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Call for Projects 2021 for Online Map",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Call_for_Projects_2021_for_Online_Map/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "District2_CoSA_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/District2_CoSA_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "The City of San Antonio dataset defines the area of the City Council Districts.",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "OverlandEmployer_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/OverlandEmployer_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Other",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Other_/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "ZipCodes_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/ZipCodes_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "2025_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/2025_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Major Developments ",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MajorDevelopmentsTracking_8122025/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "Regional Future & Under-Construction Projects Tracker (Collaborative Map for Municipal Planners)",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Connectivity",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Connectivity_/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Crash2017_2021_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Crash2017_2021_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "IntersectionSafetyGR_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/IntersectionSafetyGR_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "LTS_10Mi_Overland_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/LTS_10Mi_Overland_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Draw your commute route",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CommuteRoute_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "AQ Network 2025",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AQ_Network_2025/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Resiliency",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Resiliency_/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "CoSA_District1",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSA_District1/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "AboveRegPercBothMinPov_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AboveRegPercBothMinPov_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "DemographicData_ACS2014_18_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/DemographicData_ACS2014_18_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "SA2025_Network",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/SA2025_Network/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": "2025 Network",
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "2035_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/2035_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "Overland Location",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Employers_CommuteSolutions_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "WalkBikeAudit_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/WalkBikeAudit_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
+   "summary": null,
+   "credit": "Data: Alamo Area Metropolitan Planning Organization",
+   "kind": "Map layer"
+  },
+  {
+   "title": "OverlandWalkability30min3mil_Int_gdb",
+   "publisher": "Alamo Area MPO",
+   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/OverlandWalkability30min3mil_Int_gdb/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2026-11-16",
    "summary": null,
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
@@ -12130,46 +13440,6 @@
    "kind": "Map layer"
   },
   {
-   "title": "Populations below and above regional low income estimate (19.2%)",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/EJ_EnvironmentalJusticeAAMPO_Census2020/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-03-16",
-   "summary": "Based on Census data 2020 this layer depicts population's race and low income for the AAMPO region",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "TIP_2027_2030",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TIP_2027_2030/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-03-14",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "WCW Slowdown Southtown",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/WCW_Slowdown_Southtown/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-03-02",
-   "summary": "GIS layers for Walkable Community Workshop Slowdown Southtown",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Road Exposure Risk Analysis for Flood Events",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Roads_Exposure_Risk/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-03-02",
-   "summary": "This service offers spatial data on road segments exposed to various flood events, highlighting flood risks for enhanced transportation infrastructure resilience planning.",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "NRI_CTracts2023",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/NRI_CTracts2023/FeatureServer",
@@ -12180,29 +13450,9 @@
    "kind": "Map layer"
   },
   {
-   "title": "AirportPavement_Exposure_Risk",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AirportPavement_Exposure_Risk/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-02-04",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "AirportBuildings_Exposure_Risk",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AirportBuildings_Exposure_Risk/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-02-04",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Bridges_HydraulicallyModeled_Exposure_Risk",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Bridges_HydraulicallyModeled_Exposure_Risk/FeatureServer",
    "type": "Feature Service",
    "modified": "2026-02-04",
    "summary": null,
@@ -12223,16 +13473,6 @@
    "title": "Culverts_NonHydraulicallyModeled_Exposure_SARA_Area",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Culverts_NonHydraulicallyModeled_Exposure_SARA_Area/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-02-04",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Culverts_HydraulicallyModeled_Exposure_Risk",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Culverts_HydraulicallyModeled_Exposure_Risk/FeatureServer",
    "type": "Feature Service",
    "modified": "2026-02-04",
    "summary": null,
@@ -12290,26 +13530,6 @@
    "kind": "Map layer"
   },
   {
-   "title": "CMP_Network_2025_hdr view",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CMP_Network_2025_hdr_view/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-01-12",
-   "summary": "CMP 2025",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CMP_Network_2025_hdr",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CMP_Network_2025_hdr/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2026-01-12",
-   "summary": "CMP 2025",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "CMP_09032025_Scoring",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CMP_09032025_Scoring/FeatureServer",
@@ -12350,42 +13570,12 @@
    "kind": "Map layer"
   },
   {
-   "title": "Major Developments ",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MajorDevelopmentsTracking_8122025/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-08-28",
-   "summary": "Regional Future & Under-Construction Projects Tracker (Collaborative Map for Municipal Planners)",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "MTP (Not Updated, Owner)",
    "publisher": "Alamo Area MPO",
    "url": "https://maps.alamoareampo.org/arcgis/rest/services/MPO/mpoplans/MapServer/1",
    "type": "Feature Service",
    "modified": "2025-08-14",
    "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CFP_submitted2025_Public49_7",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CFP_submitted2025_Public49_7/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-06-12",
-   "summary": "Call for projects layer including 49 projects for public input.",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CFP_submitted2025",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CFP_submitted2025/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-04-24",
-   "summary": "Projects submitted during the 2025 project call.",
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
   },
@@ -12410,112 +13600,12 @@
    "kind": "Map layer"
   },
   {
-   "title": "SA2025_Network",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/SA2025_Network/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-03-20",
-   "summary": "2025 Network",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Transit_Bicycles",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Transit_Bicycles/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-02-27",
-   "summary": "VIA transit data January 2025 and Bicycle Facilities Feb 2025",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "TIP_2025_2028_MTP_10124",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TIP_2025_2028_MTP_10124/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-02-17",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Sidewalks_BeaconHills_AltaVistaUPd",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Sidewalks_BeaconHills_AltaVistaUPd/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-02-17",
-   "summary": "The purpose of the PW Sidewalk data is for inventory of Sidewalks that are maintained within the City of San Antonio.",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "WCW_BeaconHill_AltaVistaBuffer",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/WCW_BeaconHill_AltaVistaBuffer/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-02-03",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "WCW_BeaconHill_AltaVistaData",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/WCW_BeaconHill_AltaVistaData/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-01-30",
-   "summary": "Data created for Beacon Hill/Alta Vista walkable community workshop",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "Employment Density 2015 (per acre)",
    "publisher": "Alamo Area MPO",
    "url": "https://maps.alamoareampo.org/arcgis/rest/services/MPO/NB_Seguin_PopEmp/MapServer/6",
    "type": "Feature Service",
    "modified": "2025-01-27",
    "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "AAMPO_boundary_2025",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/_boundary_2025/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-01-16",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Boundaries",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Boundaries/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-12-12",
-   "summary": "Boundary grouped layers for iMap 5.2 created on Dec 2024",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "MPO Plans",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MPO_Plans/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-12-11",
-   "summary": "MPO plans group layer created for 5.2 on Dec 2024",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Edwards Aquifer",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Edwards_Aquifer/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-12-10",
-   "summary": "Edwards aquifer shared to the web on December 2024",
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
   },
@@ -12530,152 +13620,12 @@
    "kind": "Map layer"
   },
   {
-   "title": "Digital_DivideACS_2015_2019_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Digital_DivideACS_2015_2019_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-11-25",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "LEP_acs2022_5Y_5cnty_tracts",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/LEP_acs2022_5Y_5cnty_tracts/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-11-12",
-   "summary": "Based on Census data ACS 2022 5 year estimates the layer depicts population with language English proficiency",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "TAZ_Layer",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TAZ_Layer/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-10-21",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "AAMPO_Boundary_2024",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AAMPO_Boundary_2024/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-10-15",
-   "summary": "AAMPO boundary 2024",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Electric Vehicles",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/ElectricVehicles_/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-09-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Resiliency",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Resiliency_/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-09-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Other",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Other_/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-09-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Lighting",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Lighting_/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-09-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Connectivity",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Connectivity_/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-09-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Congestion",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Congestion_/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-09-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Safety",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Safety_/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-09-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "TIP_2025_2028_MTP",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TIP_2025_2028_MTP/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-09-23",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "AAMPO Crash Data Dashboard_gdb",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AAMPO_Crash_Data_Dashboard_gdb/FeatureServer",
    "type": "Feature Service",
    "modified": "2024-05-16",
    "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "TIP_2025_2028_MTP_copy_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TIP_2025_2028_MTP_copy_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-05-06",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "MTP Mobility 2050 ",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MTP_2050_612022/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2024-03-05",
-   "summary": "The MTP outlines specific goals, policies, and projects across multiple modes of transportation, including roads, public transit, and alternative forms of mobility.",
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
   },
@@ -12750,86 +13700,6 @@
    "kind": "Map layer"
   },
   {
-   "title": "MeansOfTransport_CC6_acs2021_5y_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MeansOfTransport_CC6_acs2021_5y_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-11-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "MeansOfTransport_CC1_acs2021_5y_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MeansOfTransport_CC1_acs2021_5y_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-11-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CoSA_District6",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSA_District6/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-11-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CoSA_District1",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSA_District1/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-11-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CoSA_District7",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSA_District7/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-11-21",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "MeansOfTransport_CoSACCD7_ACS2021_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MeansOfTransport_CoSACCD7_ACS2021_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-11-21",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CoSADistrict9_MeansOfTransport_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSADistricts_MeansOfTransport_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-11-16",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CoSA_District9",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSA_District9/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-11-14",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "Crash Data Dashboard Development_gdb",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Crash_Data_Dashboard_Development_gdb/FeatureServer",
@@ -12840,81 +13710,11 @@
    "kind": "Map layer"
   },
   {
-   "title": "District2_CoSA_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/District2_CoSA_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-11-07",
-   "summary": "The City of San Antonio dataset defines the area of the City Council Districts.",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "District2MeansOfTransport_2021_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/District2MeansOfTransport_2021_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-11-07",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "TDM Network 2025_2050",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/ESRI_shapefiles_10_25_2023/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-10-26",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Call for Projects 2023_CopyforQAQC_SP",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Call_for_Projects_2023_CopyforQAQC_SP/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-09-26",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Call for Projects 2023_CopyforQAQC",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Call_for_Projects_2023_CopyforQAQC/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-09-22",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CoSA_CitywidePedAccImp_draft_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CoSA_CitywidePedAccImp_draft_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-09-11",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "Call for Projects Example",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/service_653d9b54c3854c9d851d4aae605027eb/FeatureServer",
    "type": "Feature Service",
    "modified": "2023-08-09",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Bicycle Facilities 2020",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Bike_Facilities_Update_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-07-18",
    "summary": null,
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
@@ -12980,141 +13780,11 @@
    "kind": "Map layer"
   },
   {
-   "title": "Aesthetics and Geography",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AestheticsGeography_GR_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-06-06",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "Call for Projects 2023 - Update2_123connect3",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/service_168e316737244f5bb8fa921f5b0ca6ea/FeatureServer",
    "type": "Feature Service",
    "modified": "2023-05-30",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Bicycle Facilities",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/BicycleFacilities_GRWC_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-05-25",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Pedestrian Facilities",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Pedestrian_Facilities_GRWC_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-05-25",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "IntersectionSafetyGR_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/IntersectionSafetyGR_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-05-25",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Callforprojects23view",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Callforprojects23view/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-05-25",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Garden Ridge Subdivisions",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/GR_Subd_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-05-18",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "RecommendedMobilityImprovement_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/RecommendedMobilityImprovement_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-05-15",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Garden Ridge Mask",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/GR_WCW_Buffer_20m_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-04-24",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Garden Ridge Study Area 1/2 mi Buffer",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/GR_WCW_HalfMBuffer_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-04-24",
-   "summary": "Half mile buffer for Garden Ridge Walkable Community Workshop",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Garden Ridge Study Area Boundary",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/GardenRidge_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-04-24",
-   "summary": "Geodataset created for Garden Ride Walkable Community Worshop",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Limited English Proficiency (LEP) ACS2017-2021 5Y",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/LEP_acs2021_5Y_Tracts_aampo_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-03-06",
-   "summary": "The Alamo Area Metropolitan Planning Organization (AAMPO) is a transportation policy-making board responsible for planning and prioritizing transportation projects and funding allocation in the alamo\u2026",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "LEP_ACS5Y2019_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/LEP_ACS5Y2019_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2023-02-16",
-   "summary": "Language English Proficiency Census tracts ACS5y 2019 for the Alamo Area MPO region",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Crash2017_2021_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Crash2017_2021_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-11-07",
    "summary": null,
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
@@ -13130,162 +13800,12 @@
    "kind": "Map layer"
   },
   {
-   "title": "VIA Transit",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/VIA_Transit/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-06-09",
-   "summary": "VIA transit routes and bus stops updated May 2022",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Mobility2050_Networks_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Mobility2050_Networks_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-04-11",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "RSR_Dec2021",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/RSR_Dec2021/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-03-28",
-   "summary": "RSR Updates Dec 2021",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CMP Updates 03-16-2022",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CMP__gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-03-22",
-   "summary": "Copy of CMP feature class created for edits/collab/updates and web application. 03-16-2022",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "Crash_Data_2022_WFL1",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Crash_Data_2022_WFL1/FeatureServer",
    "type": "Feature Service",
    "modified": "2022-02-22",
    "summary": "CrashData2022_iMapUpdates",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "TIP 2019-2022",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TIP2019_2022_10282021_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-01-24",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "MTP Mobility 2045",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/MTP_Mobility_2045/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-01-24",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "TAZ_demographics_2020_2050",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TAZ_demographics_2020_2050/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-01-18",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "ZipCodes_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/ZipCodes_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2021-07-26",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CFP_2021_final_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CFP_2021_final_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2021-06-08",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "LabelsCFP_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/LabelsCFP_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2021-05-28",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Proposed Projects",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Proposed_Projects/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2021-05-28",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "CFP_2021_updated",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CFP_2021_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2021-05-13",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "DemographicData_ACS2014_18_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/DemographicData_ACS2014_18_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2021-04-22",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Projects Edit",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Projects_Edit/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2021-04-08",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Call for Projects 2021 Update Tableau",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Call_for_Projects_2021_Update_Tableau/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2021-03-31",
-   "summary": null,
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
   },
@@ -13400,16 +13920,6 @@
    "kind": "Map layer"
   },
   {
-   "title": "Call for Projects 2021 for Online Map",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Call_for_Projects_2021_for_Online_Map/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2021-01-12",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "Call for Projects 2021",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/service_894b6391800f47d9a2b41ac5408e1ca6/FeatureServer",
@@ -13430,331 +13940,11 @@
    "kind": "Map layer"
   },
   {
-   "title": "TxDOT Park and Pool",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TxDOT_ParkPool_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-12-18",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "VIA_Frequent_Routes_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/VIA_Frequent_Routes_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-12-15",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Race_HOLOR_ACS2018_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Race_HOLOR_ACS2018_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-10-13",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "AAMPO buffer",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/aampoBuffer50m_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-10-05",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Public Input Update 2020",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Public_Input_Update_2020/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-09-09",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Public Input",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Public_Input/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-09-09",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Environmental Justice Boundary ",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/EJ_50Min_AvRePeBePo_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-09-03",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "EJ_2018acs5y_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/EJ_2018acs5y_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-08-31",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "AboveRegPercBothMinPov_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AboveRegPercBothMinPov_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-08-21",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Ratio of Income to Poverty ACS 2018 Y5",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/RatioIncPov_2018Y5acs_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-08-20",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Age and Sex 65 and Over 2018 bg",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Age65andOver_bg_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-08-06",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Minority_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Minority_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-08-03",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Bike Data Edits",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Bike_Data_Edits/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-06-04",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Current Bike Facilities",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Current_Bike_Facilities/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-06-04",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "060420 - Bike Data Update 2020",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Bike_Data_Update_2020/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-06-04",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Bike Facilities Update Layers",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Bike_Facilities_TL/MapServer",
-   "type": "Map Service",
-   "modified": "2020-06-02",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Aesthetics and Geography",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AestheticsGeography_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-04-09",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "2045_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/2045_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-04-02",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "2035_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/2035_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-04-01",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "2025_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/2025_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-03-24",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "Employee Addresses",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Employee_Addresses_sPzrc7/FeatureServer",
    "type": "Feature Service",
    "modified": "2020-03-11",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Overland Location",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Employers_CommuteSolutions_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-03-10",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "AQ Network 2045",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AQ_Network_2045/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-02-21",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "AQ Network 2035",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AQ_Network_2035/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-02-21",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "AQ Network 2025",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AQ_Network_2025/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-02-20",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Parking",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Parking_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-02-20",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "UTSA_mask_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/UTSA_mask_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-02-19",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Roadways",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Roadways2_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-02-19",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Point Data",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/OverlandEA_Hex_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-02-06",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Transit Access",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TransAcc_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-02-03",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "UTSA_BUffer10mi_mpo_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/UTSA_BUffer10mi_mpo_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-01-31",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Bicycle and Pedestrian Facility Issues",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/BikePedFac_Issues_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-01-31",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Aesthetics and Geography",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AestGeo_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2020-01-31",
    "summary": null,
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
@@ -13870,66 +14060,6 @@
    "kind": "Map layer"
   },
   {
-   "title": "New Braunfels Downtown Business Corridor",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/aampo_nbDTcorridorBs/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-11-20",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Pedestrian Facility Issues",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/PedestrianFacilityIssues_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-11-19",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Bicycle Facility Issues",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/BicycleFacilityIssues_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-11-15",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Driver Behavior",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/DriverBehavior_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-11-14",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Pedestrian or Cyclist Behavior",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/PedestrianCyclistBehavior_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-11-14",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Intersection Safety",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/IntersectionSafety_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-11-12",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "Walk And Roll NB facility issues",
    "publisher": "Alamo Area MPO",
    "url": "http://maps.alamoareampo.org:6080/arcgis/rest/services/MPO/WalkAndRollNB_BikeFacIssues/MapServer",
@@ -13950,26 +14080,6 @@
    "kind": "Map layer"
   },
   {
-   "title": "Draw your commute route",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CommuteRoute_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-10-17",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "UTSA locations",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/UTSA_locations_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-10-16",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
    "title": "Traffic Safety",
    "publisher": "Alamo Area MPO",
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TrafficSafety_gdb/FeatureServer",
@@ -13985,106 +14095,6 @@
    "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/AAMPO_LTS/FeatureServer",
    "type": "Feature Service",
    "modified": "2019-09-25",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Transporte P\u00fablico",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TranspPub_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-09-09",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Congesti\u00f3n de Tr\u00e1fico",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/CongestionTraf_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-09-09",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Transporte Activo",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/TranspAct_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-09-09",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Public Transportation",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/PublicTransportation_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-09-06",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "LTS_10Mi_Overland_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/LTS_10Mi_Overland_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-08-05",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "OverlandEmployer_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/OverlandEmployer_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-08-05",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "OverlandEmployeeAddresses_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/OverlandEmployeeAddresses_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-08-05",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "Overland_sidewalks2mi",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/Overland_sidewalks2mi/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-07-22",
-   "summary": "The purpose of the PW Sidewalk data is for inventory of Sidewalks that are maintained within the City of San Antonio.",
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "WalkBikeAudit_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/WalkBikeAudit_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-06-24",
-   "summary": null,
-   "credit": "Data: Alamo Area Metropolitan Planning Organization",
-   "kind": "Map layer"
-  },
-  {
-   "title": "OverlandWalkability30min3mil_Int_gdb",
-   "publisher": "Alamo Area MPO",
-   "url": "https://services1.arcgis.com/ZmHtsY5M3DRYt09u/arcgis/rest/services/OverlandWalkability30min3mil_Int_gdb/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2019-05-22",
    "summary": null,
    "credit": "Data: Alamo Area Metropolitan Planning Organization",
    "kind": "Map layer"
@@ -14170,22 +14180,22 @@
    "kind": "Map layer"
   },
   {
-   "title": "OpportunityHome_MFDevelopmentsWEBPHListing_view",
-   "publisher": "Opportunity Home San Antonio",
-   "url": "https://services2.arcgis.com/nH68joXCaOE0Iiws/arcgis/rest/services/OpportunityHome_MFDevelopmentsWEBPHListing_view/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2025-07-23",
-   "summary": "Multi-family housing communities with public housing units owned and/or managed by Opportunity Home San Antonio and affiliates.",
-   "credit": "Data: Opportunity Home San Antonio",
-   "kind": "Map layer"
-  },
-  {
    "title": "DevelopmentsTable",
    "publisher": "Opportunity Home San Antonio",
    "url": "https://services2.arcgis.com/nH68joXCaOE0Iiws/arcgis/rest/services/DevelopmentsTable/FeatureServer",
    "type": "Feature Service",
    "modified": "2025-07-23",
    "summary": "Multi-family housing communities owned and/or managed by Opportunity Home San Antonio and its affiliates.",
+   "credit": "Data: Opportunity Home San Antonio",
+   "kind": "Map layer"
+  },
+  {
+   "title": "OpportunityHome_MFDevelopmentsWEBPHListing_view",
+   "publisher": "Opportunity Home San Antonio",
+   "url": "https://services2.arcgis.com/nH68joXCaOE0Iiws/arcgis/rest/services/OpportunityHome_MFDevelopmentsWEBPHListing_view/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2025-07-23",
+   "summary": "Multi-family housing communities with public housing units owned and/or managed by Opportunity Home San Antonio and affiliates.",
    "credit": "Data: Opportunity Home San Antonio",
    "kind": "Map layer"
   },
@@ -15070,12 +15080,12 @@
    "kind": "Map layer"
   },
   {
-   "title": "EAHCP_Reaches_SM",
+   "title": "SM_Water_Quality_Stations",
    "publisher": "Edwards Aquifer Authority",
-   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/EAHCP_Reaches_SM/FeatureServer",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SM_Water_Quality_Stations/FeatureServer",
    "type": "Feature Service",
    "modified": "2022-05-24",
-   "summary": "EAHCP San Marcos LTBG and Restoration Reaches",
+   "summary": "EAHCP San Marcos Water Quality Monitoring Sites",
    "credit": "Data: Edwards Aquifer Authority",
    "kind": "Map layer"
   },
@@ -15090,22 +15100,12 @@
    "kind": "Map layer"
   },
   {
-   "title": "SM_Water_Quality_Stations",
+   "title": "EAHCP_Reaches_SM",
    "publisher": "Edwards Aquifer Authority",
-   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SM_Water_Quality_Stations/FeatureServer",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/EAHCP_Reaches_SM/FeatureServer",
    "type": "Feature Service",
    "modified": "2022-05-24",
-   "summary": "EAHCP San Marcos Water Quality Monitoring Sites",
-   "credit": "Data: Edwards Aquifer Authority",
-   "kind": "Map layer"
-  },
-  {
-   "title": "SM_Thermistors",
-   "publisher": "Edwards Aquifer Authority",
-   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SM_Thermistors/FeatureServer",
-   "type": "Feature Service",
-   "modified": "2022-05-24",
-   "summary": "EAHCP Thermistor sampling sites in the San Marcos River",
+   "summary": "EAHCP San Marcos LTBG and Restoration Reaches",
    "credit": "Data: Edwards Aquifer Authority",
    "kind": "Map layer"
   },
@@ -15116,6 +15116,16 @@
    "type": "Feature Service",
    "modified": "2022-05-24",
    "summary": "USGS Comal Flow Gages",
+   "credit": "Data: Edwards Aquifer Authority",
+   "kind": "Map layer"
+  },
+  {
+   "title": "SM_Thermistors",
+   "publisher": "Edwards Aquifer Authority",
+   "url": "https://services2.arcgis.com/p0kPTvyvhLmiT5Ha/arcgis/rest/services/SM_Thermistors/FeatureServer",
+   "type": "Feature Service",
+   "modified": "2022-05-24",
+   "summary": "EAHCP Thermistor sampling sites in the San Marcos River",
    "credit": "Data: Edwards Aquifer Authority",
    "kind": "Map layer"
   },
@@ -15465,7 +15475,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/good-neighbor-engagement-events",
-   "modified": "2026-11-16",
+   "modified": "2026-11-23",
    "summary": "This data set contains community input about top public safety of concerns in their neighborhood. The public has the opportunity to voice their concerns to the City of San Antonio via scheduled eve\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15475,7 +15485,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/sapd-offenses",
-   "modified": "2026-11-16",
+   "modified": "2026-11-23",
    "summary": "Police offense reports data",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15485,7 +15495,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/sapd-arrests",
-   "modified": "2026-11-16",
+   "modified": "2026-11-23",
    "summary": "Police arrest reports data",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15495,7 +15505,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/daily-shelter-intake",
-   "modified": "2026-11-16",
+   "modified": "2026-11-23",
    "summary": "Performance Measures show the most recent data on critical metrics relevant to services and operations at the City of San Antonio. It shows the City's response to community challenges. This data he\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15505,7 +15515,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/preliminary-plan-reviews",
-   "modified": "2026-11-15",
+   "modified": "2026-11-22",
    "summary": "Preliminary Development Plan Review (PDPR) and Preliminary Plan Review (PPR) meetings offer opportunities for the owner and/or owner\u2019s agent(s) to meet with Development Services staff to discuss fu\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15515,7 +15525,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/building-permits",
-   "modified": "2026-11-15",
+   "modified": "2026-11-22",
    "summary": "The City requires permits for commercial and residential development, such as new single-family homes, commercial construction, remodels, additions and related activity like trade (mechanical, elec\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15525,7 +15535,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/service-calls",
-   "modified": "2026-11-15",
+   "modified": "2026-11-22",
    "summary": "311 Customer Service connects citizens with specially-trained customer service representatives ready to assist and facilitate City services including animals, potholes, solid waste collection, prop\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15765,7 +15775,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/cosa-gis-covid-hub",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "DO NOT DELETE OR MODIFY THIS ITEM. This item is managed by the ArcGIS Hub application. To make changes to this site, please visit https://hub.arcgis.com/admin/",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15785,7 +15795,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-weekly-surveillance-data-public",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b><div style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15795,7 +15805,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-weekly-lab-testing-public",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b><div><br /></div><div>Weekly COVID-19 lab testing of San Antonio residents. Provided by San Antonio Metropolitan Health D\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15805,7 +15815,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/vaccinations-county-stats-public-share",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<span style='font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, sans-serif; font-size:14px;'>This table contains the data of individuals that ha\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15815,7 +15825,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/vaccinations-weekly-totals-public-share",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<span style='font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, sans-serif; font-size:14px;'>This table contains the number of individuals vacci\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15825,7 +15835,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/vaccinations-county-stats-public",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<span style='font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, sans-serif; font-size:14px;'>This table contains the data of individuals that ha\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15835,7 +15845,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-vaccination-data",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "The City of San Antonio's Open Data page for CoVID-19 vaccination data.",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15845,7 +15855,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-surveillance-data",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "The City of San Antonio's Open Data page for CoVID-19 surveillance data.",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15855,7 +15865,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-daily-surveillance-data-public",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<div style='font-variant-numeric:normal; font-variant-east-asian:normal;'><div style='box-sizing:border-box; font-family:&quot;Segoe UI&quot;, system-ui, &quot;Apple Color Emoji&quot;, &quot;Segoe \u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15865,28 +15875,8 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-weekly-data-public",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b><div><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, \u2026",
-   "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
-  },
-  {
-   "title": "Bexar County COVID-19 Data by Zip Code",
-   "publisher": "City of San Antonio",
-   "type": "Table",
-   "kind": "Table",
-   "url": "https://data.sanantonio.gov/dataset/bexar-county-covid-19-data-by-zip-code",
-   "modified": "2026-11-11",
-   "summary": "<div><b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b></div><div><br /></div><div>This data set provides positive CoVID-19 cases by zip code, as they appear of the City o\u2026",
-   "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
-  },
-  {
-   "title": "CoVID19 Deaths  byZipCode LessThan5",
-   "publisher": "City of San Antonio",
-   "type": "Table",
-   "kind": "Table",
-   "url": "https://data.sanantonio.gov/dataset/covid19-deaths-byzipcode-lessthan5",
-   "modified": "2026-11-11",
-   "summary": "{{description}}",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
   {
@@ -15895,8 +15885,28 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid19-deaths-by-zip-code",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<div style='font-size:medium; font-variant-numeric:normal; font-variant-east-asian:normal;'>This data set provides categories of confirmed positive CoVID-19 cases by zip code, as they appear of the\u2026",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
+  },
+  {
+   "title": "CoVID19 Deaths  byZipCode LessThan5",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/covid19-deaths-byzipcode-lessthan5",
+   "modified": "2026-11-18",
+   "summary": "{{description}}",
+   "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
+  },
+  {
+   "title": "Bexar County COVID-19 Data by Zip Code",
+   "publisher": "City of San Antonio",
+   "type": "Table",
+   "kind": "Table",
+   "url": "https://data.sanantonio.gov/dataset/bexar-county-covid-19-data-by-zip-code",
+   "modified": "2026-11-18",
+   "summary": "<div><b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b></div><div><br /></div><div>This data set provides positive CoVID-19 cases by zip code, as they appear of the City o\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
   {
@@ -15905,7 +15915,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-vaccinations-by-zipcode",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<div style='font-size:medium; font-variant-numeric:normal; font-variant-east-asian:normal;'>This data set provides Bexar County CoVID-19 resident Vaccination information, as well as confirmed posit\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15915,7 +15925,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/event-dates-public",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<div style='font-variant-numeric: normal; font-variant-east-asian: normal;'><b>**TO DOWNLOAD THE DATASET, CLICK ON THE &quot;Download&quot; BUTTON**</b></div><div style='font-variant-numeric: norma\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15925,7 +15935,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/vaccinations-countystats-public",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "{{description}}",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15945,7 +15955,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/event-dates",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<div style='color:rgb(76, 76, 76); font-family:&amp; font-size:15px; font-style:normal; font-variant:normal; font-weight:400; letter-spacing:normal; text-align:left; text-decoration:none; text-inde\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15955,7 +15965,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/race-ethnicity-tracker",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<font style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><b>**TO DOWNLOAD THE DAT\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15965,7 +15975,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/age-groups-tracker",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "<font style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><b>**TO DOWNLOAD THE DAT\u2026",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
@@ -15975,7 +15985,7 @@
    "type": "Table",
    "kind": "Table",
    "url": "https://data.sanantonio.gov/dataset/covid-19-indicators",
-   "modified": "2026-11-11",
+   "modified": "2026-11-18",
    "summary": "{{description}}",
    "credit": "Data: City of San Antonio Open Data, CC BY 4.0"
   },
